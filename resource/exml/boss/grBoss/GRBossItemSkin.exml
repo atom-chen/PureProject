@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GRBossItemSkin" width="495" height="128" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="public_json.public_item_rect_1_png" scale9Grid="17,22,37,54"/>
+	<e:Image source="public_json.public_icon_bg3_png" x="17" y="10"/>
+	<e:Image id="icon" x="0" y="-23" source=""/>
+	<e:Image id="mImg" x="-14" y="-25" source="res/images/monsterIcon/1.png"/>
+	<e:Image x="16" y="97" source="public_json.public_blank_2_png"/>
+	<e:Group x="133" y="43" scaleX="0.8" scaleY="0.8">
+		<ns1:BaseCustComponent id="item_0" x="28" y="32" skinName="ItembaseSkin" className="ItemBase"/>
+		<ns1:BaseCustComponent x="-50" y="20" skinName="ItembaseSkin" className="ItemBase" id="item_1"/>
+		<ns1:BaseCustComponent x="48" y="52" skinName="ItembaseSkin" className="ItemBase" id="item_2"/>
+		<e:layout>
+		<e:HorizontalLayout gap="12"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="lImg" source="worldBoss_json.world_blank1_png" x="377" y="49"/>
+	<e:Image id="killed" source="worldBoss_json.worldBoss_killed_png" x="377" y="51" visible="false"/>
+	<e:Image source="worldBoss_json.world_lvl_blank_png" x="12" y="9"/>
+	<e:Image source="worldBoss_json.worldBoss_text1_png" x="133" y="17"/>
+	<e:Button id="enterBtn" label="Button" skinName="BtnIconSkin" icon="res/btn/enter.png" x="370" verticalCenter="2" visible="false"/>
+	<e:Label id="mLvl" text="99" y="17" size="18" horizontalCenter="-219"/>
+	<e:Label id="lLvl" text="100级开启" y="56" textColor="0xff0000" size="18" horizontalCenter="179" visible="false"/>
+	<e:Label id="mName" text="Label" y="99" size="16" horizontalCenter="-182.5" textColor="0xffff00"/>
+</e:Skin>

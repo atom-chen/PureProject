@@ -1,0 +1,12 @@
+class StdFuben { 
+    /** 字段名 */
+    id: number;
+    /** 副本id */
+    fbid: number;
+    /** 进入等级 */
+    recommandLevel: number;
+    /** 配置 */
+    enterCfg: any[] = [];
+    /** 退出副本描述 */
+    exitDec: string;
+}

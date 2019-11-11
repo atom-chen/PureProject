@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JingjiRankTipsSkin" width="440" height="612" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" left="0" right="0" top="0" bottom="0" skinName="BaseWinBg2Skin"/>
+	<e:Image source="public_json.public_slice_line_png" scale9Grid="1,0,5,2" width="417" horizontalCenter="0" y="531" locked="true"/>
+	<e:Scroller width="404" height="448.67" anchorOffsetY="0" x="18" y="74">
+		<e:List id="itemList" itemRendererSkinName="JingjiRankItemSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="jingji_json.jingji_texture_1_png" y="540" x="73"/>
+	<e:Label id="t0" text="每日00:00发送奖励" y="567" size="22" horizontalCenter="0" textColor="0x4c2f27"/>
+</e:Skin>

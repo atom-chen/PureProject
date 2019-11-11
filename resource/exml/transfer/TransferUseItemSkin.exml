@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TransferUseItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="403">
+	<e:Image source="public_json.public_item_rect_1_png" width="403" scale9Grid="24,24,27,52" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label id="lbNe" text="增加经验900" size="18" x="108.33" y="26" textColor="0xefb903"/>
+	<e:Label id="lbUse" text="今天可用20次" size="16" y="15" textColor="0xFDFFD9" right="15"/>
+	<ns1:BaseCustComponent id="item" x="12" skinName="ItembaseSkin" verticalCenter="0.5" className="ItemBase"/>
+	<e:Group id="gPrice" x="102.65" y="50" visible="false">
+		<e:Label id="lbLv" text="10000" size="16" x="27.35" y="7" textColor="0xfdffd9"/>
+		<e:Image id="itemIcon" x="0" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" y="0"/>
+	</e:Group>
+	<e:Button id="eBtn" label="" x="281" y="39" icon="res/btn/resolve_y_1.png" skinName="BtnIconSkin"/>
+	<e:Label id="lbLeft" text="剩余: 1000个" size="16" x="111.35" y="58" textColor="0xFDFFD9"/>
+</e:Skin>

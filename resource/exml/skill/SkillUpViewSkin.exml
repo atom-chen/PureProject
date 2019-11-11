@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillUpViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="510" height="565">
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" x="3" y="-5"/>
+	<e:Image source="win_json.win_bg_line_png" width="506" height="482" scale9Grid="11,13,19,18" bottom="3" horizontalCenter="-1"/>
+	<e:Scroller y="85" horizontalCenter="0" anchorOffsetY="0" height="240">
+			<e:List id="list" y="-48.650000000000006" itemRendererSkinName="SkillInfoSkin" horizontalCenter="0" x="90" scaleX="1" scaleY="1">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="22" verticalGap="5"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+	<e:Group x="8" height="105" y="330" width="495">
+		<e:Image source="public_json.public_rect_1_png" y="0" width="495" height="105" scale9Grid="31,30,96,37" x="0"/>
+		<ns1:NumberMC id="imgNum" x="323" y="11" type="num_lv_" width="12" height="14"/>
+		<e:Label id="skillName" text="技能名称" y="8" textColor="0x792301" size="20" horizontalCenter="0.5" bold="true"/>
+		<e:Label id="skillDsc" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" y="44" size="18" textColor="0x4c2f27" width="419" x="38" bold="true"/>
+		<e:Image source="public_json.public_rect_lv_png" x="291.31" y="11.35"/>
+	</e:Group>
+	<e:Group y="449.58" horizontalCenter="0">
+		<e:Image source="public_json.public_input_blank_png" x="0" width="110%" verticalCenter="0" scale9Grid="15,9,94,17" visible="false"/>
+		<ns1:ItemExpend id="expend" x="12.97" skinName="ItemExpendSkin" verticalCenter="0"/>
+	</e:Group>
+	<e:Button id="btnL" label="Button" y="496.72" skinName="MainBtnDownSkin" icon="res/btn/one_up.png" width="152" height="56" horizontalCenter="0"/>
+	<e:Button id="btnR" label="Button" y="496.72" skinName="MainBtnDownSkin" icon="res/btn/up.png" width="152" height="56" right="50" visible="false"/>
+</e:Skin>

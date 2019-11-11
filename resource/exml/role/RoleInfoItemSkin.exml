@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleInfoItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="roleType" x="0" y="0" source="public_json.public_role_0_png"/>
+	<e:Image id="imgRoleSl" source="public_json.public_role_select_png" x="106" y="49"/>
+</e:Skin>

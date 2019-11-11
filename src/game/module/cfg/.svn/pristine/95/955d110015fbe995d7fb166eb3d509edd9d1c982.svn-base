@@ -1,0 +1,20 @@
+class StdChognzhi { 
+    /** 金钱 */
+    money: number;
+    /** 钻石奖励 */
+    dimond: any;
+    /** 双倍 */
+    doubleDimond: any;
+    /** 四倍 */
+    fourfoldDimond: any;
+    /** 每天赠礼 */
+    gift: any;
+    /** 推荐标签 */
+    icon: string;
+    /** 排序 */
+    sort: number;
+    /** 钻石图标 */
+    diamondIcon: string;
+    /** 文字描述 */
+    desc: string;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="405" height="130">
+	<e:Image source="public_json.public_item_rect_1_png" left="0" right="0" top="0" bottom="0" scale9Grid="13,12,46,72" height="129"/>
+	<e:Image source="family_json.family_list_title_ban_png" y="7" scale9Grid="48,4,288,26" horizontalCenter="0"/>
+	<e:Image y="42" source="family_json.family_icon_condition_png" x="10"/>
+	<e:Image y="69" x="10" source="family_json.family_icon_mem_png"/>
+	<e:Image y="96" source="family_json.family_icon_score_png" x="10"/>
+	<e:Label id="fName" text="Label" y="15" textAlign="center" size="18" verticalAlign="middle" textColor="0xffc600" horizontalCenter="0"/>
+	<e:Label id="limit" text="Label" y="48" textAlign="left" size="16" verticalAlign="middle" left="45"/>
+	<e:Label id="memNum" text="Label" y="75" textAlign="left" size="16" verticalAlign="middle" left="45"/>
+	<e:Label id="score" text="Label" y="102" textAlign="left" size="16" verticalAlign="middle" left="45"/>
+	<e:Button id="btnApply" label="" right="15" bottom="20" skinName="BtnIconSkin" icon="family_json.family_btn_apply_png">
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyApplyConfigPanelSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="316" states="up,down" >
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" bottom="0" left="0" right="0" top="0"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleY="1.13" source="win_json.win_slice_line2_png" horizontalCenter="0" scale9Grid="2,0,19,2" bottom="95" width="416"/>
+	<e:Button id="btnSure" label="" icon="res/btn/confirm.png" skinName="BtnIconSkin" x="236" y="234">
+	</e:Button>
+	<e:Button id="closeBtn" label="" icon="res/btn/cancel.png" skinName="BtnIconSkin" x="60" y="234">
+	</e:Button>
+	<e:Group y="160" horizontalCenter="0">
+		<e:Image x="0" y="0" source="public_json.public_checkBox_blank_png"/>
+		<e:CheckBox id="chkAuto" label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="public_json.public_checkBox_blank_png" source.down="public_json.public_checkBox_sele_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:Label id="labCheck" text="Label" textAlign="left" size="16" textColor="0x792301" x="28" y="2"/>
+	</e:Group>
+	<e:Image source="family_json.family_setting_label_png" horizontalCenter="0" top="195"/>
+	<e:Image id="imgDrop" horizontalCenter="0" source="family_json.family_dropdown_option_ban_png" top="105"/>
+	<e:Image top="115" source="family_json.family_dropdown_arrow_png" x="352" touchEnabled="false"/>
+	<e:Label id="labSelected" text="Label" y="115" size="18" horizontalCenter="0" textAlign="center" touchEnabled="false"/>
+	<e:Group includeIn="down" x="61" top="145">
+		<e:Image source="family_json.family_dropdown_option_ban_png" scale9Grid="39,13,239,8" includeIn="down" left="0" right="0" top="0" bottom="0"/>
+		<e:Scroller scrollPolicyH="off" includeIn="down" horizontalCenter="0" top="5" bottom="5">
+			<e:List id="dropList" itemRendererSkinName="DropDownListItem">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

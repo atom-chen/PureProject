@@ -1,0 +1,12 @@
+{"file":"totems.png","frames":{
+"totems_active_txt_png":{"x":0,"y":123,"w":216,"h":21,"offX":0,"offY":0,"sourceW":216,"sourceH":21},
+"totems_item_bg_0_png":{"x":0,"y":0,"w":112,"h":121,"offX":0,"offY":0,"sourceW":112,"sourceH":121},
+"totems_item_bg_1_png":{"x":114,"y":0,"w":112,"h":121,"offX":0,"offY":0,"sourceW":112,"sourceH":121},
+"totems_item_bg_2_png":{"x":228,"y":0,"w":111,"h":121,"offX":0,"offY":0,"sourceW":112,"sourceH":121},
+"totems_item_sele_png":{"x":118,"y":146,"w":44,"h":44,"offX":0,"offY":1,"sourceW":44,"sourceH":45},
+"totems_item_u_sele_png":{"x":436,"y":115,"w":44,"h":45,"offX":0,"offY":0,"sourceW":44,"sourceH":45},
+"totems_max_png":{"x":341,"y":0,"w":157,"h":38,"offX":0,"offY":0,"sourceW":157,"sourceH":38},
+"totems_resonance_png":{"x":341,"y":40,"w":65,"h":74,"offX":5,"offY":0,"sourceW":76,"sourceH":76},
+"totems_texture_0_png":{"x":0,"y":146,"w":116,"h":26,"offX":0,"offY":0,"sourceW":116,"sourceH":26},
+"totems_totalProp_png":{"x":408,"y":40,"w":65,"h":73,"offX":6,"offY":1,"sourceW":76,"sourceH":76},
+"totems_upGrade_txt_png":{"x":218,"y":123,"w":216,"h":21,"offX":0,"offY":0,"sourceW":216,"sourceH":21}}}

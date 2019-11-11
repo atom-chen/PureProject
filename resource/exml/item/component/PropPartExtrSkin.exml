@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropPartExtrSkin" width="362" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="title" text="强化属性" size="20" left="18" textColor="0x00b4ff" y="10"/>
+	<e:Image id="imgTag" x="0" source="itemtips_json.itemtips_tag_1_png" y="15"/>
+	<e:Group id="pG" left="0" bottom="20" top="40">
+		<e:layout>
+		<e:VerticalLayout gap="9"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

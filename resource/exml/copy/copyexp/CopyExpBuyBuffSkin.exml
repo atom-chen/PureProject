@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyExpBuyBuffSkin" width="444" height="418" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" left="0" right="0" top="0" bottom="0" skinName="BaseWinBg2Skin" locked="true"/>
+	<e:Image source="public_json.public_slice_line_png" y="321" scale9Grid="2,0,19,2" width="414" horizontalCenter="0" locked="true"/>
+	<e:Button id="buyBtn" label="Button" y="334" skinName="BtnIconSkin" icon="res/btn/inspireBtn.png" x="147"/>
+	<e:Group id="g0" y="123" x="13" touchChildren="false" touchThrough="true" name="0">
+		<e:Image id="sele_0" source="copyBuff_json.copyBuff_sele_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="bg_0" source="copyBuff_json.copyBuff_item_bg_png" x="0" y="0"/>
+		<e:Image id="title_0" source="copyBuff_json.copyBuff_coin_png" y="10" x="60"/>
+		<e:Image y="53" source="res/images/item/1.png" scaleX="1" scaleY="1" horizontalCenter="-1"/>
+	</e:Group>
+	<e:Group id="g1" y="123" x="222" touchChildren="false" touchThrough="true" name="1">
+		<e:Image source="copyBuff_json.copyBuff_sele_png" horizontalCenter="0" verticalCenter="0" id="sele_1" visible="false"/>
+		<e:Image source="copyBuff_json.copyBuff_item_bg_png" x="0" y="0" id="bg_1"/>
+		<e:Image y="10" id="title_1" x="60" source="copyBuff_json.copyBuff_gold_png"/>
+		<e:Image y="53" scaleX="1" scaleY="1" x="68" source="res/images/item/14.png"/>
+	</e:Group>
+	<e:Group y="272" horizontalCenter="-107">
+		<e:Image id="icon_0" x="6" y="1" source="res/images/item/1.png" width="25" height="25"/>
+		<e:Label id="cost_0" text="1000/ 次" x="82" y="28" size="16" textColor="0xffc600"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="272" horizontalCenter="104">
+		<e:Image x="6" y="1" width="25" height="25" id="icon_1" source="res/images/item/14.png"/>
+		<e:Label id="cost_1" text="1000/ 次" x="82" y="28" size="16" textColor="0xffc600"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="73" horizontalCenter="0" width="378">
+		<e:Image source="copyBuff_json.copyBuff_texture_0_png" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<ns1:NumberMC id="num" x="148" type="copyBuff_json.copyBuff_num_" scaleX="1" scaleY="1" width="60" top="1"/>
+		<e:Image source="copyBuff_json.copyBuff_texture_1_png" scaleX="1" scaleY="1" verticalCenter="0" right="0"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="c0" text="（0/5）" x="90" y="296" size="16"/>
+	<e:Label text="（0/5）" x="304" y="296" size="16" id="c1"/>
+	<e:Label id="t0" text="当前增加伤害 : 100%" y="101" size="16" textColor="0x4c2f27" x="147"/>
+</e:Skin>

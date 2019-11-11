@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSelectSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="85">
+	<e:Scroller horizontalCenter="0" width="506" bottom="0" height="90">
+		<e:List id="listRole" x="22" y="9" itemRendererSkinName="RoleInfoItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="1" verticalAlign="bottom"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

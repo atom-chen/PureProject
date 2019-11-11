@@ -1,0 +1,7 @@
+{"file":"bag.png","frames":{
+"bag_confirm_png":{"x":0,"y":0,"w":152,"h":56,"offX":0,"offY":0,"sourceW":152,"sourceH":56},
+"bag_index_1_png":{"x":0,"y":117,"w":88,"h":48,"offX":0,"offY":0,"sourceW":88,"sourceH":48},
+"bag_index_1_a_png":{"x":145,"y":61,"w":87,"h":59,"offX":0,"offY":0,"sourceW":87,"sourceH":59},
+"bag_index_2_png":{"x":90,"y":122,"w":88,"h":48,"offX":0,"offY":0,"sourceW":88,"sourceH":48},
+"bag_index_2_a_png":{"x":154,"y":0,"w":87,"h":59,"offX":0,"offY":0,"sourceW":87,"sourceH":59},
+"bag_melt_png":{"x":0,"y":58,"w":143,"h":57,"offX":0,"offY":0,"sourceW":143,"sourceH":57}}}

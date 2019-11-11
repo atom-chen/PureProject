@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaseWinBg5Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<w:Config id="1655ba838c0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" scale9Grid="43,44,79,46" y="0" horizontalCenter="0" source="res/images/bg/luck2Bg.png"/>
+		<e:Image id="closeBtn" right="34" top="57" source="win_json.win_close_btn6_png"/>
+		<e:Image id="winTitle" x="44" y="13" source="" visible="false"/>
+	</e:Group>
+</e:Skin>

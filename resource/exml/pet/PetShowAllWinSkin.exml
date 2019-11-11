@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetShowAllWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" x="0" top="0" bottom="0"/>
+	<e:Group top="66" bottom="14" height="400" horizontalCenter="0.5" width="420">
+		<e:Scroller height="380" verticalCenter="0" horizontalCenter="0">
+				<e:List id="list" x="15" y="94" itemRendererSkinName="PetShowInfoItemSkin">
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:TileLayout requestedColumnCount="3" verticalGap="6" horizontalGap="18"/>
+					</e:layout>
+				</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

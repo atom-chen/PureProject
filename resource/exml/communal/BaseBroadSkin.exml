@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaseBroadSkin" currentState="s1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="s1,s2"  height.s2="337">
+	<e:Image source="win_json.win_tips_bg_png" includeIn="s2" scale9Grid="63,75,384,56" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="win_json.win_bg4_png" scale9Grid="28,139,62,66" width.s1="530" height.s1="670" x.s1="0" left.s1="0" right.s1="0" bottom.s1="0" y.s1="0" top.s1="0" bottom.s2="20" top.s2="57" left.s2="7" right.s2="7"/>
+	<e:Image source="win_json.win_bg_line_png" scale9Grid="8,9,26,25" height="647" width="508" anchorOffsetY="0" y="13" x.s1="11" left.s1="11" top.s1="13" right.s1="11" bottom.s1="10" bottom.s2="33" left.s2="19" right.s2="19" top.s2="68"/>
+	<e:Image source="win_json.win_title_2_png" includeIn="s2" top="-7" horizontalCenter="0"/>
+</e:Skin>

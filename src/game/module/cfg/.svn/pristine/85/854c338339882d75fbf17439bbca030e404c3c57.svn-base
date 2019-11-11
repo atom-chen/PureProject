@@ -1,0 +1,10 @@
+class StdPetskill { 
+    /** id */
+    id: number;
+    /** 条数 */
+    skillnumber: number;
+    /** 属性 */
+    skillattribute: any[] = [];
+    /** 属性 */
+    skillattribute: any[] = [];
+}

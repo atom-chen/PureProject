@@ -1,0 +1,20 @@
+class StdTransfer { 
+    /** 综合 */
+    idx: number;
+    /** 职业 */
+    id: number;
+    /** 转数 */
+    type: number;
+    /** 属性 */
+    attrs: any[] = [];
+    /** 升级需要经验 */
+    transferExe: number;
+    /** 激活技能 */
+    skillID: any[] = [];
+    /** 职业名称图片 */
+    stepImg: string;
+    /** 奥义ID */
+    ZXCID: any[] = [];
+    /** 下一阶 */
+    next: number;
+}

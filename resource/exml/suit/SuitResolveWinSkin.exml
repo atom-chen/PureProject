@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuitResolveWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" x="0" top="0" bottom="0"/>
+	<e:Group top="65" bottom="15" height="405" horizontalCenter="0" width="415">
+		<e:Image source="public_json.public_slice_line_png" width="419" scale9Grid="2,0,19,2" horizontalCenter="0" bottom="75"/>
+		<e:Scroller height="309" horizontalCenter="1" width="403" top="11">
+				<e:List id="list" x="114" y="-1" itemRendererSkinName="SuitPropertyItemSkin">
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+		</e:Scroller>
+		<e:Button id="btn" label="" y="337" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="res/btn/resolve_g_2.png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionPannelSkin" width="535" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="20,168,65,17" source="win_json.win_bg4_png" width="530" height="680" y="0" horizontalCenter="0"/>
+	<e:Image source="res/images/bg//fashionBg.png" y="86" horizontalCenter="0" width="506" height="479" anchorOffsetX="0"/>
+	<e:Image source="role_json.role_line_fg_2_png" horizontalCenter="-1" top="579" scale9Grid="1,1,8,1" width="526"/>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" anchorOffsetY="0" x="16" y="2"/>
+	<e:Scroller id="sc" height="176" y="379" anchorOffsetY="0" horizontalCenter="3" bounces="true" width="489">
+		<e:List id="itemList" itemRendererSkinName="ItembaseSkin" y="-29.33">
+			<e:layout>
+				<e:TileLayout horizontalGap="3" requestedColumnCount="6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<ns1:BaseCustComponent id="mModel" bottom="337" className="UIAvatar" horizontalCenter="46" touchChildren="false" touchEnabled="false"/>
+	<e:TabBar id="tabBtn_0" width="338" height="74" y="585" itemRendererSkinName="TabBar5Skin" anchorOffsetY="0" x="21" touchThrough="false">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object icon="fashion_json.fashion_tag_headwear_png" line="fashion_json.fashion_line_png"/>
+			<e:Object icon="fashion_json.fashion_tag_clothes_png" line="fashion_json.fashion_line_png"/>
+			<e:Object icon="fashion_json.fashion_tag_back_png" line=""/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:TileLayout columnAlign="justifyUsingWidth"/>
+		</e:layout>
+	</e:TabBar>
+	<e:TabBar id="tabBtn_1" x="23" y="330.67" itemRendererSkinName="TabBar1Skin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object icon="fashion_json.fashion_40_png" icon2="fashion_json.fashion_40_s_png"/>
+				<e:Object icon="fashion_json.fashion_40_png" icon2="fashion_json.fashion_40_s_png"/>
+				<e:Object icon="fashion_json.fashion_40_png" icon2="fashion_json.fashion_40_s_png"/>
+				<e:Object icon="fashion_json.fashion_40_png" icon2="fashion_json.fashion_40_s_png"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group height="200" y="128" horizontalCenter="0">
+		<ns1:BaseCustComponent id="item_0" x="32" y="28" skinName="ItembaseSkin" className="FashionEquipItem"/>
+		<ns1:BaseCustComponent id="item_1" x="42" y="38" skinName="ItembaseSkin" className="FashionEquipItem"/>
+		<ns1:BaseCustComponent id="item_2" x="52" y="48" skinName="ItembaseSkin" className="FashionEquipItem"/>
+		<ns1:BaseCustComponent id="item_3" x="62" y="58" skinName="ItembaseSkin" className="FashionEquipItem"/>
+		<e:layout>
+			<e:TileLayout horizontalAlign="center" horizontalGap="326" verticalGap="13"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="sBtn" label="Button" x="401" y="323" skinName="BtnIconSkin" icon="res/btn/saveBtn.png"/>
+</e:Skin>

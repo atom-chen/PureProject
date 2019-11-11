@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeNameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="pet_json.pet_info_pet_name_png" width="225" horizontalCenter="0" verticalCenter="0" scale9Grid="11,11,23,15"/>
+	<e:Image id="imgChange" source="pet_json.pet_img_info_png" verticalCenter="0" right="2"/>
+	<e:Image source="pet_json.pet_lv_png" x="13" y="11"/>
+	<ns1:NumberMC id="num" x="45.68" height="11" type="pet_num_" y="11"/>
+	<e:Label id="lbNe" text="名称" size="20" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

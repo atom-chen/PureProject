@@ -1,0 +1,1 @@
+//# sourceMappingURL=IBaseSprite.js.map

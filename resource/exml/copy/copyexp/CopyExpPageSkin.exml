@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyExpPageSkin" width="510" height="565" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image y="7" source="res/images/bg/copyExpBg.png" horizontalCenter="0" locked="true"/>
+	<e:Image source="win_json.win_reword_5_png" x="356" y="316"/>
+	<e:Image source="win_json.win_bg_line_png" width="506" height="562" scale9Grid="11,13,19,18" bottom="0" horizontalCenter="0" anchorOffsetY="0"/>
+	<ns1:BaseCustComponent id="instruction" x="15" y="11" skinName="InstructionPartSkin" visible="false"/>
+	<e:Image y="455" width="494" anchorOffsetY="0" horizontalCenter="0" height="105" source="public_json.public_prop_rect_png" scale9Grid="10,11,17,15"/>
+	<e:Image y="463" scale9Grid="17,12,12,9" anchorOffsetX="0" x="332" anchorOffsetY="0" height="28" source="copyexp_json.copyexp_count_blank_png" width="155"/>
+	<e:Image id="buyBtn" x="458" y="464" source="public_json.public_add_png"/>
+	<ns1:BaseCustComponent id="item_1" x="388" y="367" scaleX="0.9" scaleY="0.9" className="ItemBase" skinName="ItembaseSkin"/>
+	<ns1:BaseCustComponent id="item_0" x="22" y="470" skinName="ItembaseSkin" scaleX="0.9" scaleY="0.9" className="ItemBase"/>
+	<ns1:ItemExpend id="cost" x="104" y="476" skinName="ItemExpend3Skin"/>
+	<e:Button id="btn_0" label="Button" x="342" y="496" skinName="BtnIconSkin" icon="res/btn/enterBtn4.png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="count" text="剩余次数：3" x="338" y="469" size="18"/>
+	<e:Group width="300" height="111" x="25" y="333" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Label text="规则说明 :" x="75" y="38" size="16" textColor="0xffc600"/>
+		<e:Label text="1.规定时间内击杀更多怪物，经验更高！" x="85" y="48" size="16"/>
+		<e:Label text="2.副本内进行鼓舞，打怪更效率！" x="95" y="58" size="16"/>
+		<e:Label text="3.使用多倍经验药水，获益更高！" x="105" y="68" size="16"/>
+		<e:layout>
+			<e:VerticalLayout gap="12"/>
+		</e:layout>
+	</e:Group>
+	<e:Image x="387" y="366" source="res/images/item/13.png"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ServerItemSkin" width="326" height="43" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="login_json.login_serverItem_png" scale9Grid="11,11,30,19" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="stateTag" source="login_json.login_state_2_png" y="-1" x="264"/>
+	<e:Group width="200" x="44" top="0" bottom="0">
+		<e:Image id="stateIcon" source="login_json.login_state_p_2_png" x="17" y="11"/>
+		<e:Label id="sName" text="Label" x="69" y="15" size="16"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="7"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

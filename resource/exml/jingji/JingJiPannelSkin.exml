@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JingJiPannelSkin" width="530" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16cfb1f6f99"/>
+	<e:Image verticalCenter="0.5" height="680" width="530" horizontalCenter="0" scale9Grid="20,168,65,17" source="win_json.win_bg4_png" locked="true"/>
+	<e:Image source="win_json.win_bg_line_png" width="507" scale9Grid="10,11,22,21" anchorOffsetY="0" height="661" y="12" horizontalCenter="0" locked="true"/>
+	<e:Image source="public_json.public_icon_bg5_png" x="36" y="20"/>
+	<e:Image x="24" y="19" source="public_json.public_lvl_blank_png"/>
+	<e:Image source="public_json.public_slice_line_png" y="584" width="503" scale9Grid="2,0,19,2" x="14"/>
+	<e:Image source="public_json.public_rect_2_png" y="620" scale9Grid="17,12,12,9" anchorOffsetX="0" width="191" x="22"/>
+	<e:Image source="public_json.public_slice_line_png" y="132" width="503" scale9Grid="2,0,19,2" horizontalCenter="0"/>
+	<e:Button id="bBtn" label="Button" x="177" y="625" skinName="BtnIconSkin" icon="public_json.public_add_png" anchorOffsetX="0" width="33" anchorOffsetY="0" height="28"/>
+	<e:Image id="icon" x="41" y="26" source="res/images/roleIco/role_1.png"/>
+	<e:Image source="public_json.public_blank_2_png" x="32" y="100"/>
+	<e:Image source="jingji_json.jingji_blank_1_png" x="145" y="81"/>
+	<e:Image source="jingji_json.jingji_blank_1_png" x="145" y="27"/>
+	<e:Image source="jingji_json.jingji_blank_2_png" y="82" x="387"/>
+	<e:Scroller height="440" y="139" horizontalCenter="0.5" anchorOffsetY="0">
+		<e:List id="itemList" anchorOffsetY="0" height="593" itemRendererSkinName="JingjiItemSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="zdl" text="我的战力：0000" y="38" size="18" x="161" textColor="0xffc600"/>
+	<e:Label id="mLvl" text="99" y="26" size="18" horizontalCenter="-224.5"/>
+	<e:Label id="roleName" text="我的战力" y="102" size="14" textColor="0xffc600" horizontalCenter="-184"/>
+	<e:Label id="point" text="我的积分：0000" y="91" size="18" x="161" textColor="0xffc600"/>
+	<e:Label id="win" text="未上榜" y="91" size="18" textColor="0xffc600" horizontalCenter="183"/>
+	<e:Label id="time" text="00:00:25 增加一次" y="595" size="18" x="41" textColor="0xff0000"/>
+	<e:Label id="count" text="剩余次数  10/10" x="40" y="629" size="18" textColor="0xffffff"/>
+	<e:Button id="rankBtn" label="Button" x="371" y="26" skinName="BtnIconSkin" icon="res/btn/rankBtn.png"/>
+	<e:Button id="reBtn" label="Button" x="354" y="602" skinName="BtnIconSkin" icon="res/btn/reflesh.png"/>
+</e:Skin>

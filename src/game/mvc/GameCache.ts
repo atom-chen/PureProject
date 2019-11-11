@@ -1,0 +1,94 @@
+/*
+ * @Description: 数据
+ * @Author: guolinsen
+ * @Date: 2019-08-21 19:44:11
+ */
+module GameCache {
+    export var hero: HeroCache;
+    export var map: MapCache;
+    export var global: GlobalCache;
+    export var server: ServerCache;
+    export var settings: SettingsCache;
+    export var novice: NoviceCache;
+    export var skill: SkillCache;
+    export var pet: PetCache;
+    export var shop: ShopCache;
+    export var email: EmailCache;
+    export var suit: SuitCache;
+    export var equip: EquipCache;
+    export var bag: BagCache;
+    export var gashapon: GashaponCache;
+    export var buff: BuffCache;
+    export var daily: DailyCache;
+    export var transfer: TransferCache;
+    export var sign: SignCache;
+    export var adventure: AdventrueCache;
+    export var quest: QuestCache;
+    export var pass: PassCache;
+    export var strength: StrengthCache;
+    export var fashion: FashionCache;
+    export var wing: WingCache;
+    export var boss: BossCache;
+    export var copy: CopyCache;
+    export var vip: VipCache;
+    export var rank: RankCache;
+    export var revive: ReviveCache;
+    export var firstcharge: FirstChargeCache;
+    export var copytower: CopyTowerCache;
+    export var badge: BadgeCache;
+    export var totems: TotemsCache;
+    export var jingji: JingjiCache;
+    export var jewel: JewelCache;
+    export var rune: RuneCache; export var sysopen: SysOpenCache;
+    export var chat: ChatCache;
+    export var activity: ActivityCache;
+    export var purgatory: PurgatoryCache;
+    export var award: AwardCache;
+    export var pgtBoss: PgtBossCache;
+    export var family: FamilyCache;
+    export function init() {
+        hero = new HeroCache();
+        map = new MapCache();
+        global = new GlobalCache();
+        server = new ServerCache();
+        settings = new SettingsCache();
+        novice = new NoviceCache();
+        skill = new SkillCache();
+        pet = new PetCache();
+        shop = new ShopCache();
+        email = new EmailCache();
+        suit = new SuitCache();
+        equip = new EquipCache();
+        bag = new BagCache();
+        gashapon = new GashaponCache();
+        buff = new BuffCache();
+        daily = new DailyCache();
+        transfer = new TransferCache();
+        sign = new SignCache();
+        adventure = new AdventrueCache();
+        quest = new QuestCache();
+        pass = new PassCache();
+        strength = new StrengthCache();
+        fashion = new FashionCache();
+        boss = new BossCache();
+        wing = new WingCache();
+        copy = new CopyCache();
+        vip = new VipCache();
+        rank = new RankCache();
+        revive = new ReviveCache();
+        firstcharge = new FirstChargeCache();
+        copytower = new CopyTowerCache();
+        badge = new BadgeCache();
+        totems = new TotemsCache();
+        jingji = new JingjiCache();
+        jewel = new JewelCache();
+        rune = new RuneCache();
+        sysopen = new SysOpenCache();
+        chat = new ChatCache();
+        activity = new ActivityCache();
+        purgatory = new PurgatoryCache();
+        award = new AwardCache();
+        pgtBoss = new PgtBossCache();
+        family = new FamilyCache();
+    }
+}

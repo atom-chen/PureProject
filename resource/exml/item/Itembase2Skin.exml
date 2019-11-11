@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Itembase2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="79" height="100">
+	<e:Image id="bg" horizontalCenter="0" top="0" source="public_json.public_item_bg_png"/>
+	<e:Image id="color" horizontalCenter="0" verticalCenter="-10" source=""/>
+	<e:Image id="ico" verticalCenter="-9" horizontalCenter="0"/>
+	<e:Image id="zlflag" source="public_json.public_g_allow_png" x="57" y="5"/>
+	<e:Image source="public_json.public_itemjob1_png" x="48" y="49" id="jobImg"/>
+	<e:Label id="num" text="" size="18" right="4" bottom="24" stroke="2" textColor="0xffffff"/>
+	<e:Label id="itemName" text="Label" size="16" horizontalCenter="0" bottom="0"/>
+	<e:Label text="" x="4" y="5" id="usLevel" size="16" textColor="0xFFEC1C" stroke="2"/>
+</e:Skin>

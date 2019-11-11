@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BadgePageSkin" width="510" height="565" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image y="464" anchorOffsetX="0" width="495" anchorOffsetY="0" height="93" x="8" scaleX="1" scaleY="1" source="public_json.public_prop_rect_png" scale9Grid="23,16,113,23" locked="true"/>
+	<e:Image y="8" source="res/images/bg/badgeBg.png" horizontalCenter="0" locked="true"/>
+	<e:Image source="win_json.win_bg_line_png" width="506" height="562" scale9Grid="11,13,19,18" bottom="0" horizontalCenter="0" anchorOffsetY="0" locked="true"/>
+	<e:Image id="lvlMax" source="public_json.public_lvl_max_png" y="474" horizontalCenter="0"/>
+	<e:Image id="icon" y="82" horizontalCenter="6" source="res/images/badge/0.png"/>
+	<e:Image id="title" y="227" horizontalCenter="5" source=""/>
+	<e:Group id="cg" y="512" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-122" alpha="1">
+		<e:Label id="condi" text="关卡第28关 未完成" size="18" textColor="0xff0000" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+	<e:Group width="466" height="101" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="341">
+		<e:Image left="86" right="85" top="0" bottom="0" source="public_json.public_rect_7_png" width="292" height="95" scale9Grid="10,14,143,79"/>
+		<e:Image width="292" y="64" horizontalCenter="0" source="public_json.public_slice_line5_png" scale9Grid="1,0,3,2" height="2"/>
+		<e:Image width="292" y="30" horizontalCenter="0" source="public_json.public_slice_line5_png" scale9Grid="1,0,3,2" height="2"/>
+		<ns1:BaseCustComponent id="propList" xmlns:ns1="*" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="41" left="87" right="88" height="56"/>
+	</e:Group>
+	<e:Group id="itemGroup" width="346" height="330" y="13" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image id="item_0" source="badge_json.badge_item_unsele_png" x="77" y="1"/>
+		<e:Image id="item_1" source="badge_json.badge_item_unsele_png" x="12" y="73" alpha="1"/>
+		<e:Image source="badge_json.badge_item_unsele_png" x="11" y="173" alpha="1" id="item_2"/>
+		<e:Image source="badge_json.badge_item_unsele_png" x="60" alpha="1" id="item_3" y="245"/>
+		<e:Image source="badge_json.badge_item_unsele_png" y="271" alpha="1" id="item_4" x="149"/>
+		<e:Image source="badge_json.badge_item_unsele_png" x="235" alpha="1" id="item_5" y="245"/>
+		<e:Image source="badge_json.badge_item_unsele_png" x="287" y="173" alpha="1" id="item_6"/>
+		<e:Image source="badge_json.badge_item_unsele_png" x="285" y="73" alpha="1" id="item_7"/>
+		<e:Image source="badge_json.badge_item_unsele_png" x="220.67" y="-0.33" alpha="1" id="item_8"/>
+	</e:Group>
+	<e:Image source="badge_json.badge_text_0_png" y="346" horizontalCenter="0"/>
+	<e:Image id="img_1" source="badge_json.badge_text_1_png" x="24" y="475"/>
+	<e:Button id="btn0" label="Button" x="336" y="486" skinName="BtnIconSkin" icon="res/btn/promotion.png"/>
+	<ns1:NumberMC id="lNum" y="256" type="cn_0_" horizontalCenter="6.5"/>
+	<e:Group width="292" height="95" y="340" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="public_json.public_rect_7_png" scale9Grid="19,14,149,101"/>
+		<e:Image left="0" right="0" width="292" y="62" source="public_json.public_slice_line5_png"/>
+		<e:Image left="0" right="0" width="292" y="30" source="public_json.public_slice_line5_png"/>
+		<ns1:BaseCustComponent id="propList0" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="9" left="0" right="0" bottom="11"/>
+	</e:Group>
+</e:Skin>

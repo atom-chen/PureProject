@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstChargeWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="640">
+	<e:Group x="-112.88" top="0">
+		<e:Image x="0" source="res/images/bg/firstCharge.png" y="0"/>
+		<e:TabBar id="tabBtn" itemRendererSkinName="TabBar1Skin" y="472.88" x="305.4">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object id="itemData0" icon2="firstCharge_json.firstCharge3_png" icon="firstCharge_json.firstCharge4_png"/>
+				<e:Object id="itemData1" icon2="firstCharge_json.firstCharge1_png" icon="firstCharge_json.firstCharge2_png"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:TabBar>
+		<e:Group id="gCharge" x="119.88" y="717.47">
+			<e:Image source="firstCharge_json.firstCharge13_png" y="0" width="626" height="160" scale9Grid="24,36,38,18" x="0"/>
+			<e:Group horizontalCenter="0" verticalCenter="0">
+			<ns1:BaseCustComponent id="charge0" x="0" y="0" skinName="FirstChargeItemSkin" className="FirstChargeItem"/>
+			<ns1:BaseCustComponent id="charge1" x="10" y="10" skinName="FirstChargeItemSkin" className="FirstChargeItem"/>
+			<ns1:BaseCustComponent id="charge2" x="20" y="20" skinName="FirstChargeItemSkin" className="FirstChargeItem"/>
+			<ns1:BaseCustComponent id="charge3" x="30" y="30" skinName="FirstChargeItemSkin" className="FirstChargeItem"/>
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" horizontalGap="45"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group y="542.34" x="144.88">
+			<e:Group x="0" y="0">
+			<e:List id="list0" x="0" y="0" itemRendererSkinName="ItembaseSkin">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:HorizontalLayout gap="10"/>
+				</e:layout>
+			</e:List>
+			<e:Image id="imgGet0" source="firstCharge_json.firstCharge5_png" y="87.99" horizontalCenter="0"/>
+			<e:Button id="btn0" label="" icon="res/btn/get_5.png" x="29" y="76"/>
+			</e:Group>
+			<e:Group x="10" y="10">
+			<e:List id="list1" x="0" y="0" itemRendererSkinName="ItembaseSkin">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:HorizontalLayout gap="10"/>
+				</e:layout>
+			</e:List>
+			<e:Image id="imgGet1" source="firstCharge_json.firstCharge5_png" y="87.99" horizontalCenter="0"/>
+			<e:Button id="btn1" label="" icon="res/btn/get_5.png" y="76" x="29"/>
+			</e:Group>
+			<e:Group x="20" y="20">
+			<e:List id="list2" x="0" y="0" itemRendererSkinName="ItembaseSkin">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:HorizontalLayout gap="10"/>
+				</e:layout>
+			</e:List>
+			<e:Image id="imgGet2" source="firstCharge_json.firstCharge5_png" y="87.99" horizontalCenter="0"/>
+			<e:Button id="btn2" label="" icon="res/btn/get_5.png" y="76" x="29"/>
+			</e:Group>
+			<e:layout>
+			<e:HorizontalLayout gap="36"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbCharge" text="10元" y="503.84" size="16" horizontalCenter="301"/>
+		<e:Label text="累计充值" x="642.05" y="480.34" size="16" textColor="0xffd201"/>
+		<e:Image source="firstCharge_json.firstCharge9_png" y="676" x="224.88" anchorOffsetX="0" width="403"/>
+		<e:Image source="firstCharge_json.firstCharge8_png" x="247.88" y="661"/>
+		<e:Image id="closeBtn" source="win_json.win_close_btn4_png" x="684.88" y="290"/>
+	</e:Group>
+</e:Skin>

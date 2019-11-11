@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TabBar2Skin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui" width="64" height="79">
+	<e:Image x="0" y="0" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" source="{data.icon}"/>
+</e:Skin>

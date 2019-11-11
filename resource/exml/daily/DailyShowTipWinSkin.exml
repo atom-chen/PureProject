@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyShowTipWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" x="0" top="0" bottom="0"/>
+	<e:Group top="66" bottom="14" height="270" horizontalCenter="0.5" width="420">
+		<e:Image source="public_json.public_rect_1_png" y="52" scale9Grid="19,12,121,74" width="377" horizontalCenter="0.5" anchorOffsetY="0" height="128"/>
+		<ns1:BaseCustComponent id="slidePage" y="69" height="179" className="SlidePage" width="377" skinName="SlidePageSkin" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Group y="83" horizontalCenter="0" width="237">
+		<e:Image source="daily_json.daily_lb1_png" y="1" right="0"/>
+		<ns1:NumberMC id="num" type="daily_json.daily_b_" top="3" horizontalCenter="0"/>
+		<e:Image source="daily_json.daily_lb2_png" y="1" left="0"/>
+	</e:Group>
+	<e:Image id="imgWdc" source="daily_json.daily_wdc_png" y="258" horizontalCenter="0.5"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NPCTalkWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group>
+		<e:Image verticalCenter="0" horizontalCenter="0" source="res/images/bg/missionBg.png" locked="true"/>
+		<e:Label id="labTalk" text="" x="280" anchorOffsetX="0" width="271" anchorOffsetY="0" size="16" lineSpacing="16" textColor="0x4c2f27" y="78"/>
+		<e:Image id="closeBtn" anchorOffsetX="0" anchorOffsetY="0" source="quest_json.quest_closeBtn_png" right="29" top="26"/>
+		<e:Image id="submitBtn" anchorOffsetX="0" anchorOffsetY="0" source="quest_json.quest_recv_btn_png" bottom="30" horizontalCenter="109.5"/>
+		<e:Image source="quest_json.quest_texture_1_png" horizontalCenter="108" verticalCenter="-6.5"/>
+		<e:Image source="quest_json.quest_img_1_png" x="277.5" y="31.5"/>
+		<e:Image id="npcName" x="319" y="35" source=""/>
+		<e:Image id="npcBody" x="126" y="294" source=""/>
+		<e:Image source="public_json.public_rect_1_png" y="230" scale9Grid="19,12,121,74" horizontalCenter="109.5" width="342"/>
+		<e:Group id="iG" height="67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="109.5" verticalCenter="63.5">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

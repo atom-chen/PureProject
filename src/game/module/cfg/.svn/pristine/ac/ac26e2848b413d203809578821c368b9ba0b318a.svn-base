@@ -1,0 +1,10 @@
+class StdFamilysys { 
+    /** 字段名 */
+    id: number;
+    /** 名称 */
+    name: string;
+    /** 图标资源 */
+    icon: number;
+    /** 跳转模块 */
+    jump: string;
+}

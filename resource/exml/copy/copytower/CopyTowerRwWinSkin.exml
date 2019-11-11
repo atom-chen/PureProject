@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyTowerRwWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" x="0" top="0" bottom="0"/>
+	<e:Group top="65" bottom="15" height="350" horizontalCenter="0" width="415">
+		<e:Image source="public_json.public_slice_line_png" width="419" scale9Grid="2,0,19,2" horizontalCenter="0" bottom="75"/>
+		<e:Group x="5" y="10">
+			<e:Image source="public_json.public_prop_rect_png" y="0" scale9Grid="19,11,119,33" width="405" height="255" x="0"/>
+			<e:Scroller height="214" width="403" horizontalCenter="0" verticalCenter="0">
+				<e:List id="list" x="114" y="-1" itemRendererSkinName="Itembase2Skin">
+				<e:ArrayCollection>
+					<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+					<e:layout>
+						<e:TileLayout requestedColumnCount="4" horizontalGap="15" paddingLeft="19" verticalGap="15" paddingTop="0"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="btn" label="" horizontalCenter="0" bottom="10" skinName="BtnIconSkin" icon="res/btn/get_3.png">
+		</e:Button>
+	</e:Group>
+</e:Skin>

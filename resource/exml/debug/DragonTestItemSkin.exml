@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DragonTestItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="public_json.public_item_rect_1_png" anchorOffsetX="0" width="312" anchorOffsetY="0" height="47" scale9Grid="26,15,22,68"/>
+	<e:Image source="public_json.public_input_blank_png" x="85" touchEnabled="false" anchorOffsetX="0" width="211" anchorOffsetY="0" height="31" scale9Grid="15,5,94,23" verticalCenter="0"/>
+	<e:TextInput id="inText" width="238" height="25" anchorOffsetX="0" anchorOffsetY="0" skinName="TextInput1Skin" x="66" y="12" textColor="0x00a2ff"/>
+	<e:Label id="partName" x="15" y="11" textColor="0xffd823" size="24" text="{data.partName}"/>
+</e:Skin>

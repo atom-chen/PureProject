@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatWinSkin" currentState="sys" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="nor,sys" >
+	<e:Group id="closeGroup" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="chatGroup" width="615" horizontalCenter="0" height="568" bottom="82">
+		<e:Image source="zjm_json.zjm_chat_rect_png" left="0" right="0" bottom="0" scale9Grid="4,4,31,15" top="0"/>
+		<e:Image scale9Grid="4,4,13,9" left="6" right="6" top="6" source="chat_json.chat_blank_0_png" height.nor="529" height="529"/>
+		<e:Image source="chat_json.chat_blank_4_png" x="139" y="492" scale9Grid="42,13,257,11" visible.sys="false"/>
+		<e:Image source="chat_json.chat_blank_4_png" x="139" scale9Grid="42,13,257,11" width="459" top="14" anchorOffsetY="0" height="472" anchorOffsetX="0"/>
+		<e:Image source="chat_json.chat_texture_0_png" includeIn="sys" x="140" y="500"/>
+		<e:Image id="emojiBtn" x="487" source="chat_json.chat_emoji_png" y="491" visible.sys="false"/>
+		<e:Button id="closeBtn" label="Button" x="568" y="-11" skinName="BtnIconSkin" icon="chat_json.chat_close_png"/>
+		<e:TextInput id="inputText" width="324" height="27" x="146" skinName="TextInput2Skin" anchorOffsetX="0" anchorOffsetY="0" y="498" visible.sys="false"/>
+		<e:TabBar id="tabBtn" anchorOffsetX="0" anchorOffsetY="0" top="13" bottom="56" x="24" itemRendererSkinName="ServerTabSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object icon="chat_json.chat_tab_0_png" icon2="chat_json.chat_tab_0_s_png"/>
+					<e:Object icon="chat_json.chat_tab_1_png" icon2="chat_json.chat_tab_1_s_png"/>
+					<e:Object icon="chat_json.chat_tab_2_png" icon2="chat_json.chat_tab_2_s_png"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:TabBar>
+		<e:Button id="sendBtn" label="Button" x="532" skinName="BtnIconSkin" icon="res/btn/sendBtn.png" y="492" visible.sys="false"/>
+		<e:Scroller id="sc" width="458" top="20" bottom="88" right="18" anchorOffsetX="0" bounces="true">
+			<e:List id="chatLab" itemRendererSkinName="MsgItemSkin" useVirtualLayout="true">
+				<e:layout>
+					<e:VerticalLayout gap="20"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MsgItem2Skin" width="448" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image source="chat_json.chat_roleIco_blank_png" y="6" x="361"/>
+	<e:Image id="icon" y="10" source="res/images/roleIco/role_1.png" scaleX="0.9" scaleY="0.9" skewY="180" x="435"/>
+	<e:Image y="3" source="chat_json.chat_lvl_blank_png" x="350"/>
+	<e:Image id="vip" source="chat_json.chat_vip_0_png" x="308" y="5"/>
+	<e:Group id="g" y="44" right="107">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" top="-5" bottom="-5" left="-6" right="-13" source="chat_json.chat_blank_3_png" skewY="180" scale9Grid="1,2,16,15"/>
+		<e:Label id="t0" text="" size="16" anchorOffsetX="0" anchorOffsetY="0" top="0" scaleX="1" scaleY="1" left="0" right="0" bottom="0" lineSpacing="2" maxWidth="311"/>
+	</e:Group>
+	<e:Label id="lvl" text="14" y="11" size="16" horizontalCenter="140"/>
+	<e:Label id="roleName" text="XXXXXXX" y="19" size="16" textColor="0xffc600" right="144"/>
+</e:Skin>

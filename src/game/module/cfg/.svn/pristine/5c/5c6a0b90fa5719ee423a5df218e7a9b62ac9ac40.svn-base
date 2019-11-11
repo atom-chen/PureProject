@@ -1,0 +1,12 @@
+class StdMiwutower { 
+    /** 层数 */
+    id: string;
+    /** 场景 */
+    scene: string;
+    /** 怪物ID */
+    monster: number;
+    /** 日常奖励 */
+    dailyaward: any[] = [];
+    /** 层数掉落展示 */
+    awardshow: any[] = [];
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AutoToggleSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui">
+    <e:Image
+            
+            
+             source="public_json.public_toggle_blank_png" source.up="public_json.public_toggle_blank_png" source.down="public_json.public_toggle_blank_png" source.disabled="public_json.public_toggle_blank_png"/>
+    <e:Image
+             horizontalCenter="-18"
+             horizontalCenter.upAndSelected="16"
+             horizontalCenter.downAndSelected="16"
+             horizontalCenter.disabledAndSelected="16"
+             verticalCenter="0" source="public_json.public_toggle_dot_png"/>
+</e:Skin>

@@ -1,0 +1,24 @@
+class StdBarrierpassaward { 
+    /** 字段名 */
+    id: number;
+    /** 起始关卡 */
+    start: number;
+    /** 结束关卡 */
+    end: number;
+    /** 经验基础值 */
+    exp: number;
+    /** 经验系数 */
+    expup: number;
+    /** 金币基础值 */
+    gold: number;
+    /** 挂机金币系数 */
+    goldup: number;
+    /** 过关固定奖励 */
+    award: any[] = [];
+    /** 过关掉落概率 */
+    rand: number;
+    /** 过关掉落组 */
+    drop_id: number;
+    /** 过关奖励展示 */
+    awardshow: any[] = [];
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JingjiItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="jingji_json.jingji_item_blank_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="jingji_json.jingji_blank_0_png" x="148" y="16"/>
+	<e:Image source="jingji_json.jingji_texure_0_png" x="167" y="19"/>
+	<e:Image x="20" y="15" source="public_json.public_icon_bg5_png"/>
+	<e:Image id="icon" x="25" y="21" source="res/images/roleIco/role_1.png"/>
+	<e:Image x="16" y="95" source="public_json.public_blank_2_png"/>
+	<e:Image x="11" y="10" source="public_json.public_lvl_blank_png"/>
+	<e:Group x="143" y="50" scaleX="0.8" scaleY="0.8">
+		<ns1:BaseCustComponent x="-50" y="20" skinName="ItembaseSkin" className="ItemBase" id="item_0"/>
+		<ns1:BaseCustComponent x="48" y="52" skinName="ItembaseSkin" className="ItemBase" id="item_1"/>
+		<ns1:BaseCustComponent id="item_2" x="28" y="32" skinName="ItembaseSkin" className="ItemBase"/>
+		<e:layout>
+		<e:HorizontalLayout gap="4"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="mLvl" text="99" y="17" size="18" horizontalCenter="-222"/>
+	<e:Label id="mName" text="Label" y="97" size="16" horizontalCenter="-184" textColor="0xFFFF00"/>
+	<ns1:NumberMC id="zdl" x="227" y="19" type="num_json.yellow_num_"/>
+	<e:Button id="enterBtn" label="Button" x="372" skinName="BtnIconSkin" icon="res/btn/enterBtn2.png" y="51"/>
+</e:Skin>

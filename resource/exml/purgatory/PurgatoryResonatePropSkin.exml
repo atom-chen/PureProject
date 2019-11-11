@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PurgatoryResonatePropSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" source="win_json.win_tips_bg2_png" scale9Grid="224,70,110,25" anchorOffsetY="0"/>
+	<e:Image top="70" source="win_json.win_slice_line_png" scale9Grid="1,0,13,3" right="4" left="4"/>
+	<e:Image source="win_json.win_slice_line_png" scale9Grid="1,0,13,3" right="4" left="4" bottom="80"/>
+	<e:Image id="title" horizontalCenter="0" top="25" source=""/>
+	<e:Button id="closeBtn" label="Button" skinName="BtnIconSkin" icon="purgatory_json.purgatory_btn_sure_png" anchorOffsetX="0" anchorOffsetY="0" bottom="13" horizontalCenter="0"/>
+	<e:Scroller top="100" bottom="120" maxHeight="400" scrollPolicyH="off" left="31" right="30">
+		<e:Group id="pG" touchChildren="false">
+			<e:List y="2" x="0">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillExItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group y="0" horizontalCenter="0" touchChildren="false" touchEnabled="false">
+		<e:Image id="select" horizontalCenter="0" verticalCenter="0" source="skillEx_json.skillEx_sl_png"/>
+		<e:Image source="skillEx_json.skillEx_cicle_png" y="13" horizontalCenter="0"/>
+		<e:Image id="bg" horizontalCenter="0" verticalCenter="-3.5" source="skillEx_json.skillEx_cicle_png"/>
+		<e:Image id="icon" horizontalCenter="0" source="res/images/skill/16.png" y="12" scaleX="0.9" scaleY="0.9"/>
+		<e:Image source="skillEx_json.skillEx_rect_png" y="73" horizontalCenter="0"/>
+		<e:Image id="imgNe" y="74" source="res/images/skillLb/22.png" horizontalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

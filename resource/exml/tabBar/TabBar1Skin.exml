@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TabBar1Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="{data.icon}" source.down="{data.icon2}" x.up="0" y.up="0" x="0" y="0" touchEnabled="false"/>
+</e:Skin>

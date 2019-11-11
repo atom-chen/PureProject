@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldBossReviveTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="res/images/bg/bossTips.png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="enterBtn" label="Button" skinName="BtnIconSkin" icon="res/btn/enter2.png" y="219" horizontalCenter="0"/>
+	<e:Image id="cBtn" source="win_json.win_close_btn2_png" y="14" x="195"/>
+	<e:Image source="public_json.public_icon_bg4_png" y="82" horizontalCenter="0"/>
+	<e:Image id="icon" x="35.5" y="48" source=""/>
+	<e:Image source="public_json.public_worldBoss_name_png" y="173" horizontalCenter="0"/>
+	<e:Label id="bName" text="bName" y="175" horizontalCenter="0" textColor="0xffd823" size="18"/>
+	<e:Label text="已复活" y="197" size="18" horizontalCenter="0" textColor="0x00b4ff" bold="true"/>
+</e:Skin>

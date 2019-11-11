@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillTipsSkin" width="407" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="250">
+	<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="273,70,61,25" source="win_json.win_tips_bg2_png"/>
+	<e:Image width="399" x="4" y="114" source="itemtips_json.itemtips_line_png" scale9Grid="1,0,13,3"/>
+	<e:Label id="itemName" text="物品名称" size="20" y="26" x="129" textColor="0xffd823"/>
+	<e:Label id="lv" text="物品名称" size="18" y="68" x="129"/>
+	<e:Label id="desc" text="物品名称" size="18" y="137" left="35" right="35"/>
+	<e:Image id="icon" source="res/images/skill/16.png" x="30" y="18"/>
+</e:Skin>

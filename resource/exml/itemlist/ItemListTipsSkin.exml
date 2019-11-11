@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemListTipsSkin" width="450" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="nor,sp" >
+	<ns1:BaseWinBg id="bg" left="0" right="0" top="0" bottom="0" skinName="BaseWinBg2Skin"/>
+	<e:Scroller height="494" left="25" right="25" top="75" anchorOffsetY="0" left.sp="25" right.sp="25" top.sp="183" height.sp="386">
+		<e:List id="itemList"/>
+	</e:Scroller>
+</e:Skin>

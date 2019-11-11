@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CoordinateItemSkin" width="476" height="307" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="bg" source="res/images/bg/coordinateBg.png" x="6" verticalCenter="0"/>
+	<e:Image source="win_json.win_bg_line_png" scale9Grid="8,9,26,25" anchorOffsetY="0" top="0" left="0" right="0" bottom="0"/>
+	<e:Image source="public_json.public_rect_1_png" scale9Grid="19,12,121,74" width="278" height="157" x="189" y="134"/>
+	<e:Group id="iG" width="278" height="156" anchorOffsetX="0" anchorOffsetY="0" x="189" y="135">
+		<ns1:BaseCustComponent id="item_0" x="40" y="41" skinName="ItembaseSkin" scaleX="0.75" scaleY="0.75" className="FashionItem"/>
+		<ns1:BaseCustComponent id="item_1" x="50" y="51" skinName="ItembaseSkin" scaleX="0.75" scaleY="0.75" className="FashionItem"/>
+		<ns1:BaseCustComponent id="item_2" x="60" y="61" skinName="ItembaseSkin" scaleX="0.75" scaleY="0.75" className="FashionItem"/>
+		<ns1:BaseCustComponent id="item_3" x="70" y="71" skinName="ItembaseSkin" scaleX="0.75" scaleY="0.75" className="FashionItem"/>
+		<ns1:BaseCustComponent id="item_4" x="80" y="81" skinName="ItembaseSkin" scaleX="0.75" scaleY="0.75" className="FashionItem"/>
+		<ns1:BaseCustComponent id="item_5" x="90" y="91" skinName="ItembaseSkin" scaleX="0.75" scaleY="0.75" className="FashionItem"/>
+		<ns1:BaseCustComponent id="item_6" x="100" y="101" skinName="ItembaseSkin" scaleX="0.75" scaleY="0.75" className="FashionItem"/>
+		<ns1:BaseCustComponent id="item_7" x="110" y="111" skinName="ItembaseSkin" scaleX="0.75" scaleY="0.75" className="FashionItem"/>
+		<e:layout>
+		<e:TileLayout horizontalGap="8" paddingLeft="7" paddingTop="13" verticalGap="9"/>
+		</e:layout>
+	</e:Group>
+	<ns1:BaseCustComponent id="propPart" width="278" height="70" y="59" anchorOffsetX="0" anchorOffsetY="0" x="189"/>
+	<e:Button id="tBtn" label="Button" skinName="BtnIconSkin" icon="fashion_json.fashion_try2_png" horizontalCenter="-141" verticalCenter="112"/>
+	<e:Image id="title" source="fashion_json.fashion_suit_title_0_png" y="19" x="198"/>
+	<e:Image id="active" source="public_json.public_active_png" x="375" y="15" visible="false"/>
+</e:Skin>

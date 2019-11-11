@@ -1,0 +1,40 @@
+class StdItem { 
+    /** 字段名 */
+    id: number;
+    /** 名字 */
+    name: string;
+    /** 类型 */
+    type: number;
+    /** 装备部位 */
+    part: number;
+    /** 图标 */
+    icon: number;
+    /** 叠加上限 */
+    dup: number;
+    /** 价格类型 */
+    dealType: number;
+    /** 价格 */
+    dealPrice: number;
+    /** 描述 */
+    desc: string;
+    /** 显示品质 */
+    showQuality: number;
+    /** 静态属性 */
+    staitcAttrs: any[] = [];
+    /** 使用条件 */
+    conds: any[] = [];
+    /** 有效副本ID */
+    validFbId: number;
+    /** 跳转功能 */
+    jump: any[] = [];
+    /** 模型外观 */
+    shape: number;
+    /** 使用提醒 */
+    useremind: number;
+    /** 使用等级 */
+    level: number;
+    /** 特效框 */
+    eff: string;
+    /** 背包类型 */
+    bagtype: number;
+}

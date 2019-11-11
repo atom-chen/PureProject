@@ -1,0 +1,8 @@
+class StdMiwutowerjackpot { 
+    /** 抽奖ID */
+    id: string;
+    /** 对应次数 */
+    scene: number;
+    /** 奖池奖励 */
+    jackpot: any[] = [];
+}

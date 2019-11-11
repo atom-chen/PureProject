@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PurgatoryPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" y="80" anchorOffsetX="0" source="res/images/bg/purgatoryBg.png" horizontalCenter="0"/>
+	<e:Group id="gl" y="160" left="10">
+		<ns1:BaseCustComponent id="eq0" touchChildren="false" name="0" x="0" y="0" className="EquipItem" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent id="eq2" touchChildren="false" name="2" x="0" y="90" className="EquipItem" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent id="eq3" touchChildren="false" name="3" x="0" y="180" className="EquipItem" skinName="ItembaseSkin"/>
+		<e:layout>
+		<e:VerticalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="gr" y="160" right="10">
+		<ns1:BaseCustComponent id="eq1" touchChildren="false" name="1" x="0" y="0" className="EquipItem" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent id="eq4" touchChildren="false" name="4" x="0" y="90" className="EquipItem" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent id="eq5" touchChildren="false" name="5" x="0" y="180" className="EquipItem" skinName="ItembaseSkin"/>
+		<e:layout>
+		<e:VerticalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+	<ns1:BaseCustComponent id="zdl" y="90" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetX="29" anchorOffsetY="0" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" top="-5" y="-5" horizontalCenter="0"/>
+	<e:Group width="292" height="100" y="385" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="public_json.public_prop_rect_png" scale9Grid="19,14,119,27" left="0" right="0" top="0" bottom="0" anchorOffsetY="0"/>
+		<e:Image left="2" right="2" width="292" y="65" anchorOffsetX="0" source="public_json.public_slice_line5_png" height="2"/>
+		<e:Image left="2" right="2" width="292" y="33" anchorOffsetX="0" anchorOffsetY="0" height="2" source="public_json.public_slice_line5_png"/>
+		<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="10" left="0" right="2" bottom="10"/>
+	</e:Group>
+	<e:Button id="btnUp" label="Button" skinName="BtnIconSkin" icon="purgatory_json.purgatory_btn_upgrade_png" anchorOffsetX="0" anchorOffsetY="0" bottom="10" horizontalCenter="0"/>
+	<e:Button id="btnRsn" label="Button" skinName="BtnIconSkin" icon="purgatory_json.purgatory_icon_resonate_png" anchorOffsetX="0" anchorOffsetY="0" left="10" bottom="10"/>
+	<e:Button id="btnProp" label="Button" skinName="BtnIconSkin" icon="totems_json.totems_totalProp_png" anchorOffsetX="0" anchorOffsetY="0" right="10" width="76" top="82" height="76"/>
+	<e:Button id="btnBag" label="Button" skinName="BtnIconSkin" icon="purgatory_json.purgatory_icon_bag_png" anchorOffsetX="0" anchorOffsetY="0" bottom="10" right="10"/>
+	<e:Image horizontalCenter="0" source="purgatory_json.purgatory_name_ban_png" y="357"/>
+	<e:Group y="357" horizontalCenter="0.5">
+		<ns1:NumberMC id="lv" height="24" x="0" y="0" type="purgatory_json.purgatory_lv_num_" width="42"/>
+		<e:Image id="imgStep" source="purgatory_json.purgatory_lv_step_png" x="74" y="0"/>
+		<e:Image id="imgName" source="purgatory_json.purgatory1_1_png" x="32" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgEquip" source="" horizontalCenter="0" y="170"/>
+</e:Skin>

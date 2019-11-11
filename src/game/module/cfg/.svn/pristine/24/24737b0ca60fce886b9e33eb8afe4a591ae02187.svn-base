@@ -1,0 +1,8 @@
+class StdPetconfig { 
+    /** 编号 */
+    id: number;
+    /** 改名消耗 */
+    rename: any[] = [];
+    /** 传承消耗 */
+    inherit: any[] = [];
+}

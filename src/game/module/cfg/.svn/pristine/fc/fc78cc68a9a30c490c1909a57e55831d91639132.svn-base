@@ -1,0 +1,26 @@
+class StdQuest { 
+    /** 字段名 */
+    id: number;
+    /** 任务名称 */
+    name: string;
+    /** 父ID */
+    parentid: number;
+    /** 任务类型 */
+    type: number;
+    /** 自动寻路 */
+    autoRun: number;
+    /** 任务描述 */
+    content: string;
+    /** 接受任务的状态 */
+    prom: number;
+    /** 提交任务的状态 */
+    comp: number;
+    /** 目标列表 */
+    target: any[] = [];
+    /** 奖励 */
+    awards: any[] = [];
+    /** 任务条件 */
+    conds: any[] = [];
+    /** NPC对话 */
+    npcTalk: string;
+}

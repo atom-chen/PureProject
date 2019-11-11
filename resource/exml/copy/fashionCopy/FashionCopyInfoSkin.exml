@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionCopyInfoSkin" width="257" height="132" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="copyInfo_json.copyInfo_bg_png" scale9Grid="29,22,58,31" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Image source="copyInfo_json.copyInfo_blank_1_png" y="95" x="9"/>
+	<e:Image id="eva" source="copyInfo_json.copyInfo_1_png" x="-31" y="81"/>
+	<e:Image source="copyInfo_json.copyInfo_texture_0_png" x="13" y="20"/>
+	<e:Image source="copyInfo_json.copyInfo_texture_2_png" x="13" y="51"/>
+	<e:Image source="copyInfo_json.copyInfo_texture_3_png" x="104" y="51"/>
+	<e:Image source="copyInfo_json.copyInfo_texture_4_png" x="156" y="51"/>
+	<e:Image source="fashionCopy_json.fashionCopy_texture_2_png" y="97" horizontalCenter="0"/>
+	<ns1:NumberMC id="wave" x="129" y="50" type="time_"/>
+	<ns1:NumberMC id="time" x="104" y="19" type="time_"/>
+</e:Skin>

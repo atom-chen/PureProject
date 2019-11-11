@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagItemPannelSkin" width="517" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_bg4_png" scale9Grid="28,139,62,66" left="-4" right="-9" top="0" bottom="0" anchorOffsetX="0" width="526"/>
+	<e:Image source="win_json.win_bg_line_png" scale9Grid="8,9,26,25" height="647" width="505" anchorOffsetY="0" y="13" horizontalCenter="2" anchorOffsetX="0"/>
+	<e:Scroller anchorOffsetY="0" scaleX="1" scaleY="1" height="622" y="22" horizontalCenter="0">
+		<e:List id="itemList" anchorOffsetY="0" height="582" x="0" y="13.64" itemRendererSkinName="ItembaseSkin">
+		<e:layout>
+			<e:TileLayout horizontalAlign="center" horizontalGap="5" verticalGap="8" requestedColumnCount="6" paddingLeft="0" paddingTop="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

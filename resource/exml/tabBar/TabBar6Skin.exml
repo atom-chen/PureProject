@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TabBar6Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="181" height="92">
+	<e:Image source="xslb_json.xslb_tab_bg_png" horizontalCenter="0" bottom="0" touchEnabled="false"/>
+	<e:Image source="xslb_json.xslb_tab_s_1_png" x="4" bottom="5" visible.up="false" touchEnabled="false"/>
+	<e:Image visible.up="false" visible.disabled="false" source="xslb_json.xslb_tab_s_0_png" x="22" y="-31" touchEnabled="false"/>
+	<e:Image id="ico" horizontalCenter="0" verticalCenter="-9" source="{data.icon}" touchEnabled="false"/>
+	<e:Image horizontalCenter="0" source="{data.icon2}" bottom="8" touchEnabled="false"/>
+</e:Skin>

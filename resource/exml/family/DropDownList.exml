@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DropDownList" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="family_json.family_dropdown_option_ban_png" top="0" bottom="0" left="0" right="0" scale9Grid="39,13,239,8"/>
+	<e:Scroller scrollPolicyH="off" top="5" horizontalCenter="0" bottom="5">
+		<e:List id="dropList" itemRendererSkinName="DropDownListItem">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

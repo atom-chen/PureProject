@@ -1,0 +1,14 @@
+class StdPersonalboss { 
+    /** 字段名 */
+    id: number;
+    /** 怪物id */
+    entityid: number;
+    /** 解锁条件 */
+    conds: number;
+    /** 出生点 */
+    enterPos: any[] = [];
+    /** 地图配置 */
+    scenceid: number;
+    /** 奖励展示 */
+    reward_show: any[] = [];
+}

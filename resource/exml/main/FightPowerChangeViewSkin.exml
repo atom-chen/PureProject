@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightPowerChangeViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="367" height="72">
+	<e:Image source="num_json.pro_bg_png"/>
+	<ns1:NumberMC id="change" width="20" height="20" x="192" y="48"/>
+	<ns1:BaseCustComponent id="fight" x="161" y="26" skinName="empty" className="FightPowerRoll"/>
+</e:Skin>

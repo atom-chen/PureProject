@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleOtherPannelInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group x="0" y="-5">
+		<e:Image id="i1" y="85" anchorOffsetX="0" width="506" height="482" source="res/images/bg/roleBg.jpg" horizontalCenter="0"/>
+		<ns1:BaseCustComponent id="zdl" y="100" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetX="29" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Group id="gPart" y="100.22" width="503" anchorOffsetX="0" x="13">
+			<ns1:BaseCustComponent touchChildren="false" name="0" x="0" y="0" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="1" x="10" y="10" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="2" x="20" y="20" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="3" x="30" y="30" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="4" x="40" y="40" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="5" x="50" y="50" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="6" x="60" y="60" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="7" x="70" y="70" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="8" x="80" y="80" className="EquipItem" skinName="ItembaseSkin"/>
+			<ns1:BaseCustComponent touchChildren="false" name="9" x="90" y="90" className="EquipItem" skinName="ItembaseSkin"/>
+			<e:layout>
+			<e:TileLayout requestedRowCount="5" requestedColumnCount="2" horizontalGap="337" verticalGap="9"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="gNe" y="211" x="274"/>
+		<ns1:BaseCustComponent id="role" y="420" className="UIAvatar" x="262"/>
+		<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleOtherSelect" width="524" x="0" y="0"/>
+	</e:Group>
+</e:Skin>

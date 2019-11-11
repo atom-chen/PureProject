@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StrengthPannelSkin" width="535" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_bg4_png" scale9Grid="25,141,60,55" width="530" height="680" y="0" horizontalCenter="0"/>
+	<e:Image source="win_json.win_bg_line_png" width="507" scale9Grid="10,11,22,21" anchorOffsetY="0" height="582" bottom="11" x="14"/>
+	<e:Image source="public_json.public_slice_line_png" y="554" width="506" scale9Grid="2,0,19,2" x="14" height="3"/>
+	<e:Group width="292" height="95" y="449" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="public_json.public_prop_rect_png" scale9Grid="19,14,119,27" left="0" right="0" top="-11" bottom="0" anchorOffsetY="0" height="97"/>
+		<e:Image left="0" right="0" width="292" y="58" source="public_json.public_slice_line5_png"/>
+		<e:Image y="26" left="0" right="0" source="public_json.public_slice_line5_png"/>
+		<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="4" left="0" right="0" bottom="16"/>
+	</e:Group>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" anchorOffsetY="0" x="6" y="2" anchorOffsetX="0" width="526"/>
+	<ns1:BaseCustComponent id="instruction" x="103" y="107" skinName="InstructionPartSkin" name="1" className="InstructionPart" visible="false"/>
+	<e:Group id="sGroup" anchorOffsetY="0" y="94" horizontalCenter="0.5" touchChildren="true" touchEnabled="false" touchThrough="true">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2" horizontalGap="320" verticalGap="12" orientation="rows"/>
+		</e:layout>
+		<ns1:BaseCustComponent id="item_0" touchChildren="false" name="0" x="0" y="-78" className="EquipItem" scaleX="1" scaleY="1" skinName="EquipItemSkin"/>
+		<ns1:BaseCustComponent id="item_1" touchChildren="false" name="0" x="10" y="-68" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_2" touchChildren="false" name="0" x="20" y="-58" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_3" touchChildren="false" name="0" x="30" y="-48" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_4" touchChildren="false" name="0" x="40" y="-38" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_5" touchChildren="false" name="0" x="50" y="-28" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_6" touchChildren="false" name="0" x="60" y="-18" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_7" touchChildren="false" name="0" x="70" y="-8" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_8" touchChildren="false" name="0" x="80" y="2" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_9" touchChildren="false" name="0" x="90" y="12" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Button id="sBtn" label="Button" width="140" height="56" icon="strength_json.strength_btn0_png" y="600" anchorOffsetX="0" horizontalCenter="0" skinName="BtnIconSkin"/>
+	<ns1:ItemExpend id="cost_0" horizontalCenter="0" y="560"/>
+	<e:Label id="mPro" text="0/30" y="648" size="14" textColor="0x00a2ff" stroke="0" horizontalCenter="-200.5" strokeColor="0xff0000"/>
+	<ns1:BaseCustComponent id="zdl" y="90" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Image source="strength_json.strength_middle_icon_png" y="156.04" horizontalCenter="0"/>
+	<e:Image id="mBtn" source="strength_json.strength_master_png" x="20" y="567"/>
+	<ns1:NumberMC id="num" y="624" type="strength_json.strength_num_" horizontalCenter="-193"/>
+	<e:Image y="409.04" horizontalCenter="0" source="strength_json.strength_middle_icon1_png"/>
+</e:Skin>

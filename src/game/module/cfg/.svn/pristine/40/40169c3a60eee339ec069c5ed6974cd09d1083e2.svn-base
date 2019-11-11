@@ -1,0 +1,14 @@
+class StdRuneskill { 
+    /** 幻羽id */
+    id: number;
+    /** 技能名称 */
+    name: string;
+    /** 技能属性 */
+    attrs: any[] = [];
+    /** 解锁条件 */
+    conds: number;
+    /** 技能描述 */
+    dec: string;
+    /** 技能图片 */
+    img: number;
+}

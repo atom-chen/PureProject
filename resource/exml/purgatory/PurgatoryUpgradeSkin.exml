@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PurgatoryUpgradeSkin" currentState="s0" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="s0,s1" >
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" left="0" top="0" bottom="0" right="0"/>
+	<e:Image source="win_json.win_bg_line_png" anchorOffsetY="0" scale9Grid="11,13,19,18" anchorOffsetX="0" top="72" left="20" bottom="25" right="20"/>
+	<e:Image id="imgUp" top="115" bottom="90" horizontalCenter="0" source="purgatory_json.purgatory_img_upgrade0_png" source.s1="purgatory_json.purgatory_img_upgrade1_png"/>
+	<e:Image x="110" top.s1="76" source="purgatory_json.purgatory_board_name_png" y.s0="76" y="76"/>
+	<e:Image top="322" source="purgatory_json.purgatory_board_name_png" x="63" anchorOffsetX="0" width="75" anchorOffsetY="0" height="20"/>
+	<e:Image source="purgatory_json.purgatory_board_name_png" width="75" height="20" y="322" x="182" visible.s0="false"/>
+	<e:Image x="302" source="purgatory_json.purgatory_board_name_png" y="322" width="75" height="20"/>
+	<e:Image id="title" top="12" source="" horizontalCenter="0" source.s0="purgatory_json.purgatory_lab_active_png" source.s1="purgatory_json.purgatory_lab_upgrade_png"/>
+	<e:Button id="btnUp" label="Button" skinName="BtnIconSkin" icon="purgatory_json.purgatory_btn_upgrade_png" anchorOffsetX="0" anchorOffsetY="0" bottom="30" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="item3" y="116" className="EquipItem" skinName="EquipItemSkin" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="item0" x="58" y="242" className="EquipItem" skinName="EquipItemSkin"/>
+	<ns1:BaseCustComponent id="item1" y="242" visible.s0="false" className="EquipItem" skinName="EquipItemSkin" x="178"/>
+	<ns1:BaseCustComponent id="item2" x="297.67" y="242" className="EquipItem" skinName="EquipItemSkin"/>
+	<e:Label id="eqName" text="" y="86" size="16" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+	<e:Label id="num0" text="999/999" y="325" size="16" verticalAlign="middle" textAlign="center" horizontalCenter="-120"/>
+	<e:Label text="999/999" y="325" size="16" verticalAlign="middle" textAlign="center" horizontalCenter="0" id="num1" visible.s0="false"/>
+	<e:Label text="999/999" y="325" size="16" verticalAlign="middle" textAlign="center" horizontalCenter="120" id="num2"/>
+</e:Skin>

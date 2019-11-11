@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipTipsSkin" width="380" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="273,70,61,25" source="win_json.win_tips_bg2_png"/>
+		<e:Image top="63" width="371" horizontalCenter="0" source="win_json.win_slice_line_png"/>
+		<e:Image source="vip_json.vip_img_16_png" horizontalCenter="0" top="23"/>
+		<e:List id="list" left="22" itemRendererSkinName="VipWelfareItem3Skin" bottom="40" top="81">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="15"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Image x="218" y="33" source=""/>
+</e:Skin>

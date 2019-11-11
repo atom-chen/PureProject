@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailDetailWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="496" width="439">
+	<ns1:BaseWinBg id="bg" left="0" right="0" top="0" bottom="0" skinName="BaseWinBg2Skin"/>
+	<e:Image source="win_json.win_slice_line2_png" x="11" y="406" width="417" scale9Grid="2,0,19,2"/>
+	<e:Image source="public_json.public_rect_7_png" x="21" y="89" anchorOffsetX="0" width="397" anchorOffsetY="0" height="308" scale9Grid="23,16,140,97"/>
+	<e:Image id="getFlag" source="public_json.luck_img2_png" x="311" y="264"/>
+	<e:Scroller height="92" y="296" anchorOffsetY="0" x="35" anchorOffsetX="0" width="372">
+		<e:Group id="iG" height="67" anchorOffsetX="0" anchorOffsetY="0" x="41" y="305">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	</e:Scroller>
+	<e:Image id="line1" source="win_json.win_slice_line2_png" y="127" width="387" horizontalCenter="0" scale9Grid="2,0,19,2"/>
+	<e:Image id="line2" source="win_json.win_slice_line2_png" y="256" width="387" horizontalCenter="0" scale9Grid="2,0,19,2"/>
+	<e:Button id="getBtn" label="Button" icon="res/btn/get_6.png" left="50" y="416"/>
+	<e:Button id="deleteBtn" label="Button" icon="res/btn/delete.png" right="50" x="10" y="416"/>
+	<e:Image source="email_json.email_fujian_png" y="267" horizontalCenter="0"/>
+	<e:Label id="titleTx" text="主题：维护补偿" x="30" y="103" size="16" textColor="0xffc600"/>
+	<e:Label text="内容：" x="30" y="139" size="16" textColor="0xFFC600"/>
+	<e:Label id="contentTx" text="水电电饭锅电饭锅的费水电费水电费多所水电费水电饭锅电饭锅电饭锅电饭锅电饭锅电饭锅电费水电费是地方第三方胜多负少的肤色丰富的付付付付付付付" y="160" size="16" anchorOffsetX="0" width="370" anchorOffsetY="0" height="84" textColor="0xffffff" lineSpacing="12" horizontalCenter="1.5"/>
+</e:Skin>

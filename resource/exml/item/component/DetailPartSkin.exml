@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DetailPartSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="detailG" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="0">
+		<e:layout>
+			<e:VerticalLayout gap="10"/>
+		</e:layout>
+		<e:Label id="dLab" text="Label" x="-12" y="-13" scaleX="1" scaleY="1" size="18" lineSpacing="10"/>
+	</e:Group>
+</e:Skin>

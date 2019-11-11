@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailWinSkin" width="530" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="25,141,60,55" left="0" right="0" top="1" bottom="-1" source="win_json.win_bg4_png"/>
+	<e:Image source="win_json.win_bg_line_png" y="14" scale9Grid="8,13,26,16" anchorOffsetX="0" width="508" anchorOffsetY="0" height="650" x="10"/>
+	<e:Image source="win_json.win_slice_line2_png" x="12" y="50" width="504" scale9Grid="2,0,19,2"/>
+	<e:Image source="win_json.win_slice_line2_png" x="12" y="582" width="504" scale9Grid="2,0,19,2"/>
+	<e:Image source="email_json.email_text_png" x="27" y="24"/>
+	<e:Label id="countTx" text="10/100" y="24" size="18" textColor="0x792301" right="21"/>
+	<e:Scroller height="518" y="57" anchorOffsetY="0" anchorOffsetX="0" width="494" x="18">
+	<e:List id="list" x="17" y="55" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="EmailItemSkin">
+		<e:layout>
+			<e:VerticalLayout gap="4"/>
+		</e:layout>
+	</e:List>
+	</e:Scroller>
+	<e:Button id="deleteBtn" label="Button" y="595" icon="res/btn/deleteRead.png" left="60"/>
+	<e:Button id="getBtn" label="Button" y="595" icon="res/btn/onekeyget.png" right="60"/>
+</e:Skin>

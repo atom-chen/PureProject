@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DragonTestSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_bg3_png" scale9Grid="75,83,456,115" anchorOffsetY="0" height="636" />
+	<e:Label text="套装测试" y="21" horizontalCenter="0" textColor="0xf43709" fontFamily="KaiTi_GB2312" />
+	<e:List id="partList" width="319" height="475" x="45" y="77" itemRendererSkinName="DragonTestItemSkin" anchorOffsetY="0"
+	        anchorOffsetX="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object partName="武器" partPro="23"/>
+				<e:Object partName="副武器" partPro="31"/>
+				<e:Object partName="衣服" partPro="3"/>
+				<e:Object partName="裤子" partPro="30"/>
+				<e:Object partName="头盔" partPro="27"/>
+				<e:Object partName="头发" partPro="26"/>
+				<e:Object partName="眼睛" partPro="28"/>
+				<e:Object partName="眼镜" partPro="29"/>
+				<e:Object partName="背部" partPro="32"/>
+				<e:Object partName="翅膀" partPro="25"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:List id="actionList" width="179" height="440" x="370" y="92" itemRendererSkinName="DragonActionItemSkin" anchorOffsetY="0"
+	        anchorOffsetX="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object actionName="待机" actionIndex="1" count="0"/>
+				<e:Object actionName="移动" actionIndex="2" count="0"/>
+				<e:Object actionName="死亡" actionIndex="3" count="1"/>
+				<e:Object actionName="跳跃" actionIndex="5" count="1"/>
+				<e:Object actionName="受击" actionIndex="6" count="1"/>
+				<e:Object actionName="普攻" actionIndex="100" count="0"/>
+				<e:Object actionName="技能1" actionIndex="101" count="0"/>
+				<e:Object actionName="技能2" actionIndex="102" count="0"/>
+				<e:Object actionName="技能3" actionIndex="103" count="0"/>
+				<e:Object actionName="技能4" actionIndex="104" count="0"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Button id="sBtn" label="Button" x="146" y="555" skinName="BtnIconSkin" icon="res/btn/confirm.png" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="closeBtn" source="win_json.win_close_btn4_png" x="523" y="31"/>
+</e:Skin>

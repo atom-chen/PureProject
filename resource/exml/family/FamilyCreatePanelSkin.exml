@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyCreatePanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="317">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" bottom="0" left="0" right="0" top="0"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleY="1.13" source="win_json.win_slice_line2_png" horizontalCenter="0" scale9Grid="2,0,19,2" bottom="95" width="416"/>
+	<e:Button id="btnSure" label="" icon="res/btn/confirm.png" skinName="BtnIconSkin" x="236" y="235">
+	</e:Button>
+	<e:Button id="closeBtn" label="" x="60" y="235" icon="res/btn/cancel.png" skinName="BtnIconSkin">
+	</e:Button>
+	<e:Label id="labDesc" text="Label" textAlign="left" size="16" y="162" horizontalCenter="0" textColor="0x792301"/>
+	<e:Image id="imgDrop" horizontalCenter="0" source="family_json.family_dropdown_option_ban_png" top="105"/>
+	<e:Label id="labCost" text="Label" y="195" size="18" textAlign="center" touchEnabled="false" x="147" textColor="0x3e1700"/>
+	<ns1:ItemExpend id="cost" y="186" skinName="ItemExpend4Skin" x="200"/>
+	<e:EditableText id="input" text="" y="105" anchorOffsetY="0" textAlign="center" verticalAlign="middle" horizontalCenter="0" size="18" prompt="请输入公会名称" promptColor="0xb5a5a5" height="35" anchorOffsetX="0" width="313" maxChars="20"/>
+</e:Skin>

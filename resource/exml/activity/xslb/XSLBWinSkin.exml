@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XSLBWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="res/images/bg/xslbBg.png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="closeBtn" source="win_json.win_close_btn4_png" x="581" y="62"/>
+	<e:Group id="iG" x="260" y="159" locked="true">
+		<e:layout>
+		<e:TileLayout requestedColumnCount="4" horizontalGap="8" verticalGap="8"/>
+		</e:layout>
+	</e:Group>
+	<ns1:ItemExpend id="cost_1" x="149" y="435" skinName="ItemExpendSkin" currentState="single" label="原价 : "/>
+	<ns1:ItemExpend id="cost_0" x="333" y="435" skinName="ItemExpendSkin" currentState="single" label="现价 : "/>
+	<ns1:NumberMC id="zdl" width="20" height="20" x="271" y="104"/>
+	<e:Button id="buyBtn" label="Button" skinName="BtnIconSkin" icon="res/btn/buy5.png" horizontalCenter="0" y="464"/>
+	<e:Label id="buyTime" text="剩余购买时间 : 20XX20XX" y="114" size="16" textColor="0xffc600" horizontalCenter="199"/>
+	<e:TabBar id="tabBtn" y="341" itemRendererSkinName="TabBar6Skin" horizontalCenter="0" selectedIndex="0">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object icon="xslb_json.xslb_icon_0_png" icon2="xslb_json.xslb_type_0_png"/>
+			<e:Object icon="xslb_json.xslb_icon_1_png" icon2="xslb_json.xslb_type_1_png"/>
+			<e:Object icon="xslb_json.xslb_icon_2_png" icon2="xslb_json.xslb_type_2_png"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="4"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Image x="50" y="153" source="res/images/bg/xslbt.png"/>
+	<e:Image id="img_0" source="xslb_json.xslb_texture_0_png" x="8" y="105"/>
+	<e:Image id="img_1" source="xslb_json.xslb_texture_1_png" x="23" y="174"/>
+	<e:Image source="xslb_json.xslb_slice_png" x="134" y="450" scale9Grid="1,0,6,2" width="166"/>
+	<e:Image id="soldOut" source="xsyh_json.xsyh_soldout_png" y="476" x="269" visible="false"/>
+</e:Skin>

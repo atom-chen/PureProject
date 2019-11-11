@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropPartResonateSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<e:Label id="title" text="" size="16" left="18" y="10" textColor="0xff5a00"/>
+	<e:Image id="imgTag" x="0" y="11" source="itemtips_json.itemtips_tag_2_png"/>
+	<e:Group id="pG" left="0" bottom="10" top="40">
+		<e:layout>
+		<e:VerticalLayout gap="9"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

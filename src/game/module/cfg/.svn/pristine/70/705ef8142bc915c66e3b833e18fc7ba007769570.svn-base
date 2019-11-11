@@ -1,0 +1,10 @@
+class StdGlobalconfig { 
+    /** 字段名 */
+    id: number;
+    /** 怪物掉落物品的刷新时间/ms */
+    monsterItemRefreshTime: number;
+    /** 世界BOSS复活费用 */
+    Rescount: number;
+    /** 离线经验金币最大时长 */
+    offlineAddMaxHour: number;
+}

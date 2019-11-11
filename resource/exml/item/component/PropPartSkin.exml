@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropPartSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<e:Group id="pG">
+		<e:layout>
+			<e:VerticalLayout gap="9"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopBasePannelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="588" width="500">
+	<e:Scroller height="500" anchorOffsetY="0" horizontalCenter="0" bottom="-6" width="500">
+			<e:List id="listLb" x="1" y="-14.67" anchorOffsetY="0" itemRendererSkinName="ShopBaseItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" paddingLeft="4"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+	<e:Image y="16" left="0" x="10" source="shop_json.shop_img_2_png"/>
+	<e:Image source="shop_json.shop_img_1_png" y="21" left="5"/>
+</e:Skin>

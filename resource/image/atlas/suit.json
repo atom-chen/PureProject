@@ -1,0 +1,6 @@
+{"file":"suit.png","frames":{
+"suit_icon_png":{"x":0,"y":42,"w":64,"h":78,"offX":26,"offY":7,"sourceW":110,"sourceH":88},
+"suit_rect_jiaceng_png":{"x":66,"y":42,"w":128,"h":37,"offX":0,"offY":0,"sourceW":128,"sourceH":37},
+"suit_title_tz_png":{"x":66,"y":81,"w":81,"h":40,"offX":0,"offY":0,"sourceW":81,"sourceH":40},
+"suit_title_tzfj_png":{"x":0,"y":0,"w":124,"h":40,"offX":0,"offY":0,"sourceW":124,"sourceH":40},
+"suit_title_tzfx_png":{"x":126,"y":0,"w":124,"h":40,"offX":1,"offY":0,"sourceW":126,"sourceH":42}}}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XSYHPageSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="510" height="565">
+	<e:Image source="res/images/bg/xsyhBg.png" horizontalCenter="0" y="0"/>
+	<e:Scroller width="493" height="394" anchorOffsetY="0" horizontalCenter="0.5" bottom="0">
+		<e:List id="itemList" itemRendererSkinName="XSYHItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="xsyh_json.xsyh_texture_1_png" x="160" y="-4"/>
+	<e:Image source="xsyh_json.xsyh_texture_0_png" x="209" y="105"/>
+	<e:Image source="xsyh_json.xsyh_num_p_png" x="290" y="109"/>
+	<ns1:NumberMC id="zdl" x="323" y="109" type="xsyh_json.xsyh_num_"/>
+	<e:Image x="322" y="142" source="copyexp_json.copyexp_texture_0_png"/>
+	<ns1:NumberMC id="num" type="time_" y="142" x="394"/>
+</e:Skin>

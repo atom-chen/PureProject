@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DebugWinSkin" width="562" height="429" currentState="nor" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="nor,note" >
+	<e:Image scale9Grid="42,42,81,59" left="2" right="-2" top="0" bottom="0" source="win_json.win_tips_bg2_png"/>
+	<e:TextInput id="inText" width="386" height="42" anchorOffsetX="0" anchorOffsetY="0" prompt="输入文本" bottom="11" left="24"/>
+	<e:Scroller width="320" top="39" anchorOffsetY="0" bottom="63" left="18" locked="true" visible.note="false">
+		<e:List id="itemList" itemRendererSkinName="DebugItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object text="123" des="abc"/>
+					<e:Object text="456" des="def"/>
+					<e:Object text="789" des="ghi"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group width="193" height="326" x="344" y="40" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible.note="false">
+		<e:Label text="当前人物" x="51" y="64" size="20" textColor="0xffffff"/>
+		<e:Group x="53" y="68">
+			<e:Label id="gridXY" text="格子坐标：" x="0" y="206" scaleX="1" scaleY="1" size="20" textColor="0xffffff"/>
+			<e:Label id="pixXY" text="像素坐标：" x="0" y="242" scaleX="1" scaleY="1" size="20" textColor="0xffffff"/>
+			<e:layout>
+				<e:VerticalLayout paddingLeft="0"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="closeBtn" source="zjm_json.zjm_add_png" rotation="45" right="0" top="0" scaleX="1.2" scaleY="1.2"/>
+	<e:Button id="sBtn" label="Button" x="425" y="373" skinName="BtnIconSkin" icon="res/btn/confirm.png" scaleX="0.8" scaleY="0.8"/>
+	<e:Group id="g" width="483" height="322" x="19" y="38" anchorOffsetX="0" anchorOffsetY="0" visible.nor="false" height.note="236" x.note="19" y.note="124">
+		<e:Label id="lText" text="Label" visible.nor="false" anchorOffsetX.note="0" width.note="394" anchorOffsetY.note="0" height.note="328" x.note="0" y.note="-1" scaleX.note="1" scaleY.note="1" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+</e:Skin>

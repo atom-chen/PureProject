@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OffLineAwardSkin" currentState="nor" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="nor,max" >
+	<e:Image horizontalCenter="-19" verticalCenter="0" source="res/images/bg/offlineAwardBg.png"/>
+	<e:Image source="public_json.public_arrow_1_png" x="459" y="289"/>
+	<e:Image source="public_json.public_arrow_1_png" x="459" y="366"/>
+	<e:Image source="public_json.public_arrow_1_png" x="459" y="327"/>
+	<e:Label id="time" text="1天15小时58分" y="166" textColor="0x00a2ff" size="18" left="435"/>
+	<e:Label id="t0" text="金币" y="291" size="16" textColor="0x4c2f27" x="294" bold="true"/>
+	<e:Label text="经验" y="329" size="16" textColor="0x4C2F27" id="t1" x="294" bold="true"/>
+	<e:Label text="装备" y="368" size="16" textColor="0x4C2F27" id="t2" x="294" bold="true"/>
+	<e:Label text="离线获得" y="250" size="16" textColor="0x4C2F27" id="t3" x="360" bold="true" x.max="459"/>
+	<e:Label text="VIP1加成" y="250" size="16" textColor="0x4C2F27" id="t4" x="518" bold="true" visible.max="false"/>
+	<e:Label id="g0" text="2500" y="291" size="16" textColor="0x4C2F27" bold="true" horizontalCenter="37" horizontalCenter.max="156"/>
+	<e:Label text="6000" y="291" size="16" id="g1" bold="true" horizontalCenter="195" textColor="0x2aff00" visible.max="false"/>
+	<e:Label id="e0" text="2500" y="329" size="16" textColor="0x4C2F27" bold="true" horizontalCenter="37" horizontalCenter.max="156"/>
+	<e:Label id="e1" text="6000" y="329" size="16" textColor="0x2AFF00" bold="true" horizontalCenter="195" visible.max="false"/>
+	<e:Label id="i0" text="2500" y="368" size="16" textColor="0x4C2F27" bold="true" horizontalCenter="37" horizontalCenter.max="156"/>
+	<e:Label id="i1" text="6000" y="368" size="16" textColor="0x2AFF00" bold="true" horizontalCenter="195" x="10" visible.max="false"/>
+	<e:Label id="full" text="（背包已满）" x="345" y="412" textColor="0xff0000" size="16" bold="true"/>
+	<e:Image source="offLine_json.offLine_texture_2_png" x="486" y="243"/>
+	<e:Image source="offLine_json.offLine_texture_1_png" x="343" y="202"/>
+	<e:Button id="vipBtn" label="Button" x="484" y="404" skinName="BtnIconSkin" icon="offLine_json.offLine_texture_0_png" anchorOffsetX="0" width="110" anchorOffsetY="0" height="31"/>
+</e:Skin>

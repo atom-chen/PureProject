@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XSYHItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="139">
+	<e:Image touchEnabled="false" x="0" source="shop_json.shop_img_3_png" scale9Grid="30,36,181,82" top="0"/>
+	<e:Image id="imgItem1" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" x="140" touchEnabled="false" y="36"/>
+	<e:Image id="imgItem0" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" x="140" touchEnabled="false" y="61.5"/>
+	<ns1:BaseCustComponent id="icon0" x="7" y="17" className="ItemBase" skinName="ItembaseSkin"/>
+	<e:Button id="buyBtn" label="" skinName="BtnIconSkin" icon="res/btn/buy3.png" touchEnabled="true" x="168" y="98"/>
+	<e:Label id="l1" text="价格:" size="18" touchEnabled="false" textColor="0xffffff" x="96" y="68.5"/>
+	<e:Label id="lbNum0" text="9999" size="18" x="171" touchEnabled="false" textColor="0xffffff" y="68.5"/>
+	<e:Label id="l0" text="价格:" size="18" touchEnabled="false" textColor="0x3e1700" x="96" y="43"/>
+	<e:Label id="lbNum1" text="9999" size="18" x="171" touchEnabled="false" textColor="0x3e1700" y="43"/>
+	<e:Label id="limit" text="VIP2可购买" y="105" size="17" textColor="0xfff600" horizontalCenter="60" visible="false"/>
+	<e:Label id="iName" text="道具名称" x="96" y="19" size="18" textColor="0x3e1700"/>
+	<e:Image id="imgSale" y="18" x="8" source="shop_json.shop_sale_1_png" touchEnabled="false"/>
+	<e:Image y="50" source="shop_json.shop_img_4_png" x="90"/>
+	<e:Image id="bImg" source="xsyh_json.xsyh_blank_png" x="127" y="99" visible="false"/>
+	<e:Image id="soldOut" source="xsyh_json.xsyh_soldout_png" y="98" x="153"/>
+</e:Skin>

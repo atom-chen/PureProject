@@ -1,0 +1,30 @@
+class StdScene { 
+    /** 字段名 */
+    id: number;
+    /** 场景id */
+    scenceid: number;
+    /** 场景名称 */
+    scencename: string;
+    /** 配置xml */
+    mapfilename: string;
+    /** 进入等级 */
+    minlevel: number;
+    /** 是否可以pk */
+    nopk: number;
+    /** 角色x */
+    posx: number;
+    /** 角色y */
+    posy: number;
+    /** npc */
+    npc: any[] = [];
+    /** 传送口 */
+    teleport: any[] = [];
+    /** 场景音乐 */
+    music: string;
+    /** 左右功能按钮展示 */
+    LRbtnSHow: any[] = [];
+    /** 场景类型 */
+    type: number;
+    /** 是否复活 */
+    revive: number;
+}

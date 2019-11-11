@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyTaskItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="495">
+	<e:Image verticalCenter="0" horizontalCenter="0" touchEnabled="false" source="daily_json.daily_item_bg_png"/>
+	<e:Image id="imgSt" left="25" verticalCenter="-2" source="daily_json.daily_active_0_png"/>
+	<e:Image id="imgBtn" source="daily_json.daily_ylq_v_png" verticalCenter="0.5" horizontalCenter="189"/>
+	<e:Button id="btnGet" label="" x="368" y="22" icon="res/btn/get_2.png"/>
+	<e:Group x="115" y="21.67">
+		<e:Label id="lbCnd" text="任务名称" size="18" x="0" y="0" textColor="0xffc600"/>
+		<e:Label id="lbPgr" text="完成进度" size="18" x="127.35" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbPt" text="活跃度+" size="18" x="115" y="57.67" textColor="0xffffff"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group verticalCenter="0" left="19">
+		<e:Label id="prop" text="属性: 36854681" x="0" y="0" scaleX="1" scaleY="1" size="18" textColor="0xffffff"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

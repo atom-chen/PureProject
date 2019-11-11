@@ -1,0 +1,28 @@
+class StdCailiaocopy { 
+    /** 副本ID */
+    id: number;
+    /** 排序 */
+    order: number;
+    /** 奖励显示 */
+    awardshow: any[] = [];
+    /** 背景图片 */
+    backpic: string;
+    /** 名称图片 */
+    namepic: string;
+    /** 角色出生点 */
+    enterPos: any[] = [];
+    /** BOSS出生点 */
+    bossPos: any[] = [];
+    /** 小怪信息 */
+    monsterInfo: any;
+    /** 小怪出生点 */
+    monsterPos: any[] = [];
+    /** 总波数 */
+    wave: number;
+    /** 波数对应评分 */
+    score: any[] = [];
+    /** 等级限制 */
+    level: number;
+    /** 所在场景 */
+    scene: number;
+}

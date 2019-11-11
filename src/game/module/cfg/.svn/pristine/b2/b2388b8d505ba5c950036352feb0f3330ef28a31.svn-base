@@ -1,0 +1,8 @@
+class StdGift { 
+    /** 字段名 */
+    id: number;
+    /** 固定奖励 */
+    award: any[] = [];
+    /** 随机掉落ID */
+    dropid: number;
+}

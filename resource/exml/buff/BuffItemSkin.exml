@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuffItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="buff_json.buff_item_bg_png"/>
+	<e:Image id="icon" horizontalCenter="-196" verticalCenter="0.5" source=""/>
+	<e:Label id="nameTx" text="◆ 战士冲锋" x="107" y="20" size="19" textColor="0xffd823"/>
+	<e:Label id="attrTx" text="" x="106" y="49" anchorOffsetX="0" width="371" anchorOffsetY="0" height="42" size="17" lineSpacing="6"/>
+	<e:Label id="timeTx" text="剩余时间：00:00:00" x="314" y="20" size="18" textColor="0x2aff00"/>
+</e:Skin>

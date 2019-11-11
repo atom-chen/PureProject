@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NumSelectSkin" width.s1="362" currentState="s1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="s1,s2,s3"  width.s2="196" width.s3="289">
+	<e:Image x.s1="119" y.s2="8" x.s2="36" y.s3="8" horizontalCenter.s3="0" width="124" source="public_json.public_rect_10_png" scale9Grid="7,7,112,18" top="15" bottom="15"/>
+	<e:Group bottom="15" horizontalCenter="0" width="307" top="15">
+		<e:TextInput id="nInput" width="60" height="30" scaleX="1" scaleY="1" skinName="NumberInputSkin" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="maxBtn" label="MAX" height="28" width="28" name="max" scaleX="1" scaleY="1" skinName="BtnIconSkin" icon="public_json.public_max_png" visible.s2="false" verticalCenter="0" right="29" visible.s3="false"/>
+		<e:Button id="minBtn" label="MIN" height="28" name="min" scaleX="1" scaleY="1" skinName="BtnIconSkin" icon="public_json.public_min_png" width="28" visible.s2="false" verticalCenter="0" left="29" visible.s3="false"/>
+		<e:Image id="pBtn" name="plus" verticalCenter="0" right="61" source="public_json.public_add_png"/>
+		<e:Image id="mBtn" name="minus" verticalCenter="0" left="61" source="public_json.public_minus_png"/>
+		<e:Image id="tpBtn" source="public_json.public_plusTen_png" x.s2="108" x.s1="108" y="3" visible.s1="false" visible.s2="false" verticalCenter.s3="0" x.s3="249" name="tpBtn"/>
+		<e:Image id="tmBtn" source="public_json.public_minusTen_png" x="157" y="-2.5" visible.s1="false" visible.s2="false" verticalCenter.s3="0" x.s3="14" name="tmBtn"/>
+	</e:Group>
+	<e:Image visible.s2="false" width="396" horizontalCenter="0" visible.s3="false" source="itemtips_json.itemtips_line_png" scale9Grid="1,1,13,1" y="0"/>
+</e:Skin>

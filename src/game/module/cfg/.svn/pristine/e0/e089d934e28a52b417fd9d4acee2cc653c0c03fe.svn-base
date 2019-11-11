@@ -1,0 +1,10 @@
+class StdFailtips { 
+    /** 字段名 */
+    id: number;
+    /** 提示语 */
+    dec: string;
+    /** 图标 */
+    ico: number;
+    /** 跳转 */
+    jump: string;
+}

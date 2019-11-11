@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FailItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="69">
+	<e:Image source="win_json.win_item_line_png" horizontalCenter="-1" bottom="1" scale9Grid="0,0,15,3" anchorOffsetX="0" width="345" anchorOffsetY="0" height="2"/>
+	<e:Label id="desc" text="desc" x="94" size="18" textColor="0x3e1700" verticalCenter="0"/>
+	<e:Button id="btn" label="Button" skinName="BtnIconSkin" icon="res/btn/enterBtn5.png" x="283" y="18"/>
+	<e:Image id="icon" x="11" source="res/images/sysIcon/icon/boss.png" scaleX="0.9" scaleY="0.9" bottom="-11"/>
+	<e:Image id="iName" x="1" source="res/images/sysIcon/name/arena_n.png" scaleX="0.9" scaleY="0.9" bottom="-1"/>
+</e:Skin>

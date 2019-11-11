@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyMemberItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="495">
+	<e:Image source="public_json.public_item_rect_1_png" left="0" right="0" top="0" bottom="0" scale9Grid="13,12,46,72" height="117"/>
+	<e:Button id="btnQuit" label="" x="373" y="58" skinName="BtnIconSkin" icon="family_json.family_btn_quit_png">
+	</e:Button>
+	<e:Button id="btnKick" label="" skinName="BtnIconSkin" icon="family_json.family_btn_kick_png" x="373" y="58">
+	</e:Button>
+	<e:Button id="btnPro" label="" x="373" y="58" skinName="BtnIconSkin" icon="family_json.family_btn_promote_png">
+	</e:Button>
+	<e:Button id="btnDe" label="" x="373" y="58" skinName="BtnIconSkin" icon="family_json.family_btn_demote_png">
+	</e:Button>
+	<e:Image x="20" y="15" source="public_json.public_icon_bg5_png"/>
+	<e:Image id="icon" x="25" y="21" source="res/images/roleIco/role_1_1.png"/>
+	<e:Image x="11" y="10" source="public_json.public_lvl_blank_png"/>
+	<e:Image id="mFlag" x="125" top="13" source="family_json.family_mem_flag0_png"/>
+	<e:Label id="mLvl" text="99" y="17" size="18" horizontalCenter="-221"/>
+	<e:Label id="labName" text="Label" x="185.5" size="18" y="18" textColor="0xffe400"/>
+	<e:Label id="labScore" text="Label" x="130" size="16" y="50"/>
+	<e:Label id="labDevote" text="Label" x="130" size="16" y="76"/>
+	<e:Label id="labState" text="Label" size="18" right="20" top="20" textColor="0xffc600"/>
+</e:Skin>

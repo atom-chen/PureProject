@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckyDailSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="164b73ad301"/>
+	<e:Group horizontalCenter="0">
+		<e:Image y="0" scaleX="1" scaleY="1" x="0" source="res/images/bg/luckBg.png"/>
+		<e:Group id="g1" width="434" height="431" y="154.63" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="4">
+			<ns1:BaseCustComponent id="item_1" x="176" y="17" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_5" y="287.37" right="97" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_4" right="43" verticalCenter="39" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_3" right="43" top="119" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_2" right="98" top="45" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_6" x="176" y="315.37" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_7" y="284.37" left="89" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_8" left="33" verticalCenter="35" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_9" left="33" top="117" className="DailItem" skinName="DailItemSkin"/>
+			<ns1:BaseCustComponent id="item_10" left="89" top="43" className="DailItem" skinName="DailItemSkin"/>
+		</e:Group>
+		<e:Image id="indicator" y="360" source="luck_json.luck_img4_png" anchorOffsetX="44" anchorOffsetY="96" horizontalCenter="0" rotation="108"/>
+		<e:Button id="closeBtn" label="" x="470.55" y="156.4" skinName="BtnIconSkin" icon="luck_json.luck_img3_png"/>
+		<e:Button id="sBtn" label="Button" y="602" icon="luck_json.luck_img5_png" horizontalCenter="0" skinName="BtnIconSkin"/>
+	</e:Group>
+	<e:Label id="countText" text="剩余次数:0" y="671.32" style="l_normal" size="16" horizontalCenter="0" textColor="0x2aff00"/>
+</e:Skin>

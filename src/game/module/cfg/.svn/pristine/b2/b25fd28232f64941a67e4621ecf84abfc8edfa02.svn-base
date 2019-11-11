@@ -1,0 +1,18 @@
+class StdPurgatoryboss { 
+    /** 地图配置 */
+    fubenid: number;
+    /** 怪物id */
+    entityid: number;
+    /** 难度 */
+    difficulty: number;
+    /** 挑战等级 */
+    level: number;
+    /** 挑战消耗 */
+    consume: any[] = [];
+    /** 掉落预览 */
+    reward_show: any[] = [];
+    /** 复活时间 */
+    time: number;
+    /** 页签 */
+    page: number;
+}

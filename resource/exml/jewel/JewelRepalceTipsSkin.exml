@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JewelRepalceTipsSkin" width="443" height="560" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="nor,sp" >
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" left="0" right="0" top="0" bottom="0"/>
+	<e:Scroller horizontalCenter="0" top="73" bottom="28" top.sp="202">
+		<e:List id="itemList" itemRendererSkinName="JewelRepalceItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<ns1:BaseCustComponent id="cur" includeIn="sp" y="75" skinName="JewelRepalceItemSkin" horizontalCenter="0" className="JewelReplaceItem"/>
+</e:Skin>

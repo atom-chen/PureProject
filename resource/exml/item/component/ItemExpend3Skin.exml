@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemExpend3Skin" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="normal,single"  height="60" width="72">
+	<w:Config id="162dc74de74" ></w:Config>
+	<e:Label id="lab" text="{label}" size="18" scaleX="1" scaleY="1" textColor="0xffc600" verticalCenter="0" horizontalCenter="0" visible="false"/>
+	<e:Image source="public_json.public_item_bg2_png" horizontalCenter="0" top="-3" visible="false"/>
+	<e:Image id="iconImg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" top="0" source="" visible="false"/>
+	<e:Label id="gainWay" text="获取" size="16" textColor="0x36ff00" verticalCenter="0" horizontalCenter="0" visible="false"/>
+	<e:Label text="   " size="16" textColor="0x36FF00" verticalCenter="0" horizontalCenter="0" visible="false"/>
+	<e:Label id="stuffName" text="道具名称" size="18" left="0" textColor="0xffc600" top="0"/>
+	<e:Group bottom="0" left="0" right="0" top="0">
+		<e:Label id="countTxt" text="100/100" size="18" textColor.single="0xe6daac" scaleX="1" scaleY="1" textColor="0xffffff" left="0" bottom="0"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

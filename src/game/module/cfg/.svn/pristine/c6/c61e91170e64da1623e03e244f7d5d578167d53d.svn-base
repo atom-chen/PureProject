@@ -1,0 +1,6 @@
+class StdClientglobal { 
+    /** 字段名 */
+    id: string;
+    /** 过场提示 */
+    value: any;
+}

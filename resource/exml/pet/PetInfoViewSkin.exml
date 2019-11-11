@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetInfoViewSkin" width="510" height="565" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="act,up,evo" >
+	<e:Group x="2" y="0">
+		<e:Image source="res/images/bg/petBg.png" y="94.98" horizontalCenter="0" />
+		<e:Image source="win_json.win_bg_line_png" width="506" height="565" scale9Grid="11,13,19,18" x="0" y="0"/>
+		<ns1:BaseCustComponent id="zdl" y="100.98" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetY="0" horizontalCenter="0" visible.act="false"/>
+		<e:Image source="public_json.public_slice_line_png" y="89" width="504" scale9Grid="2,0,19,2" x="1"/>
+		<e:ProgressBar id="progressBar" y="330.33" value="100" skinName="progressBarSkin5" x="117" visible.evo="false" y.act="329.33" visible.act="false" slideDuration.up="0" slideDuration="0"/>
+		<ns1:BaseCustComponent id="mModel" className="UIAvatar" y="282.03" x="253" y.act="277.03"/>
+		<e:Scroller x="3" y="6" locked="true">
+			<e:List id="list" x="19" y="42" itemRendererSkinName="PetInfoItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnAll" label="" skinName="BtnIconSkin" icon="pet_json.pet_btn_zl_png" width="58" height="63" visible.evo="false" x="423" y="120" x.act="423"/>
+		<e:Button id="btnAttr" label="" skinName="BtnIconSkin" icon="pet_json.pet_btn_qsx_png" width="61" height="64" visible.evo="false" y="120" x="25" x.act="25"/>
+		<e:Group id="gStar" x="342.01" y="162.33" x.act="317.01" y.act="154.33" >
+			<e:Image source="pet_json.pet_img_xx_png" x="0" y="0"/>
+			<e:Label id="lbStar" text="99" size="18" horizontalCenter="0.5" verticalCenter="4"/>
+		</e:Group>
+		<e:Group y="304" horizontalCenter="0.5" horizontalCenter.act="0.5" y.act="321" horizontalCenter.up="0.5" y.up="298" horizontalCenter.evo="0.5" y.evo="298">
+			<e:Image source="public_json.public_rect_8_png" x="0" y="0" locked="true"/>
+			<e:Label id="lbName" text="Lv1 小猪" size="16" horizontalCenter="0" verticalCenter="0" textColor.evo="0xffd823"/>
+		</e:Group>
+		<e:Button id="btnState" label="Button" x="411" y="485" skinName="BtnIconSkin" icon="pet_json.pet_btn_xx_png" width="73" height="76" visible.evo="false" visible.act="false" y.up="481" visible.up="true" icon.up="pet_json.pet_btn_cz_png"/>
+		<e:Button id="btn" label="Button" y="501" skinName="BtnIconSkin" icon="pet_json.pet_btn_cwjh_png" horizontalCenter="0.5" icon.up="pet_json.pet_btn_cwsj_png" icon.evo="pet_json.pet_btn_cwjinh_png"/>
+		<ns1:BaseCustComponent id="skill0" includeIn="evo" y="135" skinName="PetSkillItemSkin" left="30" className="PetSkillItem"/>
+		<ns1:BaseCustComponent includeIn="evo" y="135" skinName="PetSkillItemSkin" id="skill1" right="30" className="PetSkillItem"/>
+		<ns1:BaseCustComponent includeIn="evo" y="234" skinName="PetSkillItemSkin" id="skill2" left="30" className="PetSkillItem"/>
+		<ns1:BaseCustComponent includeIn="evo" y="234" skinName="PetSkillItemSkin" id="skill3" right="30" className="PetSkillItem"/>
+		<e:List id="listStar" includeIn="evo" y="340" itemRendererSkinName="TabBar1Skin" horizontalCenter="0">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:TabBar id="tabBtn" itemRendererSkinName="TabBar1Skin" x="83" verticalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="8"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group width="292" height="95" y="365" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="public_json.public_prop_rect_png" scale9Grid="19,14,119,27" left="0" right="0" top="0" bottom="0"/>
+		<e:Image left="0" right="0" width="292" y="62" source="public_json.public_slice_line5_png"/>
+		<e:Image left="0" right="0" width="292" y="30" source="public_json.public_slice_line5_png"/>
+		<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="8" left="15" right="15" bottom="8" left.act="-2" right.act="187" top.act="9" bottom.act="7" left.evo="2" right.evo="28" top.evo="8" bottom.evo="8" left.up="2" right.up="28" top.up="8" bottom.up="8"/>
+	</e:Group>
+	<ns1:ItemExpend id="expend" x="165.97" skinName="ItemExpendSkin"  y="466"/>
+</e:Skin>

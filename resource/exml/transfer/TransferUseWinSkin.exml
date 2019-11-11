@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TransferUseWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="400">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" x="0" top="0" bottom="0"/>
+	<e:Group top="65" bottom="15" height="470" horizontalCenter="0" width="415">
+		<e:Scroller height="310" y="7" horizontalCenter="1" width="403">
+				<e:List id="list" x="114" y="-1" itemRendererSkinName="TransferUseItemSkin">
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

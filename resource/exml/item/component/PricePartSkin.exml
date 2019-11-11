@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PricePartSkin" width="362" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16c3c98c3ea"/>
+	<e:Image source="itemtips_json.itemtips_line_png" width="396" horizontalCenter="0" scale9Grid="1,0,13,3" y="0"/>
+	<ns1:ItemExpend id="cost" left="15" currentState="single" top="15" bottom="15"/>
+</e:Skin>

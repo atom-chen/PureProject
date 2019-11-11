@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagRecycleWinSkin" width="437" height="583" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="win_json.win_tips_bg3_png" scale9Grid="63,76,305,103"/>
+	<e:Image horizontalCenter="0" width="419" height="441" bottom="80" source="win_json.win_bg5_png" scale9Grid="24,25,36,17"/>
+	<e:Group id="itemGroup" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-32">
+		<ns1:BaseCustComponent id="item_0" x="134" y="121" name="0" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="144" y="131" name="1" id="item_1" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="154" y="141" name="2" id="item_2" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="164" y="151" name="3" id="item_3" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="174" y="161" name="4" id="item_4" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="184" y="171" name="5" id="item_5" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="194" y="181" name="6" id="item_6" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="204" y="191" name="7" id="item_7" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="214" y="201" name="8" id="item_8" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="224" y="211" name="9" id="item_9" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="234" y="221" name="10" id="item_10" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="244" y="231" name="11" id="item_11" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="254" y="241" name="12" id="item_12" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="264" y="251" name="13" id="item_13" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="274" y="261" name="14" id="item_14" className="ItemBase" skinName="ItembaseSkin"/>
+		<ns1:BaseCustComponent x="284" y="271" name="15" id="item_15" className="ItemBase" skinName="ItembaseSkin"/>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4" horizontalGap="23" verticalGap="16"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="mBtn" label="Button" y="513" skinName="BtnIconSkin" icon="recycle_json.recycle_btn_png" anchorOffsetX="0" width="143" anchorOffsetY="0" height="57" horizontalCenter="0"/>
+	<e:Image id="closeBtn" source="win_json.win_close_btn2_png" right="14" top="29"/>
+	<e:Image source="public_json.public_slice_line_png" width="419" scale9Grid="2,0,19,2" horizontalCenter="0" y="451"/>
+	<e:Image source="recycle_json.recycle_auto_text_png" x="312" y="467"/>
+	<e:CheckBox id="toggle" label="" x="288" y="466" skinName="CheckBox1Skin"/>
+	<e:Image source="recycle_json.recycle_text_png" x="26.02" y="468"/>
+	<e:Image source="recycle_json.recycle_title_png" y="11" x="178"/>
+</e:Skin>

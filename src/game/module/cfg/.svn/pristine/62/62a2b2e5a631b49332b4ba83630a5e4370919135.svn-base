@@ -1,0 +1,8 @@
+class StdAttributebuffid { 
+    /** 字段名 */
+    id: number;
+    /** 属性名称 */
+    attname: string;
+    /** 战力加成 */
+    power: number;
+}

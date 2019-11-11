@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillWinSkin" width="580" height="700" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="public_json.public_blank_png" scale9Grid="98,69,70,5" left="0" right="0" top="0" bottom="0"/>
+	<e:Scroller top="42" bottom="23" anchorOffsetY="0" left="0" right="0">
+		<e:List id="itemList" itemRendererSkinName="SkillItemSkin">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GRBossPannelSkin" width="526" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseCustComponent left="0" right="0" top="0" bottom="0" skinName="BasePannelSkin"/>
+	<e:TabBar id="tabBar" itemRendererSkinName="TabBar4Skin" horizontalCenter="0" y="610">
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:TabBar>
+	<e:Image source="win_json.win_bg_line_png" scale9Grid="8,9,26,25" height="520" width="508" anchorOffsetY="0" y="58.33" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="instruction" x="22" y="12" skinName="InstructionPartSkin" visible="false"/>
+	<e:Scroller id="sc" width="495" height="510" y="65" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="itemList" height="532" y="-1.33" itemRendererSkinName="GRBossItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object a="null"/>
+			<e:Object a="null"/>
+			<e:Object a="null"/>
+			<e:Object a="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="sweepBtn" label="Button" x="373" y="9" skinName="BtnIconSkin" icon="worldBoss_json.worldBoss_sweep_png"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="81">
+	<e:Image id="sele" scale9Grid="9,10,61,61" horizontalCenter="0" source="public_json.public_selected_png" verticalCenter="-1.5" visible="false"/>
+	<e:Image id="bg" horizontalCenter="0" top="0" source="public_json.public_item_bg2_png"/>
+	<e:Image id="color" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="ico" horizontalCenter="0" top="4" source=""/>
+	<e:Label id="num" text="" size="18" textColor="0x000000" right="4" bottom="24"/>
+	<e:Label id="strength" text="" size="16" top="7" stroke="2" strokeColor="0x000000" textColor="0xffd823" x="14"/>
+	<e:Image id="part" source="" top="52" left="8" visible="false"/>
+</e:Skin>

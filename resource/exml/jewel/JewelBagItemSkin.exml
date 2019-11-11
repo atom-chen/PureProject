@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JewelBagItemSkin" width="79" height="81" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" horizontalCenter="0" source="public_json.public_item_bg_png" y="0"/>
+	<e:Image id="color" horizontalCenter="0" verticalCenter="0" width="79" height="81" source="" x="10" y="10"/>
+	<e:Image id="ico" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="zlflag" source="public_json.public_g_allow_png" x="57" y="5" visible="false"/>
+	<e:Label id="num" text="" size="18" right="4" bottom="6" stroke="2" textColor="0xFFFFFF"/>
+	<e:CheckBox id="checkBox" x="58" y="61" skinName="CheckBox1Skin"/>
+</e:Skin>

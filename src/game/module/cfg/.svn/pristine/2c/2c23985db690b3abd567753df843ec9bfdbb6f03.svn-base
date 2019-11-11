@@ -1,0 +1,18 @@
+class StdVip { 
+    /** 编号 */
+    id: number;
+    /** vip等级 */
+    VipLevels: number;
+    /** 所需经验 */
+    upgradePoint: number;
+    /** 专享礼包 */
+    ExclusivePackage: any[] = [];
+    /** 每日礼包 */
+    DailyPackage: any[] = [];
+    /** 文字描述 */
+    des: any[] = [];
+    /** 世界boss挑战次数 */
+    WorldBoss: number;
+    /** 材料副本扫荡次数 */
+    cailiaoCopy: number;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="email_json.email_item_bg_png" y="1"/>
+	<e:Image id="stateImg" source="email_json.email_close_png" x="18" verticalCenter="0.5"/>
+	<e:Image id="fujianFlag" x="395" y="26" source="email_json.email_prize_png"/>
+	<e:Image id="getFlag" source="public_json.public_prize_png" x="372" y="19"/>
+	<e:Label id="titleTx" text="维护补偿" x="118" y="31" size="18" textColor="0x792301"/>
+	<e:Label id="timeTx" text="2019-9-18 11:17:11" x="118" y="64" size="18" textColor="0x792301"/>
+</e:Skin>

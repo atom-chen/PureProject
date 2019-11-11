@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyApplyItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="405" height="110">
+	<e:Image source="public_json.public_item_rect_1_png" left="0" right="0" top="0" bottom="0" scale9Grid="13,12,46,72" height="129"/>
+	<e:Button id="btnAgree" label="" x="311" y="18" skinName="BtnIconSkin" icon="family_json.family_btn_agree_png">
+	</e:Button>
+	<e:Button id="btnSubject" label="" skinName="BtnIconSkin" icon="family_json.family_btn_reject_png" x="311" y="62">
+	</e:Button>
+	<e:Image x="20" y="12" source="public_json.public_icon_bg5_png"/>
+	<e:Image id="icon" horizontalCenter="-138" verticalCenter="2.5" source=""/>
+	<e:Image x="11" y="7" source="public_json.public_lvl_blank_png"/>
+	<e:Label id="mLvl" text="99" y="14" size="18" horizontalCenter="-176"/>
+	<e:Label id="labName" text="Label" x="124" size="18" y="20" textColor="0x00ff0c"/>
+	<e:Label id="labLv" text="Label" x="124" size="16" y="48"/>
+	<e:Label id="labScore" text="Label" x="124" size="16" y="74"/>
+</e:Skin>

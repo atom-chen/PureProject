@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BtnIcon1Skin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui">
+    <e:Label id="labelDisplay"
+             size="18"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" horizontalCenter="0" touchEnabled="false" text="" bottom="-21"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter.disabled="0" verticalCenter.up="0" touchEnabled="false" scaleX.down="0.95" scaleY.down="0.95" source="" verticalCenter.down="0" verticalCenter="0"/>
+</e:Skin>

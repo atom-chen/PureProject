@@ -1,0 +1,12 @@
+class StdCailiaocopy { 
+    /** 副本ID */
+    id: number;
+    /** 排序 */
+    order: number;
+    /** 奖励显示 */
+    awardshow: any[] = [];
+    /** 背景图片 */
+    backpic: string;
+    /** 名称图片 */
+    namepic: string;
+}

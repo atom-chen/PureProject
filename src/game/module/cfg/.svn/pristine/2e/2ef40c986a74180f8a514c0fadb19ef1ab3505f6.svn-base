@@ -1,0 +1,36 @@
+class StdPet { 
+    /** 编号 */
+    id: number;
+    /** 名称 */
+    name: string;
+    /** 图标 */
+    icon: number;
+    /** 名字框资源名称 */
+    nameBox: string;
+    /** 模型 */
+    modelid: number;
+    /** 宠物类型 */
+    petType: number;
+    /** 成长范围 */
+    growthInterval: string;
+    /** 喊话ID */
+    shoutContent: number;
+    /** 基础属性加成 */
+    basicatt: any[] = [];
+    /** 升级基础加成 */
+    gradeatt: number;
+    /** 升阶加成系数 */
+    gradeatts: number;
+    /** 激活消耗 */
+    activationNeed: any[] = [];
+    /** 进阶消耗 */
+    advancedneed: number;
+    /** 洗练消耗 */
+    skillneed: any[] = [];
+    /** 技能数量 */
+    skillnum: any[] = [];
+    /** 成长洗练 */
+    growrefinement: any[] = [];
+    /** 待机说话 */
+    adle_talk: any[] = [];
+}

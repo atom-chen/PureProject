@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionCopyPageSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="510" height="565">
+	<e:Image source="win_json.win_bg_line_png" scale9Grid="11,13,19,18" anchorOffsetY="0" width="510" height="565" x="0" y="0" locked="true"/>
+	<e:Image id="bg" y="51" x="8" source="res/images/bg/fashionCopy_1.png"/>
+	<e:Image source="public_json.public_prop_rect_png" scale9Grid="19,17,119,24" width="494" height="204" x="8" y="356" locked="true"/>
+	<e:Image source="fashionCopy_json.fashionCopy_blank_2_png" y="362" x="15" locked="true"/>
+	<e:Image source="fashionCopy_json.fashionCopy_blank_0_png" y="459" x="159" locked="true"/>
+	<e:TabBar id="tabBtn" y="5" itemRendererSkinName="TabBar1Skin" horizontalCenter="0" locked="true">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object icon="fashionCopy_json.fashionCopy_tab_0_png" icon2="fashionCopy_json.fashionCopy_tab_0_s_png"/>
+			<e:Object icon="fashionCopy_json.fashionCopy_tab_1_png" icon2="fashionCopy_json.fashionCopy_tab_1_s_png"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="3"/>
+		</e:layout>
+	</e:TabBar>
+	<ns1:BaseCustComponent id="twSlide" skinName="TweenSlidePartSkin" width="494" horizontalCenter="0" height="238" className="TweenSlidePart" top="106"/>
+	<e:Button id="plusBtn" label="Button" x="323" y="460" skinName="BtnIconSkin" icon="public_json.public_add_png" width="29" height="27"/>
+	<e:Label id="remainText" text="今日剩余次数 : 2/3" y="465" size="16" left="163" textColor="0xffffff"/>
+	<e:Button id="enterBtn" label="Button" y="494" skinName="BtnIconSkin" icon="res/btn/enterBtn6.png" x="184"/>
+	<e:Scroller id="sc" y="106" left="8" right="8" bounces="true" throwSpeed="0.1">
+		<e:List id="itemList" itemRendererSkinName="FashionCopyItemSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="fashionCopy_json.fashonCopy_title_png" y="60" horizontalCenter="0" locked="true"/>
+	<e:Group id="ig" y="368" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout gap="9"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,40 @@
+class StdMonster { 
+    /** 字段名 */
+    id: number;
+    /** 怪物id */
+    entityid: number;
+    /** 怪物的名字 */
+    name: string;
+    /** 怪物的模型di */
+    modelid: number;
+    /** 怪物的等级 */
+    level: number;
+    /** 怪物生命值 */
+    nMaxHp: number;
+    /** 怪物魔法值 */
+    nMaxMp: number;
+    /** 怪物朝向 */
+    dir: number;
+    /** 最小物理攻击 */
+    nPhysicalAttackMin: number;
+    /** 最大物理攻击 */
+    nPhysicalAttackMax: number;
+    /** 最小魔法攻击 */
+    nMagicAttackMin: number;
+    /** 最大魔法攻击 */
+    nMagicAttackMax: number;
+    /** 最小物防 */
+    nHysicalDefenceMin: number;
+    /** 最大物防 */
+    nHysicalDefenceMax: number;
+    /** 最小魔防 */
+    nMagicDefenceMin: number;
+    /** 最大魔防 */
+    nMagicDefenceMax: number;
+    /** 怪物AIid */
+    aiConfigId: number;
+    /** 是否是BOSS */
+    monsterType: number;
+    /** 掉落 */
+    dropid: number;
+}

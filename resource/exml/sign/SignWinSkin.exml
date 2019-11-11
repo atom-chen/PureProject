@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SignWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="sign_json.sign_bg_png" y="-130" />
+	<e:Scroller height="279" y="336" anchorOffsetY="0" x="55" anchorOffsetX="0" width="562">
+		<e:List id="dailyList" y="-2" itemRendererSkinName="SignItemSkin" anchorOffsetX="0"
+		        anchorOffsetY="0" x="55" width="564">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="5" horizontalGap="8" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="sign_json.sign_1_png" x="47" y="638" />
+	<e:Image source="sign_json.sign_3_png" x="155" y="642" />
+	<e:Image source="sign_json.sign_3_png" x="277" y="642" />
+	<e:Image source="sign_json.sign_3_png" x="399" y="642" />
+	<e:Image source="sign_json.sign_3_png" x="521" y="642" />
+	<ns1:BaseCustComponent id="item0" skinName="ItembaseSkin" className="ItemBase" y="644" x="163" />
+	<ns1:BaseCustComponent id="item1" skinName="ItembaseSkin" className="ItemBase" y="644" x="285" />
+	<ns1:BaseCustComponent id="item2" skinName="ItembaseSkin" className="ItemBase" y="644" x="408" />
+	<ns1:BaseCustComponent id="item3" skinName="ItembaseSkin" className="ItemBase" y="644" x="529" />
+	<e:Image id="flag0" source="sign_json.sign_2_png" x="195" y="637" />
+	<e:Image id="flag1" source="sign_json.sign_2_png" x="317" y="637" />
+	<e:Image id="flag2" source="sign_json.sign_2_png" x="440" y="637" />
+	<e:Image id="flag3" source="sign_json.sign_2_png" x="561" y="637" />
+	<e:Label id="totalDay" text="15" y="696" size="24" horizontalCenter="-266.5" />
+	<e:Label id="day0" text="15天" x="166" y="726" size="18" anchorOffsetX="0" width="73" anchorOffsetY="0" height="20"
+	         textAlign="center" />
+	<e:Label text="15天" x="287" y="726" size="18" anchorOffsetX="0" width="73" anchorOffsetY="0" height="20"
+	         textAlign="center" id="day1" />
+	<e:Label text="15天" x="410" y="726" size="18" anchorOffsetX="0" width="73" anchorOffsetY="0" height="20"
+	         textAlign="center" id="day2" />
+	<e:Label text="15天" x="532" y="726" size="18" anchorOffsetX="0" width="73" anchorOffsetY="0" height="20"
+	         textAlign="center" id="day3" />
+	<e:Image id="finish0" source="public_json.luck_img2_png" x="167" y="673" />
+	<e:Image source="public_json.luck_img2_png" x="289" y="673" id="finish1" />
+	<e:Image source="public_json.luck_img2_png" x="413" y="673" id="finish2" />
+	<e:Image source="public_json.luck_img2_png" x="532" y="673" id="finish3" />
+	<e:Image id="closeBtn" source="win_json.win_close_btn3_png" x="584" y="242"/>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TransferPannelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="535" height="680">
+	<e:Image height="680" width="530" scale9Grid="20,168,65,17" source="win_json.win_bg4_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="win_json.win_bg_line_png" width="506" height="572" bottom="11" scale9Grid="11,13,19,18" horizontalCenter="0.5"/>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" y="9.64" anchorOffsetX="0" width="508" horizontalCenter="0"/>
+	<e:Image id="imgRole" x="11" y="99.32" source="res/images/bg/transferRole00.png"/>
+	<e:ProgressBar id="progressBar" y="562.33" value="100" skinName="progressBarSkin5" slideDuration="0" width="378" horizontalCenter="0.5"/>
+	<e:Image id="job" x="23" y="211" source="transfer_json.transfer_role_10_png"/>
+	<e:Image id="step" source="transfer_json.transfer_step_1_png" x="146" y="192"/>
+	<e:Image id="show" source="transfer_json.transfer_3_png" x="24" y="107"/>
+	<e:Group id="gSkill" x="57" y="444">
+		<e:Image source="public_json.public_rect_5_png" scale9Grid="8,9,21,21" width="422" height="106" x="0" y="0"/>
+		<e:Image source="transfer_json.transfer_1_png" x="5.99" y="4"/>
+		<e:Image source="transfer_json.transfer_2_png" x="145.36" y="3"/>
+		<e:Image id="iconEx" source="res/images/skill/16.png" y="12" x="51"/>
+		<e:Image id="icon0" source="res/images/skill/16.png" y="12" x="199"/>
+		<e:Image id="icon1" source="res/images/skill/16.png" x="317" y="12"/>
+	</e:Group>
+	<e:Button id="btn" label="" y="599" icon="res/btn/transfer.png" horizontalCenter="0"/>
+	<e:Label id="lbGo" text="快速获得" x="399" y="618" textColor="0x2aff00" size="16"/>
+	<e:Group id="gAttr" width="292" height="95" y="449" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" visible="false">
+		<e:Image source="public_json.public_prop_rect_png" scale9Grid="19,14,119,27" left="0" right="0" top="0" bottom="0"/>
+		<e:Image left="0" right="0" width="292" y="62" source="public_json.public_slice_line5_png"/>
+		<e:Image left="0" right="0" width="292" y="30" source="public_json.public_slice_line5_png"/>
+		<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="8" left="15" right="15" bottom="8"/>
+	</e:Group>
+</e:Skin>

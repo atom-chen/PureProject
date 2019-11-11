@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RunePageSkin" width="510" height="565" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_bg_line_png" width="506" height="483" scale9Grid="11,13,19,18" bottom="2" horizontalCenter="-1" anchorOffsetY="0"/>
+	<e:Image y="90" source="res/images/bg/runeBg.png" x="8"/>
+	<e:Image source="public_json.public_item_bg3_png" y="200" x="220" locked="true"/>
+	<e:Image source="public_json.public_starBar_blank_png" y="317" x="121" locked="true"/>
+	<e:Image anchorOffsetX="0" width="494" anchorOffsetY="0" height="87" source="public_json.public_prop_rect_png" scale9Grid="23,13,115,26" horizontalCenter="0" bottom="4" locked="true"/>
+	<e:Image id="lvlMax" source="public_json.public_lvl_max2_png" x="178" y="497"/>
+	<e:ProgressBar id="pro" y="339" skinName="progressBarSkin5" x="119" slideDuration="0"/>
+	<ns1:BaseCustComponent id="zdl" y="93" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetX="29" anchorOffsetY="0" x="150"/>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" anchorOffsetY="0" x="3" y="-5"/>
+	<ns1:BaseCustComponent id="starPro" y="319" skinName="StarProgressSkin" horizontalCenter="0" className="StarProgress"/>
+	<ns1:ItemExpend id="cost" x="108" y="486" skinName="ItemExpend3Skin" locked="true"/>
+	<ns1:BaseCustComponent id="item" skinName="ItembaseSkin" className="ItemBase" scaleX="0.9" scaleY="0.9" x="23" y="480" locked="true"/>
+	<e:Group width="292" height="99" y="365" anchorOffsetX="0" anchorOffsetY="0" x="109">
+		<e:Image source="public_json.public_rect_5_png" scale9Grid="11,12,16,15" left="0" right="0" top="0" bottom="0"/>
+		<e:Image left="0" right="0" width="292" y="65" source="public_json.public_slice_line5_png"/>
+		<e:Image left="0" right="0" width="292" y="34" x="10" source="public_json.public_slice_line5_png"/>
+		<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="11" left="16" right="0" bottom="11"/>
+	</e:Group>
+	<e:Image id="rName" source="rune_json.rune_name_1_png" y="135" x="207" locked="true"/>
+	<e:Button id="pBtn" label="Button" x="337" y="487" skinName="BtnIconSkin" icon="res/btn/risingBtn.png" anchorOffsetX="0" width="142" anchorOffsetY="0" height="57" locked="true"/>
+	<e:Group height="232" y="139" anchorOffsetY="0" horizontalCenter="0" touchThrough="true">
+		<ns1:BaseCustComponent id="skill_0" x="60" y="72" skinName="RuneSkillItemSkin" className="RuneSkillItem"/>
+		<ns1:BaseCustComponent x="70" y="82" skinName="RuneSkillItemSkin" id="skill_1" className="RuneSkillItem"/>
+		<ns1:BaseCustComponent x="80" y="92" skinName="RuneSkillItemSkin" id="skill_2" className="RuneSkillItem"/>
+		<ns1:BaseCustComponent x="90" y="102" skinName="RuneSkillItemSkin" id="skill_3" className="RuneSkillItem"/>
+		<e:layout>
+			<e:TileLayout horizontalAlign="center" verticalAlign="middle" requestedRowCount="2" horizontalGap="324" verticalGap="7"/>
+		</e:layout>
+	</e:Group>
+	<ns1:NumberMC id="num" x="249" y="292" type="rune_json.rune_lvl_num_"/>
+</e:Skin>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ServerWinSkin" width="640" currentState="nor" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="nor,sele,bar" >
+	<e:Group width="640" top="0" bottom="0" horizontalCenter="0" scrollEnabled="true">
+		<e:Image source="res/images/bg/loginBg.jpg" horizontalCenter="0" x="0" scaleX="1" scaleY="1" top="0"/>
+		<e:Button id="enterBtn" label="Button" skinName="BtnIconSkin" icon="res/btn/starBtn.png" horizontalCenter="0" visible.bar="false" bottom="126" x="185" y="903" scaleX="1" scaleY="1"/>
+		<e:Image source="login_json.login_blank_png" horizontalCenter="0" visible.bar="false" bottom="254" x="131" y="589" scaleX="1" scaleY="1"/>
+		<e:Image id="curStatus" source="login_json.login_state_p_2_png" x="196.00000000000003" visible.bar="false" bottom="273" y="606" scaleX="1" scaleY="1"/>
+		<e:Image source="login_json.login_texture_png" horizontalCenter="0" bottom="32" x="122.00000000000001" y="821" scaleX="1" scaleY="1"/>
+		<e:Label id="t0" text="当前服" x="226" size="20" visible.bar="false" bottom="272" y="605" scaleX="1" scaleY="1"/>
+		<e:Label id="sName" text="公共一服" size="20" textColor="0x2aff00" left="309" visible.bar="false" bottom="272" x="309" y="605" scaleX="1" scaleY="1" name="sele"/>
+		<e:Rect id="marsk" fillAlpha="0.5" left="0" right="0" top="0" bottom="0" visible.nor="false" visible.bar="false" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="serverGroup" width="528" height="746" y="151.00000000000003" x="56" visible.nor="false" visible.bar="false" scaleX="1" scaleY="1">
+			<e:Image source="login_json.login_server_blank_png" scale9Grid="331,113,131,40" left="0" right="0" top="0" bottom="0"/>
+			<e:Scroller width="135" height="593.94" x="41" y="97" anchorOffsetX="0" anchorOffsetY="0">
+			<e:TabBar id="tabBtn" itemRendererSkinName="ServerTabSkin">
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object icon="login_json.login_item_blank_png" icon2="login_json.login_item_blank_s_png" label="公共一服"/>
+						<e:Object icon="login_json.login_item_blank_png" icon2="login_json.login_item_blank_s_png" label="公共一服"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:TabBar>
+			</e:Scroller>
+			<e:Scroller anchorOffsetX="0" anchorOffsetY="0" left="178" right="28" top="101" bottom="30">
+			<e:List id="itemList" itemRendererSkinName="ServerItemSkin" x="-1">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object s="null"/>
+					<e:Object s="null"/>
+					<e:Object s="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:VerticalLayout gap="5"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Image id="cBtn" source="login_json.login_closeBtn_png" x="488" y="43" name="nor"/>
+		</e:Group>
+		<e:ProgressBar id="proBar" skinName="progressBarSkin2" horizontalCenter="0" visible.sele="false" visible.nor="false" bottom="242" x="84" y="643" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossRankItemSkin" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="255">
+	<e:Image id="rImg" source="public_json.public_rank_1_png" x="1" verticalCenter="0"/>
+	<e:Label id="rNum" text="50+" verticalCenter="0" size="16" left="4" width="28" textAlign="center"/>
+	<e:Label id="rName" text="玩家名称玩家名" verticalCenter="0" size="16" left="34" width="126"/>
+	<e:Label id="value" text="0" verticalCenter="0" size="16" textColor="0xffc600" textAlign="center" horizontalCenter="77"/>
+</e:Skin>

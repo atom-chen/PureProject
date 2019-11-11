@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipCardPannelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="628" width="506">
+	<e:Group horizontalCenter="0" bottom="11" height="40">
+		<e:Image width="506" source="public_json.public_slice_line4_png" top="0" horizontalCenter="0"/>
+		<e:Label text="特权有效期自动叠加,过期自动失效" size="16" textAlign="center" x="37" verticalCenter="0" textColor="0x4c2f27"/>
+		<e:Label id="lbWelfareDay" text="(当前有效期11天)" size="16" textAlign="center" x="288" textColor="0xff3700" verticalCenter="0"/>
+		<e:Image source="public_json.public_th_png" left="10" verticalCenter="0"/>
+	</e:Group>
+	<e:Scroller height="469" y="102.01" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="listLb" x="1" y="-14.67" anchorOffsetY="0" itemRendererSkinName="VipCardItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+	<e:Group y="0" width="506" horizontalCenter="0">
+		<e:Button id="btnLuck" label="" y="-31.3" icon="vip_json.vip_cz_png" x="369.47" skinName="BtnIconSkin"/>
+		<e:ProgressBar id="progressBar" x="87.49" y="25.82" maximum="60" value="100" skinName="progressBarSkin7" slideDuration="0"/>
+		<e:Group x="0" y="0">
+		<e:Image y="0" source="vip_json.vip_tb_png" x="0"/>
+		<e:Image id="vipNum" source="vip_json.vip_15_png" y="30" horizontalCenter="0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

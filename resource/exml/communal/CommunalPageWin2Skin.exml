@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommunalPageWin2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group touchThrough="true">
+		<ns1:BaseWinBg id="bg" skinName="BaseWinBgSkin" horizontalCenter="0"/>
+		<e:Group id="viewContent" touchEnabled="false" anchorOffsetY="0" y="50" horizontalCenter="0">
+		</e:Group>
+		<e:TabBar id="tabBtn" itemRendererSkinName="TabBar4Skin" bottom="39" horizontalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout gap="29"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Group>
+</e:Skin>

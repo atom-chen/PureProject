@@ -1,0 +1,14 @@
+class StdChognzhi { 
+    /** 字段名 */
+    id: number;
+    /** 金钱 */
+    money: number;
+    /** 钻石奖励 */
+    dimond: any;
+    /** 双倍 */
+    doubleDimond: any;
+    /** 四倍 */
+    fourfoldDimond: any;
+    /** 推荐标签 */
+    icon: string;
+}

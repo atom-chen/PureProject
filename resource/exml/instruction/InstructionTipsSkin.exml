@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InstructionTipsSkin" width="377" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="273,70,61,25" source="win_json.win_tips_bg2_png"/>
+		<e:Image top="78" width="367" horizontalCenter="0" source="win_json.win_slice_line_png"/>
+		<e:Image id="title" source="strength_json.strength_instruction_png" horizontalCenter="0" top="32"/>
+		<e:Label id="desc" text="" anchorOffsetX="0" anchorOffsetY="0" top="100" bottom="53" size="16" width="313" horizontalCenter="0" lineSpacing="3"/>
+	</e:Group>
+</e:Skin>

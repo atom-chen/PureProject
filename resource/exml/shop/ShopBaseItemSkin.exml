@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopBaseItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group x="1" y="0">
+		<e:Image touchEnabled="false" x="0" y="0" source="shop_json.shop_img_3_png"/>
+		<e:Group x="87" y="48">
+			<e:Label text="原价 :" size="18" touchEnabled="false" left="8" verticalCenter="0" textColor="0x3e1700"/>
+			<e:Image id="imgItem0" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" x="56" touchEnabled="false" y="0"/>
+			<e:Label id="lbNum0" text="9999" size="18" x="88" touchEnabled="false" verticalCenter="2.5" textColor="0x3e1700"/>
+			<e:Image y="12" source="shop_json.shop_img_4_png" anchorOffsetX="0" width="123" x="3" height="2"/>
+		</e:Group>
+		<e:Group x="86" y="70">
+			<e:Label text="价格 :" size="18" textColor="0xFDFFD9" touchEnabled="false" left="8" verticalCenter="0.5"/>
+			<e:Image id="imgItem1" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" x="57" touchEnabled="false" y="0"/>
+			<e:Label id="lbNum1" text="9999" size="18" x="88" textColor="0xFDFFD9" touchEnabled="false" verticalCenter="2.5"/>
+		</e:Group>
+		<e:Group id="gLimit" y="103" x="8">
+			<e:Image y="1.15" x="0" anchorOffsetX="0" width="139" anchorOffsetY="0" height="22.85" source="shop_json.shop_img_5_png"/>
+			<e:Label id="lbLimit" text="每日限购 : 0/1" size="16" verticalCenter="0" x="6" textColor="0xffc600"/>
+		</e:Group>
+		<e:Button id="eBtn" label="" skinName="BtnIconSkin" icon="res/btn/buy3.png" touchEnabled="true" x="166" y="99"/>
+		<e:Group x="7" y="17">
+			<ns1:BaseCustComponent id="icon" x="0" y="0" className="ItemBase" anchorOffsetY="0" anchorOffsetX="0" skinName="ItembaseSkin"/>
+			<e:Image id="imgSale" y="1" x="1" source="shop_json.shop_sale_1_png" touchEnabled="false"/>
+		</e:Group>
+		<e:Label id="lbNe" text="道具名称" x="97" y="21" size="18" textColor="0x3e1700"/>
+	</e:Group>
+</e:Skin>

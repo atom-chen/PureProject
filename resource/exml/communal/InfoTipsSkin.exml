@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InfoTipsSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="win_json.win_wenhao_1_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

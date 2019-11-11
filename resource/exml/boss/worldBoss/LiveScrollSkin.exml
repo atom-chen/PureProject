@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LiveScrollSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="sc" left="0" right="0" top="0" bottom="0" height="200">
+		<e:Group id="g">
+			<e:layout>
+				<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

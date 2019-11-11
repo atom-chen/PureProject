@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="newSkillSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Image source="newtips_json.newtips_bg_png" x="0" anchorOffsetX="0" width="566" anchorOffsetY="0" height="182" scale9Grid="130,64,3,53"/>
+	<e:Image id="bg" source="public_json.public_icon_bg_png" horizontalCenter="-188" verticalCenter="-15.5"/>
+	<e:Label text="获得新技能：" y="26" size="18" textColor="0x4C2F27" x="150"/>
+	<e:Label text="获得新技能：" y="52" size="18" x="150" anchorOffsetX="0" width="374" anchorOffsetY="0" height="51" textColor="0x4c2f27"/>
+	<e:Label text="获得新技能" y="26" size="18" horizontalCenter="22" textColor="0x00a2ff"/>
+</e:Skin>

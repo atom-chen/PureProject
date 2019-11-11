@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyTowerPannelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="680" width="535">
+	<e:Image height="680" width="530" scale9Grid="20,168,65,17" source="win_json.win_bg4_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image y="10.7" source="res/images/bg/copyTowerBg.png" horizontalCenter="0"/>
+	<e:Group y="525.84" horizontalCenter="0">
+		<e:Image width="515" height="140" y="0" scale9Grid="19,14,119,30" x="0" source="public_json.public_rect_7_png"/>
+		<e:Image id="btnRank" source="copytower_json.copytower_btn_rank_png" x="399.53" y="0.61"/>
+		<e:Image source="copytower_json.copytower_img_rank_png" horizontalCenter="0" top="0"/>
+		<e:Group y="32.33" width="99%" height="78" horizontalCenter="0" locked="true">
+			<e:Image y="0" source="public_json.public_slice_line2_png" width="100%" x="0"/>
+			<e:Image y="20" source="public_json.public_slice_line2_png" width="100%" x="0"/>
+			<e:Image y="30" source="public_json.public_slice_line2_png" width="100%" x="0"/>
+			<e:layout>
+				<e:VerticalLayout gap="33"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="37.35" left="20">
+			<e:Image source="rank_json.rank_nb_1_png" x="8" y="0"/>
+			<e:Image source="rank_json.rank_nb_2_png" x="5" y="38.65"/>
+			<e:Image source="rank_json.rank_nb_3_png" x="6" y="72.65"/>
+			<e:layout>
+				<e:VerticalLayout gap="8"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lbNe0" text="虚位以待" y="43" size="16" horizontalCenter="-83.5"/>
+		<e:Label text="虚位以待" y="77" id="lbNe1" size="16" horizontalCenter="-83.5"/>
+		<e:Label text="虚位以待" y="113" id="lbNe2" size="16" horizontalCenter="-83.5"/>
+		<e:Label id="lbLv0" text="" y="43" size="16" textColor="0x00b4ff" horizontalCenter="117"/>
+		<e:Label id="lbLv1" text="" y="77" size="16" textColor="0x00b4ff" horizontalCenter="116.5"/>
+		<e:Label id="lbLv2" text="" y="113" size="16" textColor="0x00b4ff" horizontalCenter="116.5"/>
+	</e:Group>
+	<e:Group x="297.82" y="11.4" anchorOffsetX="0" width="222.66" anchorOffsetY="0" height="505.33">
+		<e:Image source="copytower_json.copytower_img_rw2_png" y="21.32" horizontalCenter="0.1700000000000017"/>
+		<e:List id="list" y="79.23" itemRendererSkinName="ItembaseSkin" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.8299999999999983">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		<e:Button id="btnRw" label="" y="375.67" icon="copytower_json.copytower_img_rw_png" left="20" width="78" skinName="BtnIconSkin"/>
+		<e:Button id="btnLuck" label="" y="375.67" icon="copytower_json.copytower_img_luck_png" width="78" x="125" skinName="BtnIconSkin"/>
+		<e:Group x="11" y="178.95">
+			<e:Group y="0" x="0">
+				<e:Image source="copytower_json.copytower_green_rect_png" y="0" x="0"/>
+				<e:Label id="lbAcross" text="通关迷雾之塔10层" size="16" textColor="0x2aff00" horizontalCenter="0" verticalCenter="1"/>
+			</e:Group>
+			<e:Group x="35" y="35.31">
+				<e:Image source="copytower_json.copytower_img_1_png" y="0" x="0"/>
+				<ns1:BaseCustComponent id="rw" y="8.41" className="ItemBase" skinName="ItembaseSkin" horizontalCenter="0"/>
+				<e:Label id="lbRwNe" text="宝石" size="16" textColor="0xff24c4" y="103.74" horizontalCenter="0.5"/>
+			</e:Group>
+		</e:Group>
+		<e:Label text="明天0点领取" size="16" textColor="0x2AFF00" x="16" y="456"/>
+		<e:Label id="lbLuckAcc" text="每通关10层可抽奖" size="16" textColor="0x2AFF00" x="128" y="456" width="83" textAlign="center"/>
+	</e:Group>
+	<e:Group y="66.66" horizontalCenter="-109">
+		<e:Label id="lb2" text="第1层" size="16" y="116.67" textColor="0xffea00" horizontalCenter="0"/>
+		<e:Label id="lb1" text="第100层" size="16" y="236" textColor="0xffffff" horizontalCenter="0"/>
+		<e:Label id="lb0" text="第100层" size="16" textColor="0xFFFFFF" y="354" horizontalCenter="0"/>
+		<e:Label id="lb3" text="第100层" size="16" textColor="0xFFFFFF" y="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btnClg" label="" x="-0.96" y="360.66" icon="copytower_json.copytower_img_clg_png" skinName="BtnIconSkin"/>
+</e:Skin>

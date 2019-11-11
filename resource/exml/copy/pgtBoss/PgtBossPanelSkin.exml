@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PgtBossPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image height="680" width="530" scale9Grid="20,168,65,17" source="win_json.win_bg4_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="role_json.role_line_fg_2_png" horizontalCenter="-1" scale9Grid="1,1,8,1" width="526" y="580"/>
+	<e:TabBar id="tab" height="90" y="585" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="TabBar3Skin" left="10" right="10">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" gap="38" paddingLeft="19"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Image id="line1" x="111" y="598" source="win_json.win_slice_line3_png"/>
+	<e:Image id="line2" x="212" y="598" source="win_json.win_slice_line3_png"/>
+	<e:Image id="line3" x="314" y="598" source="win_json.win_slice_line3_png"/>
+	<e:Image id="line4" x="417" y="598" source="win_json.win_slice_line3_png"/>
+	<e:Image scale9Grid="20,168,65,17" horizontalCenter="0" x="10" y="5" source="res/images/bg/pgtBossBg.png"/>
+	<e:Image x="335" y="15" source="public_json.public_rect_7_png" scale9Grid="23,16,140,97" anchorOffsetX="0" width="179" anchorOffsetY="0" height="550"/>
+	<e:Image x="15" y="15" source="pgtBoss_json.pgt_boss_board_num1_png"/>
+	<e:Image x="100" y="78" source="pgtBoss_json.pgt_boss_board_num2_png"/>
+	<e:Image x="82.61" y="115.34" source="pgtBoss_json.pgt_boss_lab_pwr_png"/>
+	<e:Image x="12" y="350" source="pgtBoss_json.pgt_boss_bg_items_png"/>
+	<e:Image x="120" y="286" source="pgtBoss_json.pgt_boss_shade_png"/>
+	<e:Image id="imgCost" x="124" y="479" source="" width="28" height="28"/>
+	<ns1:BaseCustComponent id="boss" y="294" className="UIAvatar" x="168"/>
+	<e:ProgressBar id="hpBar" x="35" y="316" skinName="progressBarSkin8"/>
+	<e:Label id="labCount" text="label" size="16" anchorOffsetX="0" textAlign="center" y="20" horizontalCenter="-2"/>
+	<e:Label id="labTime" text="label" size="16" anchorOffsetX="0" textAlign="center" y="20" textColor="0xffc600" left="25"/>
+	<e:Label id="labBossCd" text="label" size="16" anchorOffsetX="0" textAlign="center" horizontalCenter="-90" bottom="140" textColor="0x00ff00" visible="false"/>
+	<e:Label id="labName" text="label" size="18" anchorOffsetX="0" textAlign="center" y="83" textColor="0xffde00" horizontalCenter="-90"/>
+	<e:Label id="labCost" text="label" size="16" anchorOffsetX="0" y="485" x="160" verticalAlign="middle" textAlign="left"/>
+	<e:Label id="labLock" text="label" size="16" anchorOffsetX="0" y="485" verticalAlign="middle" textAlign="left" horizontalCenter="-88" textColor="0xff0000" visible="false"/>
+	<e:Label id="labHp" text="aaa" size="18" anchorOffsetX="0" y="319" verticalAlign="middle" textAlign="center" horizontalCenter="-94"/>
+	<e:List id="awdList" itemRendererSkinName="ItembaseSkin" verticalCenter="72" horizontalCenter="-92" anchorOffsetX="0" anchorOffsetY="0" height="123">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:List>
+	<e:Scroller width="171" height="542" x="338" y="19" scrollPolicyH="off">
+		<e:List id="bossList" x="353" y="31" itemRendererSkinName="PgtBossItemSkin" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="addBtn" label="" x="300.5" y="16" icon="public_json.public_add_png" anchorOffsetX="0" anchorOffsetY="0" width="28" height="28"/>
+	<e:Button id="btnChallenge" x="110" y="510" width="143" height="57" icon="pgtBoss_json.pgt_boss_btn_challenge_png">
+	</e:Button>
+	<ns1:NumberMC id="power" x="185" y="128" type="pgtBoss_json.pgt_boss_score_"/>
+</e:Skin>

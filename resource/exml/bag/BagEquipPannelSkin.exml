@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagEquipPannelSkin" width="521" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_bg4_png" scale9Grid="28,139,62,66" left="-4" right="-5" top="0" bottom="0" width="530" anchorOffsetX="0"/>
+	<e:Image source="win_json.win_bg_line_png" scale9Grid="8,9,26,25" height="597" width="505" anchorOffsetY="0" y="13" horizontalCenter="0" anchorOffsetX="0"/>
+	<e:Scroller anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" top="21" bottom="77">
+		<e:List id="itemList" anchorOffsetY="0" height="582" x="0" y="13.64" itemRendererSkinName="ItembaseSkin">
+		<e:layout>
+			<e:TileLayout horizontalAlign="center" horizontalGap="5" verticalGap="8" requestedColumnCount="6" paddingLeft="0" paddingTop="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="626" x="24">
+		<e:Image scaleX="1" scaleY="1" x="0" width="190" source="public_json.public_rect_2_png" scale9Grid="13,13,18,9" verticalCenter="0"/>
+		<e:Label text="容量" size="18" textColor="0xffde00" y="9" x="8"/>
+		<e:Label id="nTxt" text="100/200" size="18" y="9" horizontalCenter="5"/>
+		<e:Image id="extendBtn" source="zjm_json.zjm_add_png" x="159" verticalCenter="0"/>
+	</e:Group>
+	<e:Button id="mBtn" label="Button" icon="bag_json.bag_melt_png" x="299" anchorOffsetX="0" width="150" anchorOffsetY="0" height="60" y="613" skinName="BtnIconSkin"/>
+</e:Skin>

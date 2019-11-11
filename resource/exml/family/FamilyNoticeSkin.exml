@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyNoticeSkin" width="437" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  height="387">
+	<ns1:BaseWinBg id="bg" left="0" right="0" top="0" bottom="0" skinName="BaseWinBg2Skin"/>
+	<e:Image scale9Grid="1,0,13,3" horizontalCenter="0" width="415" bottom="95" source="win_json.win_slice_line2_png"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" source="public_json.public_rect_7_png" width="397" scale9Grid="23,16,140,97" horizontalCenter="0" top="75" bottom="110" height="220"/>
+	<e:Button id="btnSure" label="Button" bottom="30" skinName="BtnIconSkin" icon="res/btn/confirm.png" horizontalCenter="0"/>
+	<e:Label id="count" text="Label" anchorOffsetX="0" anchorOffsetY="0" size="18" textAlign="center" lineSpacing="3" bottom="115" textColor="0xffffff" right="25"/>
+	<e:EditableText id="notice" width="382" text="Label" x="28" top="84" bottom="140" size="18" textColor="0xffc600" anchorOffsetX="0" anchorOffsetY="0" maxChars="60" textAlign="left" multiline="true"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BarrageTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="content" text="Label75637453435" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xffdf56"/>
+</e:Skin>

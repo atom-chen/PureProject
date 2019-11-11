@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwardTips2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="nor,sweep" >
+	<e:Image x="0" y="0" source="res/images/bg/victoryBg.png" source.sweep="res/images/bg/sweepBg.png"/>
+	<e:Button id="recvBtn" label="Button" icon="res/btn/receive.png" y="628" x="156" skinName="BtnIconSkin"/>
+	<e:Scroller width="347" height="257" y="357" anchorOffsetX="0" anchorOffsetY="0" x="69" height.sweep="321" y.sweep="293">
+		<e:List id="itemList_0" itemRendererSkinName="Itembase2Skin" anchorOffsetY="0" height="114" x="0" y="-16">
+		<e:layout>
+			<e:TileLayout horizontalGap="10" verticalGap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image y="300" horizontalCenter="0" source="win_json.win_reword_2_png" y.sweep="243"/>
+	<e:Label id="countDown" text="5s后自动关闭" y="687" textColor="0x00FF00" size="16" horizontalCenter="0"/>
+	<e:Image id="evaluation" horizontalCenter="0" top="226" source="awardTips_json.awardTips_l_b_png" visible.sweep="false"/>
+</e:Skin>

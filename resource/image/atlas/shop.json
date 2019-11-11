@@ -1,0 +1,16 @@
+{"file":"shop.png","frames":{
+"shop_img_1_png":{"x":245,"y":84,"w":190,"h":17,"offX":0,"offY":0,"sourceW":190,"sourceH":17},
+"shop_img_2_png":{"x":245,"y":0,"w":202,"h":28,"offX":0,"offY":0,"sourceW":202,"sourceH":28},
+"shop_img_3_png":{"x":0,"y":0,"w":243,"h":137,"offX":0,"offY":0,"sourceW":243,"sourceH":137},
+"shop_img_4_png":{"x":114,"y":149,"w":145,"h":2,"offX":0,"offY":0,"sourceW":145,"sourceH":2},
+"shop_img_5_png":{"x":245,"y":58,"w":140,"h":24,"offX":0,"offY":0,"sourceW":140,"sourceH":24},
+"shop_img_6_png":{"x":245,"y":30,"w":150,"h":26,"offX":0,"offY":0,"sourceW":150,"sourceH":26},
+"shop_sale_1_png":{"x":449,"y":0,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44},
+"shop_sale_2_png":{"x":437,"y":46,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44},
+"shop_sale_3_png":{"x":437,"y":92,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44},
+"shop_sale_4_png":{"x":245,"y":103,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44},
+"shop_sale_5_png":{"x":302,"y":103,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44},
+"shop_sale_6_png":{"x":359,"y":103,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44},
+"shop_sale_7_png":{"x":416,"y":138,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44},
+"shop_sale_8_png":{"x":0,"y":139,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44},
+"shop_sale_9_png":{"x":57,"y":139,"w":55,"h":44,"offX":0,"offY":0,"sourceW":55,"sourceH":44}}}

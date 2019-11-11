@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyExpBuffItemSkin" width="396" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="public_json.public_rect_5_png" scale9Grid="12,11,14,17" left="0" right="0" top="0" bottom="0"/>
+	<ns1:BaseCustComponent id="item_1" skinName="ItembaseSkin" scaleX="0.9" scaleY="0.9" className="ItemBase" left="14" verticalCenter="1"/>
+	<ns1:ItemExpend id="cost" x="95" skinName="ItemExpend3Skin" y="15"/>
+	<e:Button id="uBtn" label="Button" x="261" y="16" skinName="BtnIconSkin" icon="res/btn/wear.png"/>
+</e:Skin>

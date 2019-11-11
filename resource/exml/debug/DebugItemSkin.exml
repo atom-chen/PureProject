@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DebugItemSkin" width="320" height="25" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x252047"/>
+	<e:Label verticalCenter="0" left="0" text="{data.text}" size="20"/>
+	<e:Label text="{data.des}" verticalCenter="0" right="7" size="20"/>
+</e:Skin>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GashaponPannelPetSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="viewContent" touchEnabled="false" anchorOffsetY="0" height="660" width="500" anchorOffsetX="0" horizontalCenter="0.5">
+		<e:Image id="imgBag0" source="gashapon_json.gashapon_img2_png" x="248.1" y="425.56"/>
+		<e:Image source="gashapon_json.gashapon_img3_png" x="266.93" y="630.12"/>
+		<e:Button id="btn0" label="" x="74.33" y="580.48" skinName="BtnIconSkin" icon="res/btn/luck_1.png" width="132" height="49"/>
+		<e:Button id="btn1" label="" x="292.51" y="580.48" skinName="BtnIconSkin" icon="res/btn/luck_2.png" width="132" height="49"/>
+		<e:Group id="gItem" y="10" maxHeight="337" scrollEnabled="true" width="491" horizontalCenter="0.5">
+		</e:Group>
+		<e:Image x="427" y="0.6699999999999875" source="res/images/bg/luck4bg.png" scaleX="1" scaleY="1"/>
+		<e:Image x="62" y="0.6699999999999875" source="res/images/bg/luck4bg.png" scaleX="-1" scaleY="1"/>
+		<e:Image id="imgType0" source="gashapon_json.gashapon_img4_png" x="-18.66" y="251.48"/>
+	</e:Group>
+	<e:Group x="369" y="312">
+		<e:Group y="101" horizontalCenter="0">
+		<e:Group x="0" y="0">
+			<e:Image source="gashapon_json.gashapon_img7_png" x="0" y="0"/>
+			<e:Image id="imgCard0" source="gashapon_json.gashapon_img8_png" x="0" y="0"/>
+		</e:Group>
+		<e:Group id="gArrow" x="10" y="10">
+			<e:Image source="gashapon_json.gashapon_img7_png" x="0" y="0"/>
+			<e:Image id="imgCard1" source="gashapon_json.gashapon_img8_png" x="0" y="0"/>
+		</e:Group>
+		<e:Group x="20" y="20">
+			<e:Image source="gashapon_json.gashapon_img7_png" x="0" y="0"/>
+			<e:Image id="imgCard2" source="gashapon_json.gashapon_img8_png" x="0" y="0"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:Group>
+		<e:Image id="imgBall" source="gashapon_json.gashapon_img1_png" y="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group x="257" y="375">
+		<e:Image id="item" y="0" source="res/images/item/14.png" scaleY="0.4" scaleX="0.4" x="0"/>
+		<e:Label id="itemNum" text="10" x="39.12" y="6" size="18"/>
+	</e:Group>
+	<ns1:BaseCustComponent id="price0" y="546" className="DoubbleItemExpend" skinName="DoubbleItemExpendSkin" horizontalCenter="-113" touchEnabled="false"/>
+	<ns1:BaseCustComponent id="price1" y="546" className="DoubbleItemExpend" skinName="DoubbleItemExpendSkin" touchEnabled="false" horizontalCenter="104"/>
+	<e:Group x="78" y="393" id="gRw">
+		<e:Image source="gashapon_json.gashapon_img5_png" x="0" y="0"/>
+		<e:Image id="imgItem" x="12" y="13" source=""/>
+	</e:Group>
+	<e:Group x="127.44" y="441.13" width="1" height="1" id="gShow"/>
+</e:Skin>

@@ -1,0 +1,117 @@
+/*
+ * @Description: 系统号 由服务端定义 Proxy中使用
+ * @Author: guolinsen
+ * @Date: 2019-08-15 15:16:16
+ */
+var PacketTypes;
+(function (PacketTypes) {
+    PacketTypes[PacketTypes["Default"] = 0] = "Default";
+    PacketTypes[PacketTypes["MOVE"] = 1] = "MOVE";
+    PacketTypes[PacketTypes["PROPERTY"] = 2] = "PROPERTY";
+    PacketTypes[PacketTypes["OBSERVER"] = 3] = "OBSERVER";
+    PacketTypes[PacketTypes["BUFF"] = 4] = "BUFF";
+    PacketTypes[PacketTypes["SKILL"] = 5] = "SKILL";
+    //QUEST = 6,				//任务子系统的ID
+    PacketTypes[PacketTypes["EQUIP"] = 7] = "EQUIP";
+    PacketTypes[PacketTypes["BAG"] = 8] = "BAG";
+    PacketTypes[PacketTypes["CHAT"] = 9] = "CHAT";
+    PacketTypes[PacketTypes["FAMILY"] = 10] = "FAMILY";
+    PacketTypes[PacketTypes["SUB"] = 11] = "SUB";
+    PacketTypes[PacketTypes["SHOP"] = 12] = "SHOP";
+    PacketTypes[PacketTypes["DEAL"] = 13] = "DEAL";
+    PacketTypes[PacketTypes["EFFECT"] = 14] = "EFFECT";
+    PacketTypes[PacketTypes["DROP"] = 15] = "DROP";
+    PacketTypes[PacketTypes["TEAM"] = 16] = "TEAM";
+    PacketTypes[PacketTypes["PRACTICE"] = 17] = "PRACTICE";
+    PacketTypes[PacketTypes["ONHOOK"] = 18] = "ONHOOK";
+    PacketTypes[PacketTypes["COPY"] = 20] = "COPY";
+    PacketTypes[PacketTypes["MAIL"] = 22] = "MAIL";
+    PacketTypes[PacketTypes["STORAGE"] = 23] = "STORAGE";
+    PacketTypes[PacketTypes["PK"] = 24] = "PK";
+    PacketTypes[PacketTypes["DAILY"] = 25] = "DAILY";
+    PacketTypes[PacketTypes["OTHER"] = 26] = "OTHER";
+    PacketTypes[PacketTypes["SELLBUY"] = 27] = "SELLBUY";
+    PacketTypes[PacketTypes["ACHIEVE"] = 28] = "ACHIEVE";
+    PacketTypes[PacketTypes["ADVENTURE"] = 29] = "ADVENTURE";
+    PacketTypes[PacketTypes["SWORN"] = 31] = "SWORN";
+    PacketTypes[PacketTypes["CAMP"] = 32] = "CAMP";
+    //		 MOUNT = 33,				//坐骑（宝物）子系统
+    PacketTypes[PacketTypes["PET"] = 34] = "PET";
+    PacketTypes[PacketTypes["TRAFFIC"] = 35] = "TRAFFIC";
+    PacketTypes[PacketTypes["GASHAPON"] = 36] = "GASHAPON";
+    PacketTypes[PacketTypes["QUEST"] = 37] = "QUEST";
+    PacketTypes[PacketTypes["SLG"] = 38] = "SLG";
+    PacketTypes[PacketTypes["MARKET"] = 39] = "MARKET";
+    //		 HONOUR = 40,			//荣誉系统
+    PacketTypes[PacketTypes["FRIEND"] = 41] = "FRIEND";
+    PacketTypes[PacketTypes["MOUNT"] = 42] = "MOUNT";
+    PacketTypes[PacketTypes["JEWEL"] = 43] = "JEWEL";
+    PacketTypes[PacketTypes["HERO"] = 44] = "HERO";
+    PacketTypes[PacketTypes["Device"] = 45] = "Device";
+    PacketTypes[PacketTypes["Service"] = 46] = "Service";
+    PacketTypes[PacketTypes["RICH"] = 47] = "RICH";
+    PacketTypes[PacketTypes["TALISMAN"] = 48] = "TALISMAN";
+    // CHECKPLUGIN = 49,       //检测外挂子系统
+    PacketTypes[PacketTypes["BOSS"] = 49] = "BOSS";
+    PacketTypes[PacketTypes["CLOUDSTREASURE"] = 50] = "CLOUDSTREASURE";
+    PacketTypes[PacketTypes["TALENT"] = 51] = "TALENT";
+    PacketTypes[PacketTypes["PURGATORY"] = 53] = "PURGATORY";
+    PacketTypes[PacketTypes["YEAR_ACTIVITY"] = 52] = "YEAR_ACTIVITY";
+    PacketTypes[PacketTypes["Artifact"] = 53] = "Artifact";
+    PacketTypes[PacketTypes["GEM_CLEAR"] = 54] = "GEM_CLEAR";
+    PacketTypes[PacketTypes["ARUNE"] = 55] = "ARUNE";
+    PacketTypes[PacketTypes["CARD"] = 56] = "CARD";
+    PacketTypes[PacketTypes["VIP"] = 57] = "VIP";
+    PacketTypes[PacketTypes["King"] = 58] = "King";
+    PacketTypes[PacketTypes["SpiriBeasts"] = 59] = "SpiriBeasts";
+    PacketTypes[PacketTypes["ARM"] = 60] = "ARM";
+    PacketTypes[PacketTypes["CLOTHESPRESS"] = 61] = "CLOTHESPRESS";
+    PacketTypes[PacketTypes["NEIGONG"] = 62] = "NEIGONG";
+    PacketTypes[PacketTypes["WING"] = 63] = "WING";
+    PacketTypes[PacketTypes["FURNACE"] = 64] = "FURNACE";
+    PacketTypes[PacketTypes["NEW_EAMIL"] = 65] = "NEW_EAMIL";
+    PacketTypes[PacketTypes["ROLE_TITLE"] = 66] = "ROLE_TITLE";
+    PacketTypes[PacketTypes["VIP_NEW"] = 67] = "VIP_NEW";
+    PacketTypes[PacketTypes["Gift_NEW"] = 68] = "Gift_NEW";
+    PacketTypes[PacketTypes["SPECIALRING"] = 69] = "SPECIALRING";
+    PacketTypes[PacketTypes["ShaCitySkill"] = 70] = "ShaCitySkill";
+    PacketTypes[PacketTypes["GodEquip"] = 71] = "GodEquip";
+    PacketTypes[PacketTypes["OFFICIAL"] = 72] = "OFFICIAL";
+    PacketTypes[PacketTypes["LIANTI"] = 73] = "LIANTI";
+    PacketTypes[PacketTypes["BOSSBOOK"] = 74] = "BOSSBOOK";
+    PacketTypes[PacketTypes["HONOR"] = 75] = "HONOR";
+    PacketTypes[PacketTypes["MONTHCARD"] = 76] = "MONTHCARD";
+    PacketTypes[PacketTypes["STRENGTHEN"] = 77] = "STRENGTHEN";
+    PacketTypes[PacketTypes["REFINE"] = 78] = "REFINE";
+    PacketTypes[PacketTypes["FASHION"] = 79] = "FASHION";
+    PacketTypes[PacketTypes["BADGE"] = 80] = "BADGE";
+    PacketTypes[PacketTypes["TOTEMS"] = 81] = "TOTEMS";
+    PacketTypes[PacketTypes["RUNE"] = 82] = "RUNE";
+    PacketTypes[PacketTypes["TRANSFER"] = 83] = "TRANSFER";
+    //脚本消息号定义
+    PacketTypes[PacketTypes["ONHOOK_DATA"] = 129] = "ONHOOK_DATA";
+    PacketTypes[PacketTypes["DEPUTY"] = 130] = "DEPUTY";
+    PacketTypes[PacketTypes["INTERACTIVE"] = 131] = "INTERACTIVE";
+    PacketTypes[PacketTypes["ARENA"] = 132] = "ARENA";
+    PacketTypes[PacketTypes["NPCDEAL"] = 133] = "NPCDEAL";
+    PacketTypes[PacketTypes["SHORTCUT"] = 134] = "SHORTCUT";
+    PacketTypes[PacketTypes["STORAGE_EXTEND"] = 135] = "STORAGE_EXTEND";
+    PacketTypes[PacketTypes["EQUIP_FIX"] = 136] = "EQUIP_FIX";
+    PacketTypes[PacketTypes["GETGIFTOL"] = 138] = "GETGIFTOL";
+    PacketTypes[PacketTypes["PULSE"] = 137] = "PULSE";
+    PacketTypes[PacketTypes["SCRIPT"] = 139] = "SCRIPT";
+    // SUIT = 140,    //套装系统
+    PacketTypes[PacketTypes["MOUNT_SCRIPT"] = 141] = "MOUNT_SCRIPT";
+    PacketTypes[PacketTypes["CLIMBINGTOWER_COPY"] = 142] = "CLIMBINGTOWER_COPY";
+    PacketTypes[PacketTypes["NEARMOVING_COPY"] = 143] = "NEARMOVING_COPY";
+    PacketTypes[PacketTypes["ACTIVE_SCRIPT"] = 145] = "ACTIVE_SCRIPT";
+    PacketTypes[PacketTypes["ARCHIVEROLES"] = 146] = "ARCHIVEROLES";
+    PacketTypes[PacketTypes["CIRCLE"] = 147] = "CIRCLE";
+    PacketTypes[PacketTypes["NEWBOSS"] = 148] = "NEWBOSS";
+    PacketTypes[PacketTypes["MONEYTREE"] = 149] = "MONEYTREE";
+    PacketTypes[PacketTypes["GUILDWAREHOUSE"] = 151] = "GUILDWAREHOUSE";
+    PacketTypes[PacketTypes["OFFER_QUEST"] = 152] = "OFFER_QUEST";
+    //登录子系统
+    PacketTypes[PacketTypes["LOGIN"] = 255] = "LOGIN";
+})(PacketTypes || (PacketTypes = {}));
+//# sourceMappingURL=PacketTypes.js.map

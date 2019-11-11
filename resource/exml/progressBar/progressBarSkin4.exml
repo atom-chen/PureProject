@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="progressBarSkin4" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="public_json.public_progress_blank1_png"/>
+	<e:Image id="thumb" scale9Grid="9,2,25,13" anchorOffsetX="0" verticalCenter="0" left="1" source="public_json.public_progress_bar1_png"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="12" fontFamily="Tahoma" verticalCenter="0" text="100%" style="l_normal" stroke="0.5" horizontalCenter="0" textColor="0xffffff" visible="false"/>
+</e:Skin>

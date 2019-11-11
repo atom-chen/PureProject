@@ -1,0 +1,18 @@
+class StdNoviceguide { 
+    /** 字段名 */
+    id: number;
+    /** 引导步骤 */
+    step: number;
+    /** 完成类型 */
+    command: string;
+    /** 操作对象 */
+    target: string;
+    /** 提示文字 */
+    text: string;
+    /** 方向，看图 */
+    dir: number;
+    /** 显示图层 */
+    layer: string;
+    /** 坐标偏移 */
+    offset: any[] = [];
+}

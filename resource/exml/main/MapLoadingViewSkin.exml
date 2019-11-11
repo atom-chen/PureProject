@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MapLoadingViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="640" height="1136">
+	<e:Rect left="0" right="0" top="0" bottom="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="zjm_json.zjm_gc_pro_png" scaleX="1" scaleY="1"/>
+		<e:Label id="tips" text="小剑齿常常因为在磨牙不愿意出战" y="62" horizontalCenter="0" size="16"/>
+		<e:Group id="progress" x="0" y="-43" anchorOffsetX="30">
+			<e:Image source="zjm_json.zjm_gc_icon_png" y="27"/>
+			<e:Image source="zjm_json.zjm_gc_bubble_png" x="10"/>
+			<e:Label id="percent" text="0%" y="4" textColor="0x221308" size="16" horizontalCenter="5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

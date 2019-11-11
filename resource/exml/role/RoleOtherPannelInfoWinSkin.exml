@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleOtherPannelInfoWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group touchThrough="true">
+		<ns1:BaseWinBg id="bg" horizontalCenter="0" skinName="BaseWinBg2Skin" width="546" height="100%"/>
+		<e:Group id="viewContent" touchEnabled="false" anchorOffsetY="0" top="75" bottom="24" horizontalCenter="0">
+			<ns1:BaseCustComponent id="cn" x="-5" y="-2" skinName="RoleOtherPannelInfoSkin" className="RoleOtherPannelInfo"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

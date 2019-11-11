@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AdventureItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="16,12,34,8" source="adventure_json.adventureItemBg_png" width="493" height="109" y="0" x="0"/>
+	<ns1:BaseCustComponent id="item" className="ItemBase" skinName="ItembaseSkin" x="23" y="14"/>
+	<e:Label id="nameLab" text="任务名称" x="112" y="26" size="18" textColor="0x4c2f27"/>
+	<e:Button id="btn" label="装备" skinName="BtnIconSkin" icon="res/btn/get_2.png" x="348" y="30"/>
+	<e:Image id="prize_flag" x="358" verticalCenter="0" source="public_json.public_finish2_png"/>
+	<e:Label id="proLab" text="1/10" x="112" y="60" size="18" textColor="0xff0000"/>
+</e:Skin>

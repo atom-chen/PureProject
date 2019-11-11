@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaseWinBg3Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<w:Config id="1655ba838c0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" scale9Grid="43,44,79,46" y="0" source="res/images/bg/vipBg.png" horizontalCenter="0"/>
+		<e:Image id="closeBtn" x="570.51" y="60.68" source="win_json.win_close_btn3_png"/>
+		<e:Image id="winTitle" x="44" y="13" source="" visible="false"/>
+	</e:Group>
+</e:Skin>

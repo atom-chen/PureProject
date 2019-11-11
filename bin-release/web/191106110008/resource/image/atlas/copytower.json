@@ -1,0 +1,11 @@
+{"file":"copytower.png","frames":{
+"copytower_btn_rank_png":{"x":121,"y":152,"w":109,"h":30,"offX":0,"offY":0,"sourceW":109,"sourceH":30},
+"copytower_green_rect_png":{"x":121,"y":124,"w":200,"h":26,"offX":0,"offY":0,"sourceW":200,"sourceH":26},
+"copytower_img_1_png":{"x":121,"y":0,"w":131,"h":122,"offX":0,"offY":0,"sourceW":131,"sourceH":122},
+"copytower_img_clg_png":{"x":0,"y":0,"w":119,"h":157,"offX":0,"offY":0,"sourceW":119,"sourceH":157},
+"copytower_img_luck_png":{"x":419,"y":73,"w":78,"h":70,"offX":0,"offY":0,"sourceW":78,"sourceH":70},
+"copytower_img_rank_png":{"x":254,"y":42,"w":163,"h":34,"offX":0,"offY":0,"sourceW":163,"sourceH":34},
+"copytower_img_rw_png":{"x":419,"y":0,"w":78,"h":71,"offX":0,"offY":0,"sourceW":78,"sourceH":71},
+"copytower_img_rw2_png":{"x":254,"y":0,"w":145,"h":40,"offX":0,"offY":0,"sourceW":145,"sourceH":40},
+"copytower_pagedown_png":{"x":323,"y":78,"w":87,"h":60,"offX":0,"offY":2,"sourceW":88,"sourceH":63},
+"copytower_pageup_png":{"x":323,"y":140,"w":88,"h":49,"offX":0,"offY":2,"sourceW":88,"sourceH":63}}}

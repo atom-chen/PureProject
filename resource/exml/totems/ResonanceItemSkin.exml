@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResonanceItemSkin" width="462" height="230" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="public_json.public_item_rect_1_png" scale9Grid="18,24,37,52" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="public_json.public_rect_7_png" y="91" width="443" height="130" scale9Grid="23,16,140,97" horizontalCenter="0"/>
+	<e:Image source="public_json.public_item_bg2_png" x="13" y="8.67"/>
+	<e:Button id="upBtn" label="Button" x="340" y="127" skinName="BtnIconSkin" icon="res/btn/promote_2.png"/>
+	<e:Label id="skillName" text="会心一击" x="97" y="12" size="18" textColor="0xffc600"/>
+	<e:Label id="desc" text="Label" x="97" y="42" size="16" anchorOffsetX="0" width="338"/>
+	<e:Group x="14" y="96">
+		<ns1:BaseCustComponent id="item_0" x="-151.67000000000002" y="-24" skinName="TotemsItemSkin" scaleX="1" scaleY="1" className="TotemsItem"/>
+		<ns1:BaseCustComponent x="-141.67000000000002" y="-14" skinName="TotemsItemSkin" scaleX="1" scaleY="1" id="item_1" className="TotemsItem"/>
+		<ns1:BaseCustComponent x="-131.67000000000002" y="-4" skinName="TotemsItemSkin" scaleX="1" scaleY="1" id="item_2" className="TotemsItem"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="unacti" source="public_json.public_unActive_png" x="349" y="110"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetTipsSkin" width="380" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="270">
+	<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" source="win_json.win_tips_bg2_png" scale9Grid="224,70,110,25"/>
+	<e:Image top="71" width="97%" horizontalCenter="0.5" source="win_json.win_slice_line_png"/>
+	<e:Image width="97%" horizontalCenter="0.5" source="win_json.win_slice_line_png" bottom="46"/>
+	<ns1:BaseCustComponent id="zdl" y="20" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetY="0" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" top="80" bottom="54" className="PropPart" skinName="PropPart3Skin" width="305" horizontalCenter="0"/>
+	<e:Image source="pet_json.pet_img_lb1_png" y="228" horizontalCenter="0"/>
+</e:Skin>

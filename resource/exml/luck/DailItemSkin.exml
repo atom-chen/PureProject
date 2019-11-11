@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="85">
+	<e:Image id="icon" source="res/images/item/14.png" top="0" horizontalCenter="0"/>
+	<e:Image id="recv" source="public_json.luck_img2_png" bottom="0" horizontalCenter="0" visible="false"/>
+	<e:Group id="gNum" x="15" y="66">
+		<e:Image source="luck_json.luck_img6_png" x="0" y="0"/>
+		<e:Label id="lbNum" text="999" y="1.74" size="16" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

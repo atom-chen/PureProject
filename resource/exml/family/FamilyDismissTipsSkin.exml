@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyDismissTipsSkin" width="506" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<ns1:BaseWinBg id="bg" left="0" right="0" top="0" bottom="0" skinName="BaseWinBg2Skin"/>
+	<e:Image scale9Grid="1,0,13,3" horizontalCenter="0" width="484" bottom="106" source="win_json.win_slice_line2_png"/>
+	<e:Label id="desc" text="label\nlabel\nlabel" anchorOffsetX="0" anchorOffsetY="0" size="18" horizontalCenter="0.5" textAlign="left" lineSpacing="3" width="370" textColor="0x3e1700" top="100" bottom="170"/>
+	<e:Label id="desc2" text="Label" anchorOffsetX="0" anchorOffsetY="0" size="18" horizontalCenter="0.5" textAlign="center" lineSpacing="3" bottom="125" textColor="0x792301"/>
+	<e:Button id="closeBtn" label="Button" left="62" bottom="34" skinName="BtnIconSkin" icon="res/btn/cancel.png"/>
+	<e:Button id="btnSure" label="Button" bottom="34" right="62" skinName="BtnIconSkin" icon="res/btn/confirm.png"/>
+</e:Skin>

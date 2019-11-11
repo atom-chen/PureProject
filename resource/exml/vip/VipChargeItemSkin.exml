@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipChargeItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image touchEnabled="false" height="100%" scale9Grid="24,62,195,79" source="vip_json.vip_rect_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="imgIcon" label="" icon="vip_json.vip_zs_3_png" skinName="BtnIconSkin" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group y="12" horizontalCenter="0">
+		<e:Image id="imgItem0" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" x="0" touchEnabled="false" y="0"/>
+		<e:Label id="lbNum0" text="999" size="18" x="29" textColor="0xFDFFD9" touchEnabled="false" verticalCenter="0.5"/>
+	</e:Group>
+	<e:Group id="gPrice" y="143" horizontalCenter="0">
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image source="vip_json.vip_rect_4_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group x="120" y="0">
+				<e:Image id="imgItem1" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" x="0" touchEnabled="false" y="0"/>
+				<e:Label id="lbNum1" text="999" size="18" x="29" textColor="0xFDFFD9" touchEnabled="false" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="imgVip" y="-151" x="-18" source="vip_json.vip_sc_png"/>
+	</e:Group>
+	<e:Label id="lb3" text="18元" y="177.9" size="22" textColor="0x4c2f27" horizontalCenter="0.5"/>
+	<e:Label id="lb2" text="(不计入充值活动)" y="154" textColor="0xff0000" size="16" horizontalCenter="0.5" stroke="2" strokeColor="0xffffff"/>
+	<e:Label id="lb1" text="每日100绑钻,持续7天" y="44.5" textColor="0x09b800" size="16" horizontalCenter="0.5" stroke="2" strokeColor="0xffffff"/>
+</e:Skin>

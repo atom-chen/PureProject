@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopTipsSkin" width="435" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" left="0" right="0" top="0" bottom="0" skinName="BaseWinBg2Skin"/>
+	<e:Image source="public_json.public_slice_line_png" width="415" scale9Grid="2,0,19,2" bottom="98" horizontalCenter="0"/>
+	<e:Image source="public_json.public_blank_1_png" horizontalCenter="0" bottom="116"/>
+	<e:Image source="public_json.public_item_name_png" horizontalCenter="0" top="165"/>
+	<ns1:BaseCustComponent id="item" skinName="ItembaseSkin" horizontalCenter="0" y="77"/>
+	<ns1:ItemExpend id="cost" width="20" height="20" x="181" currentState="single" bottom="121"/>
+	<e:Group top="201" bottom="201" anchorOffsetY="0" left="0" right="0">
+		<e:Image source="public_json.public_rect_1_png" scale9Grid="19,12,121,74" top="0" bottom="0" width="402" horizontalCenter="0" height="35"/>
+		<e:Label id="desc" text="" size="18" anchorOffsetX="0" width="359" anchorOffsetY="0" top="14" horizontalCenter="0" bottom="14" textColor="0x4c2f27"/>
+	</e:Group>
+	<ns1:BaseCustComponent id="numSele" skinName="NumSelectSkin" horizontalCenter="0" currentState="s3" bottom="157"/>
+	<e:Label id="itemName" text="Label" horizontalCenter="0" size="18" top="168"/>
+	<e:Button id="bBtn" label="Button" skinName="BtnIconSkin" icon="res/btn/buy1.png" horizontalCenter="0" bottom="28"/>
+</e:Skin>

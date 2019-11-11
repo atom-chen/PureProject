@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CoordinateTipsSkin" width="507" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_tips_bg_png" scale9Grid="63,78,384,34" left="0" right="0" top="7" bottom="0" locked="true"/>
+	<e:Image source="win_json.win_bg4_png" scale9Grid="28,139,62,66" height="634" width="490" horizontalCenter="0" top="63"/>
+	<e:Image source="win_json.win_title_2_png" horizontalCenter="0" top="0"/>
+	<e:Image source="res/winTitle/coordinate.png" x="213" y="8" locked="true"/>
+	<e:Scroller width="476" height="620" anchorOffsetY="0" horizontalCenter="0.5" top="69">
+		<e:List id="itemList" itemRendererSkinName="CoordinateItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

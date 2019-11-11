@@ -1,0 +1,12 @@
+class StdTotemsres { 
+    /** 字段名 */
+    组合id: number;
+    /** 等级 */
+    level: number;
+    /** 属性 */
+    attrs: any[] = [];
+    /** 组合 */
+    number: any[] = [];
+    /** 等级限制 */
+    classLvl: number;
+}

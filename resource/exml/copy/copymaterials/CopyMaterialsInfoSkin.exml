@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyMaterialsInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="274" height="159">
+	<e:Image source="copymaterials_json.copymaterials_bg_png" scale9Grid="21,20,71,38" left="0" right="0" top="0" bottom="0"/>
+	<e:Button id="exitBtn" label="Button" icon="res/btn/exitBtn.png" y="98" x="82"/>
+	<e:Image source="public_json.public_prop_rect_png" width="249" scale9Grid="19,13,119,29" y="39" x="13"/>
+	<e:Image source="strength_json.strength_slice_line_png" scale9Grid="1,0,5,2" width="229" x="23" y="67"/>
+	<e:Image source="copymaterials_json.copymaterials_text_4_png" x="20" y="16"/>
+	<e:Image id="eva" source="copymaterials_json.copymaterials_1_png" y="89" x="-14"/>
+	<ns1:NumberMC id="num" x="111" type="time_" y="16"/>
+	<e:Label id="txt_0" text="" size="16" anchorOffsetX="0" width="236" textColor="0xffc600" x="23" y="46"/>
+	<e:Label text="" size="16" id="txt_1" width="236" textColor="0xffc600" y="73" x="23"/>
+</e:Skin>

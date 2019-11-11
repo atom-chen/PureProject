@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankModelWinASkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" x="0" top="0" bottom="0"/>
+	<e:Group top="65" bottom="15" height="430" horizontalCenter="0" width="415">
+		<e:Image source="public_json.public_slice_line_png" width="419" scale9Grid="2,0,19,2" horizontalCenter="0" bottom="50"/>
+		<e:Group x="5" y="35">
+		<e:Image source="public_json.public_prop_rect_png" y="0" scale9Grid="19,11,119,33" width="405" height="340" x="0"/>
+		<e:Scroller width="403" horizontalCenter="0" top="0" height="335">
+			<e:List id="list" x="114" y="-1" itemRendererSkinName="RankModelItemASkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		</e:Group>
+		<e:Image source="rank_json.rank_lb1_png" y="6" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" bottom="26" height="33" width="403">
+		<e:Image width="100%" x="0" source="public_json.public_prop_rect_png" height="100%" scale9Grid="19,7,119,38"/>
+		<e:Image id="imgRank" source="rank_json.rank_nb_1_png" x="101" y="3"/>
+		<e:Label id="lbRank" text="1" size="16" textColor="0xffd823" y="9" horizontalCenter="-64" x="108"/>
+		<e:Label text="我的排名:" size="16" x="22" verticalCenter="0.5" textColor="0xffd823"/>
+		<e:Label id="lbLv" text="迷雾之塔107层" size="16" textColor="0x00B4FF" x="266" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

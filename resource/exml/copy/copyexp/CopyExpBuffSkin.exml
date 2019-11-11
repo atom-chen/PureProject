@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyExpBuffSkin" width="442" height="457" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg left="0" right="0" top="0" bottom="0" skinName="BaseWinBg2Skin"/>
+	<e:Scroller width="396" height="354" x="22" y="74" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="itemList" itemRendererSkinName="CopyExpBuffItemSkin" x="1">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

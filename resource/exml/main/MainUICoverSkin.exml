@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUICoverSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" maxWidth="580" width="640"  height="1136">
+	<w:Config id="16b55060ddc"/>
+	<e:Group horizontalCenter="0" width="640" top="-1" height="82">
+		<e:Image source="zjm_json.zjm_gn_rect_png" x="1" y="0"/>
+		<e:Image id="imgRole" x="8" y="7.2" source="zjm_json.zjm_touxiang_1_png"/>
+		<e:Button id="btnVip" label="" x="102" y="3" skinName="BtnIconSkin" icon="zjm_json.zjm_vip_1_png" width="43" height="34"/>
+		<e:Image source="zjm_json.zjm_gold_png" x="475" y="8"/>
+		<e:Image x="477" y="43" source="zjm_json.zjm_jewel_png"/>
+		<e:Image source="zjm_json.zjm_add_png" x="608" y="9"/>
+		<e:Image source="zjm_json.zjm_add_png" x="608" y="42"/>
+		<e:Image source="zjm_json.zjm_lb_zl_png" x="287" y="11"/>
+		<ns1:NumberMC id="fightNum" x="345.5" y="14" type="zjm_num_"/>
+		<e:ProgressBar id="progressBar1" x="174" y="53.4" skinName="progressBarSkin1" maximum="60" value="100" slideDuration="0"/>
+		<e:Label id="lbName" text="主角名字" x="145.6" y="13" size="18" textColor="0x4c2f27" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lbCoin" text="160,200" x="509" y="13.46" size="18" textColor="0xfff1e6"/>
+		<e:Label id="lbLevel" text="等级:109" x="103.5" y="55.4" size="16" textColor="0xfff1e6"/>
+		<e:Label id="lbGold" text="260,20" x="510" y="47.56" size="18" textColor="0xfff1e6"/>
+	</e:Group>
+	<e:Group id="main2" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" horizontalCenter="7" width="640" height="118" touchThrough="true" bottom="0">
+		<e:Group id="group1" touchEnabled="false" touchThrough="true" width="640" x="0" bottom="0">
+			<e:Image touchEnabled="false" source="zjm_json.zjm_down_rect_png" x="-32" y="1.39"/>
+			<e:Button id="btn1" label="" x="15" y="66.33" scaleX="1" scaleY="1" name="GUAJI" width="115" height="82" skinName="MainBtnDownSkin2" icon="zjm_json.zjm_zc_png">
+			</e:Button>
+			<e:Button id="btn2" label="" x="116.39" y="35.6" scaleX="1" scaleY="1" skinName="MainBtnDownSkin" icon="zjm_json.zjm_js_png" name="ROLE"/>
+			<e:Button id="btn3" label="" x="239.68" y="35.6" scaleX="1" scaleY="1" skinName="MainBtnDownSkin" icon="zjm_json.zjm_mx_png" name="STRENGTH">
+			</e:Button>
+			<e:Button id="btn4" label="" x="361.68" y="35.6" scaleX="1" scaleY="1" skinName="MainBtnDownSkin" icon="zjm_json.zjm_cw_png" name="PET">
+			</e:Button>
+			<e:Button id="btn5" label="" x="471.69" y="35.6" scaleX="1" scaleY="1" name="BAG" skinName="MainBtnDownSkin" icon="zjm_json.zjm_bb_png">
+			</e:Button>
+		</e:Group>
+		<e:ProgressBar id="progressBar2" y="104.33" skinName="progressBarSkin2" value="100" horizontalCenter="21" slideDuration="0"/>
+	</e:Group>
+</e:Skin>

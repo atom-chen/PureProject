@@ -1,0 +1,42 @@
+class StdGlobalconfig { 
+    /** 字段名 */
+    id: number;
+    /** 怪物掉落物品的刷新时间/ms */
+    monsterItemRefreshTime: number;
+    /** 最大邮件数量  */
+    nMailMaxCount: number;
+    /** 复活一个角色花费 */
+    Rescount: number;
+    /** 复活冷却时间 */
+    ResTime: number;
+    /** 最大离线收益时间 */
+    offlineAddMaxHour: number;
+    /** 金币鼓舞次数 */
+    coinInspireCount: number;
+    /** 金币鼓舞消耗 */
+    coinInspireConsume: number;
+    /** 钻石鼓舞次数 */
+    goldInspireCount: number;
+    /** 钻石鼓舞消耗 */
+    goldInspireConsume: number;
+    /** 鼓舞单次buff */
+    buffid: any[] = [];
+    /** 每日签到最大签到次数 */
+    signNeed: number;
+    /** 累计签到次数 */
+    CumulativeSignNeed: number;
+    /** 最小暴击率 */
+    CRIT_MIN: number;
+    /** 最大暴击率 */
+    CRIT_MAX: number;
+    /** 防御系数 */
+    DEF: number;
+    /** 暴击倍率 */
+    CRIT_RATE: number;
+    /** 伤害浮动 上下 */
+    DMG_FLOAT: number;
+    /** 世界BOSS购买次数单价 */
+    worldBossCons: number;
+    /** 排行榜显示个数 */
+    nRankingListMaxSize: number;
+}

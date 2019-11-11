@@ -1,0 +1,16 @@
+class StdShop { 
+    /** 道具序列 */
+    id: string;
+    /** 价格 */
+    price: any[] = [];
+    /** 原价 */
+    originalprice: number;
+    /** 折扣 */
+    discount: number;
+    /** 商品 */
+    item: any[] = [];
+    /** 每日限购 */
+    restrictions: number;
+    /** 商城类型 */
+    type: number;
+}

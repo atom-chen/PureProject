@@ -1,0 +1,10 @@
+class StdBagtype { 
+    /** 字段名 */
+    id: string;
+    /** 背包大小 */
+    bagnum: number;
+    /** 可扩容大小 */
+    addnum: number;
+    /** 单个价格 */
+    consume: number;
+}

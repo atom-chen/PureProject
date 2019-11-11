@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipCardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image touchEnabled="false" height="100%" source="vip_json.vip_rect_6_png" x="0" y="0" scale9Grid="24,62,195,79"/>
+	<e:Image id="imgPrice" source="vip_json.vip_lb__png" y="157" horizontalCenter="-125" visible="false"/>
+	<e:Group id="gPrice" x="31.01" y="152">
+		<e:Group x="0" y="0">
+			<e:Label text="价格:" size="18" textColor="0xFDFFD9" touchEnabled="false" left="0" verticalCenter="0"/>
+			<e:Image id="imgItem0" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" x="42" touchEnabled="false" y="0"/>
+			<e:Label id="lbNum0" text="999" size="18" x="71" textColor="0xFDFFD9" touchEnabled="false" verticalCenter="0.5"/>
+			<e:Image source="vip_json.vip_bar_png" x="44" y="14"/>
+		</e:Group>
+		<e:Group x="123" y="0">
+			<e:Image id="imgItem1" source="res/images/item/14.png" scaleX="0.4" scaleY="0.4" x="2" touchEnabled="false" y="0"/>
+			<e:Label id="lbNum1" text="999" size="18" x="30.99" textColor="0xFDFFD9" touchEnabled="false" y="6"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="imgVip" y="5" x="17" source="vip_json.vip_img_1_png"/>
+	<e:Group y="14" right="5" anchorOffsetX="0" width="251">
+		<e:Group y="80" horizontalCenter="0.5">
+			<e:Image source="public_json.public_item_name_png" y="1.15" x="0" anchorOffsetX="0" width="139" anchorOffsetY="0" height="22.85"/>
+			<e:Label id="lbMore" text="点击查看更多" size="16" y="6.67" horizontalCenter="0.5" textColor="0x0cff00"/>
+		</e:Group>
+		<e:Group y="114" horizontalCenter="0">
+			<e:Button id="eBtn" label="" y="0" skinName="BtnIconSkin" icon="res/btn/ljkt.png" touchEnabled="true" horizontalCenter="0"/>
+			<e:Component id="eff" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Scroller y="6" anchorOffsetY="0" height="69" left="20">
+			<e:List id="listLb" x="31" y="69" itemRendererSkinName="VipWelfareItem2Skin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="10"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

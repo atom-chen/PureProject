@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuitViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="510" height="565">
+	<e:Image source="win_json.win_bg_line_png" width="506" height="483" bottom="2" horizontalCenter="-1" scale9Grid="11,13,19,18"/>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" x="2" y="-5" anchorOffsetX="0" width="508"/>
+	<e:Group id="gProperty" x="4" y="82" anchorOffsetX="0" width="132">
+		<e:Image id="imgProperty" source="suit_json.suit_rect_jiaceng_png" y="10" right="0"/>
+	</e:Group>
+	<e:Group x="312" y="91">
+		<e:Image width="190" x="0" y="0" source="public_json.public_rect_2_png" scale9Grid="12,14,20,9"/>
+		<e:Group id="gResolve" x="119" y="4">
+			<e:Image id="imgResolve" source="res/btn/resolve_g_1.png" x="0" y="0"/>
+		</e:Group>
+		<e:Image id="imgItem" y="-2" scaleX="0.6" scaleY="0.6" left="-4" anchorOffsetX="0" width="70" anchorOffsetY="0" height="70" source="res/images/item/016.png"/>
+		<e:Label id="lbNum" text="100" size="18" textColor="0xfdffd9" left="35" verticalCenter="0"/>
+	</e:Group>
+	<e:Image source="public_json.public_slice_line_png" y="136" width="504" scale9Grid="2,0,19,2" horizontalCenter="0"/>
+	<e:Scroller height="412" y="145" horizontalCenter="0" width="495">
+			<e:List id="list" x="111" y="50" itemRendererSkinName="SuitItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+</e:Skin>

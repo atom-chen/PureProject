@@ -1,0 +1,79 @@
+/*
+ * @Description: 通信
+ * @Author: guolinsen
+ * @Date: 2019-08-21 19:44:11
+ */
+module Proxy {
+	export var login: LoginProxy;
+	export var main: MainProxy;
+	export var move: MoveProxy;
+	export var other: OtherProxy;
+	export var skill: SkillProxy;
+	export var buff: BuffProxy;
+	export var email: EmailProxy;
+	export var suit: SuitProxy;
+	export var gashapon: GashaponProxy;
+	export var equip: EquipProxy;
+	export var bag: BagProxy;
+	export var daily: DailyProxy;
+	export var transfer: TransferProxy;
+	export var sign: SignProxy;
+	export var adventure: AdventureProxy;
+	export var chat: ChatProxy;
+	export var quest: QuestProxy;
+	export var drop: DropProxy;
+	export var copy: CopyProxy;
+	export var vip: VipProxy;
+	export var rank: RankProxy;
+	export var firstcharge: FirstChargeProxy;
+	export var copytower: CopyTowerProxy;
+	export var boss: BossProxy;
+	export var pet: PetProxy;
+	export var shop: ShopProxy;
+	export var script: ScriptProxy;
+	export var fashion: FashionProxy;
+	export var wing: WingProxy;
+	export var badge: BadgeProxy;
+	export var totems: TotemsProxy;
+	export var jewel: JewelProxy;
+	export var rune: RuneProxy;
+	export var purgatory: PurgatoryProxy;
+	export var family: FamilyProxy;
+	export function init() {
+		login = new LoginProxy();
+		main = new MainProxy();
+		move = new MoveProxy();
+		other = new OtherProxy();
+		skill = new SkillProxy();
+		buff = new BuffProxy();
+		email = new EmailProxy();
+		suit = new SuitProxy();
+		gashapon = new GashaponProxy();
+		equip = new EquipProxy();
+		bag = new BagProxy();
+		daily = new DailyProxy();
+		transfer = new TransferProxy();
+		sign = new SignProxy();
+		adventure = new AdventureProxy();
+		chat = new ChatProxy();
+		quest = new QuestProxy();
+		drop = new DropProxy();
+		copy = new CopyProxy();
+		vip = new VipProxy();
+		rank = new RankProxy();
+		firstcharge = new FirstChargeProxy();
+		copytower = new CopyTowerProxy();
+		boss = new BossProxy();
+		pet = new PetProxy();
+		shop = new ShopProxy();
+		script = new ScriptProxy();
+		fashion = new FashionProxy();
+		wing = new WingProxy();
+		badge = new BadgeProxy();
+		totems = new TotemsProxy();
+		jewel = new JewelProxy();
+		rune = new RuneProxy();
+		purgatory = new PurgatoryProxy();
+		family = new FamilyProxy();
+	}
+}

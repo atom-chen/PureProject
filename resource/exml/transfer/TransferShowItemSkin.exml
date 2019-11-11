@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TransferShowItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="403">
+	<e:Image source="public_json.public_item_rect_1_png" width="403" scale9Grid="24,24,27,52" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image source="role_json.role_line_fg_2_png" horizontalCenter="-0.5" scale9Grid="1,1,8,1" width="384" y="62"/>
+	<e:Group y="12.97" horizontalCenter="0.5" height="41">
+		<e:Image source="public_json.public_rect_3_png" x="0" y="14.4"/>
+		<e:Image source="public_json.public_rect_3_png" x="162" y="14.8"/>
+		<e:Image id="imgAccount" y="0" horizontalCenter="0" source="transfer_json.transfer_name_00_png"/>
+	</e:Group>
+	<e:Label id="lbDesc" text="说明" y="70.34" size="16" horizontalCenter="0"/>
+</e:Skin>

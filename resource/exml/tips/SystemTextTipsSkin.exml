@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SystemTextTipsSkin" width="500" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" source="win_json.win_xt_png"/>
+	<e:Label id="txt" text="错误：提示一个信息" size="16" textAlign="center" textColor="0xffb31c" left="0" right="0" stroke="1" strokeColor="0x000000" bottom="5" top="7"/>
+</e:Skin>

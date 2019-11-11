@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuitPropertyItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="403">
+	<e:Image source="public_json.public_item_rect_1_png" width="403" scale9Grid="24,24,27,52" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label id="lbNe" text="Lv900" size="18" x="33.33" y="16" textColor="0xefb903"/>
+	<e:Label id="lbLv" text="套装等级达到10级" size="16" x="16" y="40.5" textColor="0xfdffd9"/>
+	<e:Group y="11" right="20">
+		<e:Image id="imgZl" source="public_json.public_zhanli_2_png" x="0" verticalCenter="0"/>
+		<e:Image id="imgAdd" source="public_json.public_add_2_png" x="45.01" verticalCenter="0.5"/>
+		<ns1:NumberMC id="num" x="66.68" height="11" verticalCenter="0.5" type="num_yellow_1_"/>
+	</e:Group>
+	<e:Image source="public_json.public_rect_3_png" x="16" y="19"/>
+	<ns1:BaseCustComponent id="prop" y="67" skinName="PropPartSkin" className="PropPart" x="-1"/>
+	<e:Image id="eBtn" x="281" y="39" source="res/btn/activate_1.png"/>
+</e:Skin>

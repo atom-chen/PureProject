@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZdlPartSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="362">
+	<e:Image x="-16" y="4" source="itemtips_json.itemtips_power_blank_png"/>
+	<e:Image x="-18" y="0" source="itemtips_json.itemtips_line_png" width="399" scale9Grid="1,0,13,3"/>
+	<e:Image x="12" scale9Grid="1,0,13,3" source="itemtips_json.itemtips_pw_lb_png" y="12"/>
+	<ns1:NumberMC id="zdl" type="num_json.yellow_num_" x="114" y="21.75"/>
+</e:Skin>

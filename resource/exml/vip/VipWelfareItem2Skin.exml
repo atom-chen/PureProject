@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipWelfareItem2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image touchEnabled="false" source="vip_json.vip_rect_1_png" verticalCenter="0" left="0"/>
+	<e:Label id="lbDes" text="Lv900" size="16" verticalCenter="0" textColor="0x4c2f27" left="20"/>
+</e:Skin>

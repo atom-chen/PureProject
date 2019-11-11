@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillItemSkin" width="550" height="145" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x1c2033"/>
+	<e:Label id="sName" text="技能名称" top="8" left="23" size="20"/>
+	<e:Label id="des" text="描述描述描述" anchorOffsetX="0" size="18" anchorOffsetY="0" top="34" left="23" bottom="68" right="70"/>
+	<e:Button id="eBtn" label="修改配置" x="428" y="87" skinName="Btn1Skin"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldBossCountBuySkin" width="437" height="343" currentState="nor" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="nor,max" >
+	<w:Config id="16c460d8051"/>
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" left="0" right="0" top="0" bottom="0"/>
+	<e:Image y="65" source="res/images/bg/buyBg.png" horizontalCenter="0"/>
+	<ns1:ItemExpend id="cost" y="217" right.max="181" skinName.nor="ItemExpendSkin" horizontalCenter.nor="107"/>
+	<e:Image source="buyTips_json.buyTips_blank_png" y="174" x="24" horizontalCenter.max="0"/>
+	<e:Image source="buyTips_json.buyTips_blank_png" y="174" x="257" visible.max="false"/>
+	<e:Image source="buyTips_json.buyTips_vip_png" x="24" y="83" x.max="127"/>
+	<e:Image source="buyTips_json.buyTips_vip_png" x="243" y="83" visible.max="false"/>
+	<e:Image source="buyTips_json.buyTips_cur_png" x="12" y="137" x.max="130"/>
+	<e:Image source="buyTips_json.buyTips_arrow_png" y="100" horizontalCenter="0" visible.max="false"/>
+	<ns1:NumberMC id="num_0" x="133" y="105" type="buyTips_json.buyTips_num_" x.max="237"/>
+	<ns1:NumberMC id="num_1" x="354" y="115" type="buyTips_json.buyTips_num_" visible.max="false" y.nor="105"/>
+	<e:Label id="max" text="今日能购买0/2次" y="179" size="16" textColor="0xffc600" horizontalCenter="-118" horizontalCenter.max="0"/>
+	<e:Label id="max_1" text="今日能购买0/2次" y="179" size="16" textColor="0xFFC600" horizontalCenter="118" visible.max="false"/>
+	<e:Button id="btn_0" label="Button" skinName="BtnIconSkin" icon="res/btn/confirm.png" x="253" y="250"/>
+	<e:Button label="Button" skinName="BtnIconSkin" icon="res/btn/cancel.png" id="btn_1" y="250" x="41"/>
+</e:Skin>

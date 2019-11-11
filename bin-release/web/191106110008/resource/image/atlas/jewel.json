@@ -1,0 +1,12 @@
+{"file":"jewel.png","frames":{
+"jewel_blank_png":{"x":151,"y":0,"w":71,"h":81,"offX":0,"offY":0,"sourceW":71,"sourceH":81},
+"jewel_bule_png":{"x":224,"y":50,"w":22,"h":22,"offX":0,"offY":0,"sourceW":22,"sourceH":22},
+"jewel_cur_png":{"x":0,"y":87,"w":99,"h":27,"offX":0,"offY":0,"sourceW":99,"sourceH":27},
+"jewel_exchange_png":{"x":77,"y":0,"w":72,"h":83,"offX":20,"offY":2,"sourceW":110,"sourceH":88},
+"jewel_green_png":{"x":224,"y":0,"w":22,"h":23,"offX":0,"offY":0,"sourceW":22,"sourceH":23},
+"jewel_haved_png":{"x":0,"y":116,"w":99,"h":27,"offX":0,"offY":0,"sourceW":99,"sourceH":27},
+"jewel_name_blank_png":{"x":0,"y":145,"w":100,"h":20,"offX":0,"offY":0,"sourceW":100,"sourceH":20},
+"jewel_orrange_png":{"x":224,"y":25,"w":22,"h":23,"offX":0,"offY":0,"sourceW":22,"sourceH":23},
+"jewel_prop_png":{"x":151,"y":83,"w":72,"h":70,"offX":0,"offY":0,"sourceW":72,"sourceH":70},
+"jewel_purple_png":{"x":225,"y":74,"w":21,"h":22,"offX":0,"offY":0,"sourceW":21,"sourceH":22},
+"jewel_sele_png":{"x":0,"y":0,"w":75,"h":85,"offX":0,"offY":0,"sourceW":75,"sourceH":85}}}

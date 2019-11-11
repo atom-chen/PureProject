@@ -1,0 +1,12 @@
+class StdVipcard { 
+    /** 编号 */
+    id: number;
+    /** 有效期天数（秒） */
+    days: number;
+    /** 钻石条件 */
+    diamondConds: any[] = [];
+    /** 图标 */
+    icon: number;
+    /** 文字描述 */
+    desc: any[] = [];
+}

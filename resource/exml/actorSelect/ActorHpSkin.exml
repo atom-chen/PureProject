@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActorHpSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="640">
+	<w:Config id="16be5f247bd"/>
+	<e:Group left="0" right="0" top="0">
+		<e:Image source="hp_json.hp_blank_png" y="14.7" scaleX="1" scaleY="1" x="209.78"/>
+		<e:Group id="hpG" y="49.7" scaleX="1" scaleY="1" x="224.78">
+			<e:Image id="hp_1" source="hp_json.hp_5_png" anchorOffsetX="0" width="284" scale9Grid="6,2,233,13" scaleX="1" scaleY="1" y="0" left="-14"/>
+			<e:Image id="hp_0" source="hp_json.hp_5_png" anchorOffsetX="0" width="284" scale9Grid="6,2,233,13" scaleX="1" scaleY="1" y="0" left="-14"/>
+		</e:Group>
+		<e:Image source="hp_json.hp_icon_png" x="107" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="headIcon" scaleX="1" scaleY="1" x="103" y="-35" source=""/>
+		<e:Group id="og" x="244.98" y="81.03">
+			<e:Image source="hp_json.hp_name_blan_png" scale9Grid="37,2,121,18" width="197" x="0" height="22" y="0"/>
+			<e:Image source="hp_json.hp_tag_png" x="31" y="5"/>
+			<e:Label id="owner" text="归属 : XXXX" size="16" textColor="0xffc600" x="48" y="3"/>
+		</e:Group>
+		<e:Label id="mName" text="Label" size="16" top="21" left="244" textColor="0xffffff"/>
+		<e:Label id="hpLab" text="10/10" y="50" size="18" textColor="0x2aff00" right="155"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankModelItemASkin" width="403" height="33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="3" width="403">
+		<e:Image source="public_json.public_slice_line2_png" width="100%" x="0" y="28"/>
+		<e:Image id="imgRank" source="rank_json.rank_nb_1_png" x="10" y="0"/>
+		<e:Label id="lbRank" text="100" size="16" textColor="0xFFD823" y="7" horizontalCenter="-154"/>
+		<e:Label id="lbNe" text="名字多个字" size="16" x="110" y="6"/>
+		<e:Label id="lbLv" text="迷雾之塔107层" size="16" textColor="0x00B4FF" x="266" y="6"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="MainBtnIconSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" width="80" height="80">
+    <e:Image scale9Grid="1,3,8,8" alpha.disabled="0.5"
+            
+             horizontalCenter="0" touchEnabled="false" source="" source.down=""/>
+    <e:Label id="labelDisplay"
+             size="18"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" horizontalCenter="0" bottom="15" touchEnabled="false"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" source="zjm_json.zjm_jingji_png" touchEnabled="false" scaleX.down="0.8" scaleY.down="0.8"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropPart2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="362">
+	<e:Image horizontalCenter="0" width="396" source="itemtips_json.itemtips_line_png" scale9Grid="1,0,13,3" y="0"/>
+	<e:Group id="pG" top="20" left="0" right="0" bottom="15">
+		<e:layout>
+			<e:VerticalLayout gap="4"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GashaponBagWinSkin" width="437" height="512" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="win_json.win_tips_bg3_png" scale9Grid="63,76,305,103"/>
+	<e:Image horizontalCenter="0" width="419" bottom="81" source="win_json.win_bg5_png" scale9Grid="24,25,36,17" top="61"/>
+	<e:Button id="mBtn" label="Button" skinName="BtnIconSkin" icon="res/btn/get_7.png" anchorOffsetX="0" width="143" anchorOffsetY="0" height="57" horizontalCenter="0" bottom="13"/>
+	<e:Image id="closeBtn" source="win_json.win_close_btn2_png" right="14" top="29"/>
+	<e:Image y="11" source="res/images/winTitle/gashaponBagBg.png" horizontalCenter="0"/>
+	<e:Scroller width="407" height="355" horizontalCenter="0" top="67">
+			<e:List id="list" itemRendererSkinName="Itembase2Skin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="4" horizontalGap="30" verticalGap="28"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+</e:Skin>

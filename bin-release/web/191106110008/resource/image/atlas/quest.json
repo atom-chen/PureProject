@@ -1,0 +1,5 @@
+{"file":"quest.png","frames":{
+"quest_closeBtn_png":{"x":208,"y":0,"w":26,"h":26,"offX":0,"offY":0,"sourceW":26,"sourceH":26},
+"quest_img_1_png":{"x":179,"y":0,"w":27,"h":27,"offX":0,"offY":0,"sourceW":27,"sourceH":27},
+"quest_recv_btn_png":{"x":0,"y":0,"w":177,"h":57,"offX":0,"offY":0,"sourceW":177,"sourceH":57},
+"quest_texture_1_png":{"x":0,"y":59,"w":145,"h":41,"offX":0,"offY":0,"sourceW":145,"sourceH":41}}}

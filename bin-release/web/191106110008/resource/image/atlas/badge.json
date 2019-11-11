@@ -1,0 +1,5 @@
+{"file":"badge.png","frames":{
+"badge_item_sele_png":{"x":184,"y":23,"w":58,"h":59,"offX":0,"offY":0,"sourceW":58,"sourceH":59},
+"badge_item_unsele_png":{"x":0,"y":46,"w":58,"h":59,"offX":0,"offY":0,"sourceW":58,"sourceH":59},
+"badge_text_0_png":{"x":0,"y":23,"w":182,"h":21,"offX":0,"offY":0,"sourceW":182,"sourceH":21},
+"badge_text_1_png":{"x":0,"y":0,"w":216,"h":21,"offX":0,"offY":0,"sourceW":216,"sourceH":21}}}

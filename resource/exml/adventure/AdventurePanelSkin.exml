@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AdventurePanelSkin" width="530" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image scale9Grid="25,141,60,55" left="0" right="0" top="1" bottom="-1" source="win_json.win_bg4_png"/>
+	<e:Image source="win_json.win_bg_line_png" y="207" scale9Grid="8,13,26,16" anchorOffsetX="0" width="508" anchorOffsetY="0" height="457" x="10"/>
+	<e:Image id="banner" x="13" y="10" source="adventure_json.adventureTopBg2_png"/>
+	<e:Image source="adventure_json.adventureProgress_png" x="47" y="170"/>
+	<e:Image source="adventure_json.adventureCircle_png" x="363" y="25"/>
+	<e:List id="list" width="494" height="443" y="212" itemRendererSkinName="AdventureItemSkin" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="1" verticalGap="4"/>
+		</e:layout>
+	</e:List>
+	<e:ProgressBar id="pro" x="152" y="172" skinName="progressBarSkin5" anchorOffsetX="0" width="323" slideDuration="0"/>
+	<e:Group id="role" touchEnabled="false" x="13" y="11">
+		<e:Image id="roleAddImg" source="adventure_json.adventureAdd_png" x="400" y="62"/>
+		<e:Image source="adventure_json.adventureRoleBg_png" x="358" y="3"/>
+		<e:Image id="roleTextImg" source="adventure_json.adventureRole1_png" x="362" y="5"/>
+		<e:Image id="roleLockImg" source="adventure_json.adventureLock_png" x="350" y="14"/>
+	</e:Group>
+	<e:Group id="item" x="13" y="11" visible="false">
+		<ns1:BaseCustComponent id="itemPrize" className="ItemBase" skinName="ItembaseSkin" x="384" y="48"/>
+		<e:Image id="itemAddImg" source="adventure_json.adventurePrize_png" x="386" y="122"/>
+	</e:Group>
+</e:Skin>

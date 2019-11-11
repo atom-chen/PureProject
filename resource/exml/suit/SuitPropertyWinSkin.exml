@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuitPropertyWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" x="0" top="0" bottom="0"/>
+	<e:Group top="65" bottom="15" height="470" horizontalCenter="0" width="415">
+		<e:Group x="11" y="5">
+			<e:Image width="190" x="0" y="0" source="public_json.public_rect_2_png" scale9Grid="12,14,20,9"/>
+			<e:Image id="imgItem" x="-1" source="public_json.public_fight_icon_png" verticalCenter="-4.5" anchorOffsetX="0" width="35.8" anchorOffsetY="0" height="35"/>
+			<e:Group x="50" verticalCenter="-4.5">
+				<e:Image id="imgZl0" x="-16" verticalCenter="0" source="public_json.public_fight_zzl_png"/>
+				<e:Label id="num" text="9999" x="67" size="22" textColor="0xfdffd9" verticalCenter="0.5"/>
+			</e:Group>
+		</e:Group>
+		<e:Image source="public_json.public_slice_line_png" width="419" scale9Grid="2,0,19,2" horizontalCenter="0" y="45"/>
+		<e:Scroller height="409" y="52" horizontalCenter="0.5" width="403">
+				<e:List id="list" x="114" y="-1" itemRendererSkinName="SuitPropertyItemSkin">
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+							<e:Object d="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

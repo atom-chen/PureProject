@@ -1,0 +1,32 @@
+class StdGashapon { 
+    /** 道具库 */
+    type: number;
+    /** 道具序列 */
+    id: number;
+    /** N次抽奖指定道具组 */
+    n_times: number;
+    /** 每N次抽奖指定道具组 */
+    per_n_times: number;
+    /** 道具 */
+    item: any[] = [];
+    /** 基础权重 */
+    weight: number;
+    /** 等级限制 */
+    level: number;
+    /** VIP限制 */
+    viplevel: number;
+    /** 职业限制 */
+    occupation: any[] = [];
+    /** 每日产出上限 */
+    dailyceiling: number;
+    /** 永久产出上限 */
+    uplimit: number;
+    /** 额外权重影响（每级） */
+    weight_level: number;
+    /** 额外权重影响（每级VIP） */
+    weight_vip: number;
+    /** 额外权重影响（每次，抽中重置） */
+    weight_times: number;
+    /** 额外权重影响（活动） */
+    weight_activity: number;
+}

@@ -1,0 +1,13 @@
+{"file":"adventure.png","frames":{
+"adventureAdd_png":{"x":356,"y":295,"w":46,"h":48,"offX":0,"offY":0,"sourceW":46,"sourceH":48},
+"adventureCircle_png":{"x":750,"y":195,"w":146,"h":146,"offX":0,"offY":0,"sourceW":146,"sourceH":146},
+"adventureItemBg_png":{"x":0,"y":195,"w":493,"h":98,"offX":0,"offY":0,"sourceW":493,"sourceH":98},
+"adventureLock_png":{"x":898,"y":195,"w":90,"h":90,"offX":28,"offY":28,"sourceW":146,"sourceH":146},
+"adventurePrize_png":{"x":404,"y":295,"w":73,"h":23,"offX":0,"offY":0,"sourceW":73,"sourceH":23},
+"adventureProgress_png":{"x":257,"y":295,"w":97,"h":25,"offX":0,"offY":0,"sourceW":97,"sourceH":25},
+"adventureRole1_png":{"x":898,"y":287,"w":122,"h":25,"offX":0,"offY":0,"sourceW":122,"sourceH":25},
+"adventureRole2_png":{"x":133,"y":295,"w":122,"h":25,"offX":0,"offY":0,"sourceW":122,"sourceH":25},
+"adventureRoleBg_png":{"x":0,"y":295,"w":131,"h":30,"offX":0,"offY":0,"sourceW":131,"sourceH":30},
+"adventureToleText_png":{"x":495,"y":195,"w":253,"h":110,"offX":0,"offY":0,"sourceW":253,"sourceH":110},
+"adventureTopBg1_png":{"x":0,"y":0,"w":505,"h":193,"offX":0,"offY":0,"sourceW":505,"sourceH":193},
+"adventureTopBg2_png":{"x":507,"y":0,"w":505,"h":193,"offX":0,"offY":0,"sourceW":505,"sourceH":193}}}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DragonActionItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="public_json.public_item_color_4_png" scale9Grid="9,10,61,61" anchorOffsetX="0" width="176" anchorOffsetY="0" height="44"/>
+	<e:Label id="actionName" text="{data.actionName}" x="17" size="20" verticalCenter="0"/>
+	<e:Image source="public_json.public_lv_rect_png" x="69" verticalCenter="0" scale9Grid="4,6,29,7" anchorOffsetY="0" height="24" visible="false"/>
+	<e:TextInput id="inText" anchorOffsetX="0" anchorOffsetY="0" textColor="0x00a2ff" width="35" height="25" x="82" y="9" text="{data.count}" skinName="skins.TextInputSkin"/>
+	<e:Image id="play" width="26" height="29" x="135" y="6" source="res/btn/exitBtn2.png" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

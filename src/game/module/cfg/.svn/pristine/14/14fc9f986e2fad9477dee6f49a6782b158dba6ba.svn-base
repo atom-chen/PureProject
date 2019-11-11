@@ -1,0 +1,6 @@
+class StdGlobalconfig { 
+    /** 字段名 */
+    id: number;
+    /** 怪物掉落物品的刷新时间/ms */
+    monsterItemRefreshTime: number;
+}

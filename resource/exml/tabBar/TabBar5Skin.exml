@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TabBar5Skin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="64" height="79">
+	<e:Image verticalCenter="0" right="-3" source="{data.line}" touchEnabled="false"/>
+	<e:Image verticalCenter="0" horizontalCenter="0" source="{data.icon}" touchEnabled="false"/>
+	<e:Image source="public_json.public_icon_sl_2_png" visible.up="false" visible.disabled="false" right="0" touchEnabled="false" verticalCenter="0"/>
+</e:Skin>

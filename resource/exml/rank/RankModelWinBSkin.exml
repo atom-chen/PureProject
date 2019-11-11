@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankModelWinBSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="624" width="436">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" top="0" bottom="0" left="0" right="0"/>
+	<e:Image source="public_json.public_prop_rect_png" scale9Grid="19,11,119,33" width="416" height="452" top="110" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Scroller horizontalCenter="0" top="111" bottom="63">
+		<e:List id="list" itemRendererSkinName="RankModelItemBSkin">
+		<e:layout>
+			<e:VerticalLayout gap="-1"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Group horizontalCenter="0" bottom="23" height="33" width="403" locked="true">
+		<e:Image id="imgRank" source="rank_json.rank_nb_1_png" x="101" y="3"/>
+		<e:Label id="lbRank" text="1" size="16" textColor="0xffd823" y="9" horizontalCenter="-64" x="108"/>
+		<e:Label text="我的排名:" size="16" x="22" verticalCenter="0.5" textColor="0x4c2f27"/>
+		<e:Label text="我的关卡数 : " size="16" x="245" verticalCenter="0.5" textColor="0x4c2f27"/>
+		<e:Label id="lbLv" text="100关" size="16" textColor="0x00B4FF" x="338" verticalCenter="0"/>
+	</e:Group>
+	<e:Label text="排名" x="43" y="83" textColor="0x4c2f27" size="18"/>
+	<e:Label text="名称" x="180" y="83" textColor="0x4C2F27" size="18"/>
+	<e:Label text="关数" x="329" y="83" textColor="0x4C2F27" size="18"/>
+</e:Skin>

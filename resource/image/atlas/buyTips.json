@@ -1,0 +1,15 @@
+{"file":"buyTips.png","frames":{
+"buyTips_arrow_png":{"x":105,"y":0,"w":61,"h":47,"offX":0,"offY":0,"sourceW":61,"sourceH":47},
+"buyTips_blank_png":{"x":0,"y":66,"w":156,"h":26,"offX":0,"offY":0,"sourceW":156,"sourceH":26},
+"buyTips_cur_png":{"x":168,"y":0,"w":58,"h":39,"offX":0,"offY":0,"sourceW":58,"sourceH":39},
+"buyTips_num_0_png":{"x":158,"y":82,"w":30,"h":38,"offX":0,"offY":1,"sourceW":30,"sourceH":39},
+"buyTips_num_1_png":{"x":228,"y":0,"w":20,"h":37,"offX":5,"offY":1,"sourceW":30,"sourceH":39},
+"buyTips_num_2_png":{"x":0,"y":94,"w":28,"h":38,"offX":1,"offY":0,"sourceW":30,"sourceH":39},
+"buyTips_num_3_png":{"x":221,"y":82,"w":28,"h":39,"offX":1,"offY":0,"sourceW":30,"sourceH":39},
+"buyTips_num_4_png":{"x":90,"y":94,"w":28,"h":37,"offX":1,"offY":1,"sourceW":30,"sourceH":39},
+"buyTips_num_5_png":{"x":30,"y":94,"w":28,"h":38,"offX":1,"offY":1,"sourceW":30,"sourceH":39},
+"buyTips_num_6_png":{"x":190,"y":82,"w":29,"h":39,"offX":0,"offY":0,"sourceW":30,"sourceH":39},
+"buyTips_num_7_png":{"x":60,"y":94,"w":28,"h":37,"offX":1,"offY":1,"sourceW":30,"sourceH":39},
+"buyTips_num_8_png":{"x":200,"y":41,"w":30,"h":39,"offX":0,"offY":0,"sourceW":30,"sourceH":39},
+"buyTips_num_9_png":{"x":168,"y":41,"w":30,"h":39,"offX":0,"offY":0,"sourceW":30,"sourceH":39},
+"buyTips_vip_png":{"x":0,"y":0,"w":103,"h":64,"offX":0,"offY":0,"sourceW":103,"sourceH":64}}}

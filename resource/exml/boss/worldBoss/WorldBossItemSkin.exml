@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldBossItemSkin" width="495" height="128" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="public_json.public_item_rect_1_png" scale9Grid="17,22,37,54"/>
+	<e:Image source="public_json.public_icon_bg3_png" x="17" y="10"/>
+	<e:Image id="icon" x="-14" y="-25" source=""/>
+	<e:Image x="16.33" y="86" source="public_json.public_blank_2_png"/>
+	<e:Image source="worldBoss_json.world_lvl_blank_png" x="12" y="9"/>
+	<e:ProgressBar id="hp" x="19" y="105" skinName="progressBarSkin4" slideDuration="0"/>
+	<e:CheckBox id="check" label="复活提醒" x="377" y="17" skinName="CheckBox1Skin"/>
+	<e:Image id="fImg" source="worldBoss_json.world_blank2_png" x="126" y="12"/>
+	<e:Image source="worldBoss_json.world_text0_png" x="121" y="59"/>
+	<e:Group id="lG" x="385" y="52" width="89">
+		<e:Image id="lImg" source="worldBoss_json.world_blank1_png" scaleX="1" scaleY="1" scale9Grid="12,8,75,11" left="-5" right="-5" top="-2" bottom="-2"/>
+		<e:Label id="lLvl" text="100级开启" textColor="0xff0000" size="18" left="0" right="0" top="0" bottom="0" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+	<e:Button id="enterBtn" label="Button" skinName="BtnIconSkin" icon="res/btn/enter.png" x="372" verticalCenter="17.5"/>
+	<e:Label id="fName" text="冒险者雕像" y="16" size="18" left="181" textColor="0xffffff"/>
+	<e:Label id="mLvl" text="99" y="17" size="18" horizontalCenter="-219"/>
+	<e:Image id="mImg" x="19" y="14"/>
+	<e:Label id="mName" text="Label" y="88" size="16" horizontalCenter="-182.5" textColor="0xffff00"/>
+	<e:Group x="164" y="51" scaleX="0.8" scaleY="0.8" locked="true">
+		<ns1:BaseCustComponent id="item_0" x="28" y="32" skinName="ItembaseSkin" className="GSItem"/>
+		<ns1:BaseCustComponent x="-50" y="20" skinName="ItembaseSkin" className="ItemBase" id="item_1"/>
+		<ns1:BaseCustComponent x="48" y="52" skinName="ItembaseSkin" className="ItemBase" id="item_2"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="rTime" text="00:00:00后复活" x="386" y="57" anchorOffsetX="0" width="82" size="18" textColor="0x00ff00" textAlign="center" visible="false"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="12" fontFamily="Tahoma" text="100%" style="l_normal" stroke="0.5" textColor="0xFFFFFF" y="106" horizontalCenter="-181"/>
+</e:Skin>

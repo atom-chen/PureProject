@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JewelItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="105">
+	<e:Image top="2" source="jewel_json.jewel_blank_png" horizontalCenter="0"/>
+	<e:Image id="blank" source="jewel_json.jewel_name_blank_png" horizontalCenter="0" bottom="2"/>
+	<e:Image id="sele" top="0" source="jewel_json.jewel_sele_png" horizontalCenter="0" visible="false"/>
+	<e:Label id="jName" text="Label" size="14" horizontalCenter="0" y="85"/>
+	<e:Image id="icon" horizontalCenter="0" source="public_json.public_lock_1_png" verticalCenter="-9.5"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagExtendSkin" width="509" height="352" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="win_json.win_tips_bg_png" scale9Grid="63,76,384,39" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="win_json.win_title_2_png" horizontalCenter="0.5" top="-7"/>
+	<e:Image source="win_json.win_bg4_png" scale9Grid="27,135,62,63" horizontalCenter="0" width="479" height="280" bottom="18"/>
+	<e:Image source="win_json.win_bg_line_png" horizontalCenter="0" scale9Grid="13,13,18,17" width="457" bottom="30" height="261"/>
+	<e:Image source="bag_json.bag_title_png" y="1.33" x="214" locked="true"/>
+	<e:Image x="207" width="163" source="public_json.public_rect_2_png" scale9Grid="9,12,25,13" height="32" y="122"/>
+	<e:Group y="195" horizontalCenter="0">
+		<e:Label text="开启消耗 : " x="48" y="12" size="18" textColor="0x4c2f27" bold="true"/>
+		<ns1:BaseCustComponent id="numSele" y="2" skinName="NumSelectSkin" currentState="s2" horizontalCenter="0" x="22" scaleX="1" scaleY="1" className="NumSelect"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="消耗钻石 : " x="112" y="130" size="18" textColor="0x4C2F27" bold="true"/>
+	<e:Button id="btn" label="Button" y="254" skinName="BtnIconSkin" icon="res/btn/confirm.png" horizontalCenter="0"/>
+	<ns1:ItemExpend id="cost" x="207" y="120" label=" "/>
+</e:Skin>

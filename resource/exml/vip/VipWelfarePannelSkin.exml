@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipWelfarePannelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="628" width="506">
+	<e:Group width="506" height="628" x="0" y="0">
+		<e:Group y="0" width="506" horizontalCenter="0" height="90">
+		<e:Button id="btnLuck" label="" y="-31.3" icon="vip_json.vip_cz_png" x="369.47" skinName="BtnIconSkin"/>
+		<e:ProgressBar id="progressBar" x="87.49" y="26.15" maximum="60" value="100" skinName="progressBarSkin7" slideDuration="0"/>
+		<e:Group x="0" y="0">
+			<e:Image y="0" source="vip_json.vip_tb_png" x="0"/>
+			<e:Image id="vipNum" source="vip_json.vip_15_png" y="30" horizontalCenter="0.5"/>
+		</e:Group>
+		</e:Group>
+		<e:Group horizontalCenter="0" bottom="3">
+		<e:Image source="vip_json.vip_rect_2_png" y="0" height="122" scale9Grid="62,33,376,3" x="0"/>
+		<e:Label id="lbTqlb" text="VIP13特权" size="18" textColor="0xFFCC00" y="4.33" horizontalCenter="0"/>
+		<e:Button id="btnRw" label="" y="48.02" icon="res/btn/getReward.png" width="123" skinName="BtnIconSkin" x="365.87"/>
+		<e:List id="list" y="36.68" itemRendererSkinName="ItembaseSkin" x="9.03" rotation="359.73">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		</e:Group>
+		<ns1:BaseCustComponent id="slider" width="416" height="340" skinName="SlidePartSkin" className="SlidePart" y="155" x="45"/>
+		<e:Group y="107.28" x="38">
+		<e:Image source="vip_json.vip_rect_3_png" y="0" x="0"/>
+		<e:Label id="lbTq" text="VIP13特权" size="18" textColor="0xFFCC00" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="383" y="390.94" width="94" height="99">
+			<e:Button id="imgDaily" label="" horizontalCenter="0" top="0" skinName="BtnIconSkin" icon="vip_json.vip_bx_png" width="94" height="79"/>
+			<e:Label id="lbAcross" text="免费VIP礼包" size="15" y="60" textColor="0xFFCC00" horizontalCenter="0"/>
+			<e:Group y="77" horizontalCenter="0">
+			<e:Label text="价值" size="15" y="3" textColor="0x0066ff" x="0"/>
+			<e:Label id="lbNum" text="999" size="15" y="3" textColor="0x0066FF" x="52"/>
+			<e:Image id="imgItem" source="res/images/item/14.png" x="30.99" y="0" scaleX="0.3" scaleY="0.3"/>
+			</e:Group>
+			<e:Image id="imbGet" horizontalCenter="0" top="13" source="public_json.luck_img2_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

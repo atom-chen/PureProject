@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JewelRepalceItemSkin" width="402" height="121" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="public_json.public_item_rect_1_png" scale9Grid="24,31,19,45" left="0" right="0" top="0" bottom="0"/>
+	<ns1:BaseCustComponent id="propList" width="105" height="70" x="88" y="35" anchorOffsetX="0" anchorOffsetY="0" className="PropPart"/>
+	<ns1:BaseCustComponent id="item_0" x="17" y="31" skinName="ItembaseSkin" className="ItemBase"/>
+	<e:Image source="jingji_json.jingji_texure_0_png" x="240" y="10"/>
+	<e:Button id="btn" label="Button" x="271" y="48" skinName="BtnIconSkin" icon="res/btn/setBtn2.png"/>
+	<e:Label id="iName" text="宝石名称 Lv.5" x="17" y="10" size="18" textColor="0xffc600"/>
+	<e:Image id="state" source="jewel_json.jewel_cur_png" x="281" y="55"/>
+	<ns1:NumberMC id="zdl" x="298" y="11" type="num_json.yellow_num_"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SysOpenHintSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="g0" x="42" y="35">
+		<e:Image source="sysOpen_json.sysOpen_texure_1_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="sysOpen_json.sysOpen_texure_0_png" horizontalCenter="0" y="192"/>
+		<e:Image id="sName" y="155" source="" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image id="icon" y="94" source="" x="148"/>
+</e:Skin>

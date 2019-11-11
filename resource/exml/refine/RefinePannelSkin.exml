@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RefinePannelSkin" width="535" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_bg4_png" scale9Grid="25,141,60,55" width="530" height="680" y="0" x="3"/>
+	<e:Image source="win_json.win_bg_line_png" width="507" scale9Grid="10,11,22,21" anchorOffsetY="0" height="582" horizontalCenter="0" bottom="11"/>
+	<ns1:BaseCustComponent id="instruction" x="103" y="107" skinName="InstructionPartSkin" name="3" className="InstructionPart" visible="false"/>
+	<e:Image y="106" source="res/images/bg/refineBg.png" x="99" touchEnabled="false"/>
+	<ns1:BaseCustComponent id="zdl" y="90" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetX="29" anchorOffsetY="0" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" anchorOffsetY="0" y="2" anchorOffsetX="0" width="524" horizontalCenter="1.5"/>
+	<e:Group width="292" height="95" y="449" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="public_json.public_prop_rect_png" scale9Grid="19,14,119,27" left="0" right="0" top="-11" bottom="0" anchorOffsetY="0"/>
+		<e:Image left="0" right="2" width="292" y="58" anchorOffsetX="0" source="public_json.public_slice_line5_png" height="2"/>
+		<e:Image left="2" right="2" width="292" y="26" anchorOffsetX="0" anchorOffsetY="0" height="2" source="public_json.public_slice_line5_png"/>
+		<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="4" left="0" right="0" bottom="15"/>
+	</e:Group>
+	<e:Image source="public_json.public_slice_line_png" y="554" width="506" scale9Grid="2,0,19,2" x="14" height="3"/>
+	<e:Image id="mBtn" source="strength_json.strength_refineMaster_png" x="26" y="567"/>
+	<e:Image source="strength_json.strength_text_1_png" y="313" x="221"/>
+	<e:Image source="strength_json.strength_cycle_icon_png" x="212" y="212"/>
+	<e:Image id="seleImg" source="strength_json.strength_part0_png" y="225" x="223"/>
+	<e:Group id="sGroup" anchorOffsetY="0" y="94" horizontalCenter="0.5" touchChildren="true" touchEnabled="false" touchThrough="true">
+		<e:layout>
+		<e:TileLayout requestedColumnCount="2" horizontalGap="320" verticalGap="12" orientation="rows"/>
+		</e:layout>
+		<ns1:BaseCustComponent id="item_0" touchChildren="false" name="0" x="-265" y="-180" className="EquipItem" scaleX="1" scaleY="1" skinName="EquipItemSkin"/>
+		<ns1:BaseCustComponent id="item_1" touchChildren="false" name="1" x="-255" y="-170" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_2" touchChildren="false" name="2" x="-245" y="-160" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_3" touchChildren="false" name="3" x="-235" y="-150" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_4" touchChildren="false" name="4" x="-225" y="-140" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_5" touchChildren="false" name="5" x="-215" y="-130" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_6" touchChildren="false" name="6" x="-205" y="-120" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_7" touchChildren="false" name="7" x="-195" y="-110" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_8" touchChildren="false" name="8" x="-185" y="-100" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:BaseCustComponent id="item_9" touchChildren="false" name="9" x="-175" y="-90" className="EquipItem" skinName="EquipItemSkin" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Button id="btn" label="Button" y="591" skinName="BtnIconSkin" icon="res/btn/refine.png" horizontalCenter="0"/>
+	<ns1:ItemExpend id="cost_1" skinName="ItemExpend2Skin" x="139" y="334"/>
+	<ns1:ItemExpend id="cost_0" skinName="ItemExpend2Skin" x="319" y="334"/>
+	<e:Label id="re" text="精练石" size="14" textColor="0xFFFFFF" stroke="0.5" horizontalCenter="88.5" y="393"/>
+	<e:Label id="money" text="金币" size="14" stroke="0.5" horizontalCenter="-91.5" y="394" textColor="0xffffff"/>
+	<e:Label id="mPro" text="0/30" y="648" size="14" stroke="0" textColor="0x00a2ff" x="53"/>
+	<ns1:NumberMC id="num" y="633" type="strength_json.strength_num_" horizontalCenter="-193.5"/>
+	<ns1:NumberMC width="20" height="20" x="244" y="375" gap="10"/>
+</e:Skin>

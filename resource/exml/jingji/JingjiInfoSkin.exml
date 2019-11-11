@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JingjiInfoSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="tg" horizontalCenter="0" top="104">
+		<e:Image source="jingji_json.jingji_texture_2_png" x="0" y="0"/>
+		<ns1:NumberMC id="time" width="120" height="21" x="109" y="0" type="jingji_json.jingji_t_"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

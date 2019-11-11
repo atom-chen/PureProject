@@ -1,0 +1,16 @@
+class StdExpcopy { 
+    /** 字段名 */
+    id: number;
+    /** 副本ID */
+    fubenId: number;
+    /** 等级区间 */
+    level: any[] = [];
+    /** 入场消耗 */
+    consume: any[] = [];
+    /** 角色出生点 */
+    enterPos: any[] = [];
+    /** 小怪信息 */
+    monsterInfo: any[] = [];
+    /** 小怪出生点 */
+    monsterPos: any[] = [];
+}

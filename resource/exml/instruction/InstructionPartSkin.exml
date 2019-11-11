@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InstructionPartSkin" xmlns:e="http://ns.egret.com/eui" width="32" height="33">
+	<e:Button label="Button" skinName="BtnIconSkin" icon="win_json.win_wenhao_1_png" horizontalCenter="0" verticalCenter="0" width="32"/>
+</e:Skin>

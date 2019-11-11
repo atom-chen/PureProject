@@ -1,0 +1,10 @@
+{"file":"hp.png","frames":{
+"hp_1_png":{"x":0,"y":107,"w":251,"h":17,"offX":0,"offY":0,"sourceW":251,"sourceH":17},
+"hp_2_png":{"x":253,"y":121,"w":251,"h":17,"offX":0,"offY":0,"sourceW":251,"sourceH":17},
+"hp_3_png":{"x":0,"y":69,"w":251,"h":17,"offX":0,"offY":0,"sourceW":251,"sourceH":17},
+"hp_4_png":{"x":0,"y":88,"w":251,"h":17,"offX":0,"offY":0,"sourceW":251,"sourceH":17},
+"hp_5_png":{"x":253,"y":102,"w":251,"h":17,"offX":0,"offY":0,"sourceW":251,"sourceH":17},
+"hp_blank_png":{"x":0,"y":0,"w":307,"h":67,"offX":0,"offY":0,"sourceW":307,"sourceH":67},
+"hp_icon_png":{"x":309,"y":0,"w":125,"h":100,"offX":0,"offY":0,"sourceW":125,"sourceH":100},
+"hp_name_blan_png":{"x":0,"y":126,"w":197,"h":22,"offX":0,"offY":0,"sourceW":197,"sourceH":22},
+"hp_tag_png":{"x":436,"y":0,"w":12,"h":12,"offX":0,"offY":0,"sourceW":12,"sourceH":12}}}

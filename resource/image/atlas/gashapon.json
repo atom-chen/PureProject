@@ -1,0 +1,10 @@
+{"file":"gashapon.png","frames":{
+"gashapon_img1_png":{"x":274,"y":0,"w":97,"h":97,"offX":0,"offY":0,"sourceW":97,"sourceH":97},
+"gashapon_img2_png":{"x":373,"y":0,"w":92,"h":88,"offX":0,"offY":0,"sourceW":92,"sourceH":88},
+"gashapon_img3_png":{"x":0,"y":102,"w":175,"h":25,"offX":0,"offY":0,"sourceW":175,"sourceH":25},
+"gashapon_img4_png":{"x":0,"y":0,"w":170,"h":100,"offX":0,"offY":0,"sourceW":170,"sourceH":100},
+"gashapon_img5_png":{"x":172,"y":0,"w":100,"h":100,"offX":0,"offY":0,"sourceW":100,"sourceH":100},
+"gashapon_img7_png":{"x":467,"y":0,"w":38,"h":29,"offX":0,"offY":0,"sourceW":38,"sourceH":29},
+"gashapon_img8_png":{"x":467,"y":31,"w":38,"h":29,"offX":0,"offY":0,"sourceW":38,"sourceH":29},
+"gashapon_lb1_png":{"x":274,"y":99,"w":233,"h":20,"offX":0,"offY":0,"sourceW":233,"sourceH":20},
+"gashapon_lb2_png":{"x":177,"y":102,"w":48,"h":25,"offX":0,"offY":0,"sourceW":48,"sourceH":25}}}

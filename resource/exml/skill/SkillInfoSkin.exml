@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="info,sort" >
+	<e:Group y="0" horizontalCenter="0" touchChildren="false" touchEnabled="false">
+		<e:Image id="bg" source="public_json.public_icon_bg_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="icon" source="public_json.public_add_1_png" horizontalCenter="0" verticalCenter="0" />
+		<e:Image id="select" source="public_json.public_icon_sl_1_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	</e:Group>
+	<e:Group id="gLv" x="0.8" y="69.4" visible.sort="false" visible.info="false" touchChildren="false" touchEnabled="false">
+		<e:Image source="public_json.public_lv_rect_png" x="0" y="0"/>
+		<e:Label id="lv" text="99" size="14" horizontalCenter="0" verticalCenter="0" textColor="0xffc600"/>
+	</e:Group>
+	<e:Group x="2" y="89.6" touchChildren="false" touchEnabled="false">
+		<e:Image source="public_json.public_name_rect_png" x="0" y="0"/>
+		<e:Label id="lbName" text="100级解锁" size="16" horizontalCenter="0" verticalCenter="0" textColor="0xffffff"/>
+	</e:Group>
+</e:Skin>

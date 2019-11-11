@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="newtips_json.newtips_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:BaseCustComponent id="item" className="ItemBase" skinName="ItembaseSkin" horizontalCenter="0" verticalCenter="-24.5"/>
+	<e:Button id="btn" label="装备" y="141" skinName="BtnIconSkin" icon="newtips_json.newtips_btn_1_png" width="114" height="42" horizontalCenter="0"/>
+	<e:Label id="itemName" text="道具名称" y="27" size="18" textColor="0x4c2f27" horizontalCenter="0"/>
+	<e:Image id="cBtn" source="newtips_json.newtips_btn_3_png" x="187" y="22"/>
+</e:Skin>

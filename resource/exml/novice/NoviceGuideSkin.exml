@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoviceGuideSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_xt_png"/>
+	<e:Label id="text" text="点我" verticalCenter="0" horizontalCenter="0" textColor="0x60e519"/>
+</e:Skin>

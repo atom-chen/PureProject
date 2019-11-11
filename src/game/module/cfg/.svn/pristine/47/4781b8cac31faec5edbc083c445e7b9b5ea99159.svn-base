@@ -1,0 +1,14 @@
+class StdTransfer { 
+    /** 职业 */
+    id: number;
+    /** 转数 */
+    type: number;
+    /** 等级 */
+    level: number;
+    /** 属性 */
+    attrs: any[] = [];
+    /** 升级需要经验 */
+    transferExe: number;
+    /** 激活技能 */
+    skillID: any[] = [];
+}

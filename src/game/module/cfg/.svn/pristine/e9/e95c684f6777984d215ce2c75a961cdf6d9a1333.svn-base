@@ -1,0 +1,38 @@
+class StdVip { 
+    /** 编号 */
+    id: number;
+    /** vip等级 */
+    VipLevels: number;
+    /** 所需经验 */
+    upgradePoint: number;
+    /** 专享礼包 */
+    ExclusivePackage: any[] = [];
+    /** 每日礼包 */
+    DailyPackage: any[] = [];
+    /** 每日礼包价值显示 */
+    DailyNum: any;
+    /** 文字描述 */
+    des: any[] = [];
+    /** 排序 */
+    sort: any[] = [];
+    /** 新增标签个数 */
+    number: number;
+    /** 世界boss挑战次数 */
+    WorldBoss: number;
+    /** 经验副本额外购买次数 */
+    expCopy: number;
+    /** 材料副本扫荡次数 */
+    cailiaoCopy: number;
+    /** VIP挂机经验加成 */
+    expadd: number;
+    /** VIP挂机金币加成 */
+    goldadd: number;
+    /** VIP自动熔炼 */
+    AutoSmelt: number;
+    /** VIP竞技场购买次数加成 */
+    arena: number;
+    /** VIP属性 */
+    attr: any[] = [];
+    /** VIPbuffid */
+    buffid: number;
+}

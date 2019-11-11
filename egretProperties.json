@@ -28,6 +28,19 @@
 		{
 			"name": "egretmgobe",
 			"path": "./libs/egretmgobe"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "jszip",
+			"path": "../libEx/jszip"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "game"
 		}
 	]
 }

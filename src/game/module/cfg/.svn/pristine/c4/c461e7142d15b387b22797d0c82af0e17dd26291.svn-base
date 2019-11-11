@@ -1,0 +1,12 @@
+class StdTransfertotal { 
+    /** 职业 */
+    id: number;
+    /** 道具1 */
+    item1: any;
+    /** 道具2 */
+    item2: any;
+    /** 道具3 */
+    item3: any;
+    /** 职业预览 */
+    preview: any[] = [];
+}

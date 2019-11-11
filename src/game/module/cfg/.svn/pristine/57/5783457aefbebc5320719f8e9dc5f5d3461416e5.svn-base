@@ -1,0 +1,14 @@
+class StdFashionesuit { 
+    /** 字段名 */
+    id: number;
+    /** 套装名称 */
+    name: string;
+    /** 包含职业 */
+    conds: number;
+    /** 包含时装 */
+    part: any[] = [];
+    /** 套装形象 */
+    pic: string;
+    /** 额外属性 */
+    staitcAttrs: any[] = [];
+}

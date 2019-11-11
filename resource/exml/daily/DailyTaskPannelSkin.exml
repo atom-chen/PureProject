@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyTaskPannelSkin" width="530" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_bg4_png" scale9Grid="25,141,60,55" left="0" right="0" top="0" bottom="0" height="675"/>
+	<e:Image source="win_json.win_bg_line_png" width="510" scale9Grid="10,11,22,21" anchorOffsetY="0" height="655" horizontalCenter="0" top="8"/>
+	<e:Scroller width="500" height="505" y="152" horizontalCenter="0">
+		<e:List id="list" x="48" y="60" itemRendererSkinName="DailyTaskItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="3" paddingLeft="4"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="daily_json.daily_banner_png" horizontalCenter="0" top="10"/>
+	<e:Image source="daily_json.daily_ck_bg_png" x="196" y="116"/>
+	<e:Image source="daily_json.daily_ck_bg_png" x="280" y="116"/>
+	<e:Image source="daily_json.daily_ck_bg_png" x="364" y="116"/>
+	<e:Image source="daily_json.daily_ck_bg_png" x="448" y="116"/>
+	<e:Image y="593.33" scale9Grid="2,1,19,0" horizontalCenter="241.5" x="10" source="daily_json.daily_img_gift_png" touchEnabled="false"/>
+	<e:Button id="imgStrea0" label="Button" skinName="BtnIconSkin" icon="daily_json.daily_tr_02_png" anchorOffsetX="0" width="89" anchorOffsetY="0" height="83" y="5" x="170"/>
+	<e:Button id="imgStrea1" label="Button" skinName="BtnIconSkin" icon="daily_json.daily_tr_12_png" anchorOffsetX="0" width="89" anchorOffsetY="0" height="83" y="5" x="254"/>
+	<e:Button id="imgStrea2" label="Button" skinName="BtnIconSkin" icon="daily_json.daily_tr_22_png" anchorOffsetX="0" width="89" anchorOffsetY="0" height="83" x="338" y="5"/>
+	<e:Button id="imgStrea3" label="Button" skinName="BtnIconSkin" icon="daily_json.daily_tr_32_png" anchorOffsetX="0" width="89" anchorOffsetY="0" height="83" y="5" x="422"/>
+	<e:Image id="imgGot0" y="47" scale9Grid="2,1,19,0" x="180" touchEnabled="false" source="public_json.luck_img2_png"/>
+	<e:Image id="imgGot1" y="47" scale9Grid="2,1,19,0" x="264" touchEnabled="false" source="public_json.luck_img2_png"/>
+	<e:Image id="imgGot2" y="47" scale9Grid="2,1,19,0" x="348" touchEnabled="false" source="public_json.luck_img2_png"/>
+	<e:Image id="imgGot3" y="47" scale9Grid="2,1,19,0" x="432" touchEnabled="false" source="public_json.luck_img2_png"/>
+	<e:ProgressBar id="progressBar" y="80" value="100" skinName="progressBarSkin6" x="170" slideDuration="0"/>
+	<e:Label id="actNum0" text="0" x="196" y="116" size="16" anchorOffsetX="0" width="37" verticalAlign="middle" textAlign="center" height="16"/>
+	<e:Label text="0" x="280" y="116" id="actNum1" size="16" anchorOffsetX="0" width="37" verticalAlign="middle" textAlign="center" height="16"/>
+	<e:Label text="0" x="364" y="116" id="actNum2" size="16" anchorOffsetX="0" width="37" verticalAlign="middle" textAlign="center" height="16"/>
+	<e:Label text="0" x="448" y="116" id="actNum3" size="16" anchorOffsetX="0" width="37" verticalAlign="middle" textAlign="center" height="16"/>
+	<ns1:NumberMC id="hudNum" type="daily_json.daily_g_" x="123" y="118"/>
+</e:Skin>

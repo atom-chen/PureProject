@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QuestMainViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="65">
+	<e:Image source="zjm_json.zjm_quest_bg_png" left="0" right="0" top="0" bottom="0" scale9Grid="98,25,103,17"/>
+	<e:Group y="0" width="216" x="0">
+		<e:Group id="titleGroup" y="13" left="68">
+			<e:Image id="imgRect" source="zjm_json.zjm_lineBlank_yellow_png" scale9Grid="6,6,12,9" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="labTitle" text="遇见村长" size="14" scaleX="1" scaleY="1" textColor="0xffc600" bold="true" left="4" right="4" top="4" bottom="4"/>
+		</e:Group>
+		<e:Label id="labDes" text="层层" y="38" size="14" textColor="0xfff1e6" left="67" height="14" right="22"/>
+	</e:Group>
+</e:Skin>

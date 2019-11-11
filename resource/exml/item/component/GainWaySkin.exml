@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GainWaySkin" width="362" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="wG" anchorOffsetY="0" left="0" right="0" top="40">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="wTxt" text="" textAlign="left" size="20" top="40" bottom="15" horizontalCenter="0"/>
+	<e:Label id="title" text="fdf" size="20" left="24" textColor="0xe48600" y="10"/>
+	<e:Image x="8" source="itemtips_json.itemtips_tag_2_png" y="10"/>
+	<e:Image horizontalCenter="0" width="396" source="itemtips_json.itemtips_line_png" scale9Grid="1,0,13,3" y="0"/>
+</e:Skin>

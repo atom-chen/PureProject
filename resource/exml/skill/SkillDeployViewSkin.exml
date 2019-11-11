@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillDeployViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="510" height="565">
+	<e:Image source="win_json.win_bg_line_png" width="506" height="482" scale9Grid="11,13,19,18" y="80" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:List id="listHave" y="441.35" itemRendererSkinName="SkillInfoSkin" x="30" touchThrough="false">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:TileLayout requestedColumnCount="4" horizontalGap="14" verticalGap="5"/>
+		</e:layout>
+	</e:List>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" y="-5" anchorOffsetX="0" anchorOffsetY="0" x="3"/>
+		<e:List id="list" y="85" itemRendererSkinName="SkillInfoSkin" horizontalCenter="0" x="90" scaleX="1" scaleY="1">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4" horizontalGap="22" verticalGap="5"/>
+		</e:layout>
+		</e:List>
+	<e:Group y="330" horizontalCenter="0">
+		<e:Image source="public_json.public_rect_1_png" y="0" width="495" height="105" scale9Grid="31,30,96,37" x="0"/>
+		<ns1:NumberMC id="imgNum" x="323" y="11" type="num_lv_" width="12" height="14" anchorOffsetY="0"/>
+		<e:Label id="skillName" text="技能名称" y="8" textColor="0x792301" size="20" horizontalCenter="0.5" bold="true"/>
+		<e:Label id="skillDsc" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" y="44" size="18" textColor="0x4C2F27" width="419" x="38" bold="true"/>
+		<e:Image source="public_json.public_rect_lv_png" x="291.31" y="11.35" anchorOffsetY="0" height="14"/>
+	</e:Group>
+	<e:Image id="moveIcon" source="public_json.public_add_1_png" x="155" y="68" touchEnabled="false" visible="false"/>
+</e:Skin>

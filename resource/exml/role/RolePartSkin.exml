@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RolePartSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="role_json.role_item_rect_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="part" source="role_json.role_part_0_png" x="3" y="51"/>
+	<e:Image id="icon" source="role_json.role_part_0_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DeBugTabBtnSkin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui" width="64">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x133d6d" fillColor.down="0x215796"/>
+	<e:Label id="labelDisplay" size="18" verticalAlign="middle" textAlign="center" width="100%" height="25"  strokeColor="0x1b1005" textColor="0x957f5b" strokeColor.down="0x542a10" textColor.down="0xe6daac" text="{data}" verticalCenter="0"/>
+</e:Skin>

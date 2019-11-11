@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DropDownListItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" scale9Grid="9,6,60,11" source="family_json.family_dropdown_option_rect_png"/>
+	<e:Label id="labLimit" text="Label" size="18" verticalAlign="middle" textAlign="center" horizontalCenter="0" y="10" textColor="0xcc9377"/>
+</e:Skin>

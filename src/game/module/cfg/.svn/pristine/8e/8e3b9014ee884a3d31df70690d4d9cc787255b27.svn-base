@@ -1,0 +1,6 @@
+class StdGashapondisplay { 
+    /** 行 */
+    type: number;
+    /** 道具 */
+    item: any[] = [];
+}

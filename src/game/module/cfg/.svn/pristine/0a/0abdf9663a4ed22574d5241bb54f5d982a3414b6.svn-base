@@ -1,0 +1,20 @@
+class StdGlobalconfig { 
+    /** 字段名 */
+    id: number;
+    /** 怪物掉落物品的刷新时间/ms */
+    monsterItemRefreshTime: number;
+    /** 世界BOSS复活费用 */
+    Rescount: number;
+    /** 最大离线收益时间 */
+    offlineAddMaxHour: number;
+    /** 金币鼓舞次数 */
+    coinInspireCount: number;
+    /** 金币鼓舞消耗 */
+    coinInspireConsume: number;
+    /** 钻石鼓舞次数 */
+    goldInspireCount: number;
+    /** 钻石鼓舞消耗 */
+    goldInspireConsume: number;
+    /** 鼓舞单次buff */
+    buffid: any[] = [];
+}

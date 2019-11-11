@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyMemberPanelSkin" currentState="mem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="572" width="510" states="mem,pos" >
+	<e:Image source="win_json.win_bg_line_png" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="11,13,19,18" scaleY="1.13" top="0" bottom="0" left="0" right="0"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleY="1.13" source="win_json.win_slice_line2_png" width="508" horizontalCenter="0" scale9Grid="2,0,19,2" bottom="64"/>
+	<e:Scroller width="496" height="490" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" y="10" horizontalCenter="0">
+		<e:List id="list" anchorOffsetY="0" height="493" itemRendererSkinName="FamilyMemberItemSkin">
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnMem" label="" x="347" includeIn="pos" icon="family_json.family_btn_mem_png" skinName="BtnIconSkin" bottom="5"/>
+	<e:Button id="btnSetting" label="" x="21" icon="family_json.family_btn_setting_png" skinName="BtnIconSkin" bottom="5"/>
+	<e:Button id="btnCheck" label="" x="184" icon="family_json.family_btn_check_png" skinName="BtnIconSkin" bottom="5"/>
+	<e:Button id="btnPosition" label="" x="347" includeIn="mem" icon="family_json.family_btn_setting_png" skinName="BtnIconSkin" bottom="5"/>
+</e:Skin>

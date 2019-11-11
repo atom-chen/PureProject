@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JingjiRankItemSkin" width="404" height="126" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="public_json.public_item_rect_1_png" scale9Grid="20,25,36,51" left="0" right="0" top="0" bottom="0"/>
+	<e:Group x="150" y="43" scaleX="0.9" scaleY="0.9">
+		<ns1:BaseCustComponent xmlns:ns1="*" x="48" y="52" skinName="ItembaseSkin" className="ItemBase" id="item_0"/>
+		<ns1:BaseCustComponent xmlns:ns1="*" id="item_1" x="28" y="32" skinName="ItembaseSkin" className="ItemBase"/>
+		<ns1:BaseCustComponent id="item_2" x="-50" y="20" skinName="ItembaseSkin" className="ItemBase"/>
+		<e:layout>
+		<e:HorizontalLayout gap="5"/>
+		</e:layout>
+	</e:Group>
+	<e:Image y="11" source="public_json.public_icon_bg5_png" x="45"/>
+	<e:Image id="icon" y="16" source="res/images/roleIco/role_1.png" x="50"/>
+	<e:Image x="41" y="95" source="public_json.public_blank_2_png"/>
+	<e:Image x="35" y="7" source="public_json.public_lvl_blank_png"/>
+	<e:Label id="mLvl" text="99" y="14" size="18" horizontalCenter="-152"/>
+	<e:Label id="mName" text="Label" y="97" size="16" horizontalCenter="-115" textColor="0xFFFF00"/>
+	<e:Label id="point" text="积分 : 1000" y="18" size="18" textColor="0xFFFF00" x="149"/>
+	<e:Image id="rIcon" source="jingji_json.jingji_medal_1_png" x="8" y="75"/>
+	<ns1:NumberMC id="rank" width="20" height="20" x="17" y="87" type="num_json.num_yellow_1_"/>
+</e:Skin>

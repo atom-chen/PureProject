@@ -1,0 +1,10 @@
+class StdPetskill { 
+    /** id */
+    id: number;
+    /** 名称 */
+    name: string;
+    /** 图标 */
+    icon: number;
+    /** 属性 */
+    skillattr: any[] = [];
+}

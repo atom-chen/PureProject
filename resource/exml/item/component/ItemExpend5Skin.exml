@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemExpend5Skin" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="normal,single" >
+	<w:Config id="162dc74de74" ></w:Config>
+	<e:Label id="gainWay" text="获取" size="16" textColor="0x36ff00" verticalCenter="0" right="-35" visible="false"/>
+	<e:Label id="lab" size="18" scaleX="1" scaleY="1" verticalCenter="0" left="-51" textColor="0x6a453b" bold="true" text="" visible="false"/>
+	<e:Label id="" text="" x="44" y="21" size="18" includeIn="single" textColor="0x00ff0c" visible="false"/>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image id="iconImg" width="32" height="32" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="1" source="res/images/item/14.png" y="0" top.single="-4"/>
+		<e:Label text="X" size="18" verticalCenter="0" x="32" textColor="0xffffff"/>
+		<e:Label id="countTxt" text="100/100" x="47" size="18" scaleX="1" scaleY="1" text.single="100" textColor="0xffffff" verticalCenter="0" textColor.single="0xffffff"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

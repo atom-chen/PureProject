@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetSigleInfoViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="act,have" >
+	<e:Group left="0" top="0" anchorOffsetY.have="0" left.have="0" top.have="0" height.have="326">
+		<e:Image y="0" x="0" source="res/images/bg/petShowBg.png" source.have="res/images/bg/petShowBg2.png"/>
+		<ns1:BaseCustComponent id="mModel" className="UIAvatar" y="168" x="197"/>
+		<e:Group y="23.02" horizontalCenter="0">
+			<e:Image source="public_json.public_rect_8_png" x="0" y="0" locked="true"/>
+			<e:Label id="lbName" text="Lv1 小猪" size="16" horizontalCenter="0" verticalCenter="0" textColor="0xffd823"/>
+		</e:Group>
+		<e:List id="listStar" y="196" itemRendererSkinName="TabBar1Skin" horizontalCenter="0.5">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="5"/>
+			</e:layout>
+		</e:List>
+		<e:Group width="362" height="95" y="219.02" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image source="public_json.public_prop_rect_png" scale9Grid="19,14,119,27" left="0" right="0" top="0" bottom="0"/>
+			<e:Image left="0" right="0" width="292" y="62" source="public_json.public_slice_line5_png"/>
+			<e:Image left="0" right="0" width="292" y="30" source="public_json.public_slice_line5_png"/>
+			<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" top="37" bottom="8" skinName="PropPart3Skin" horizontalCenter="0"/>
+			<e:Image source="pet_json.pet_img_mjsx_png" y="-2" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group y="25" horizontalCenter="0">
+			<e:Image id="skill0" source="res/images/petskill/2.png" y="0" x="0"/>
+			<e:Image id="skill1" source="res/images/petskill/2.png" y="0" x="277"/>
+			<e:Image id="skill2" source="res/images/petskill/2.png" y="82" x="0"/>
+			<e:Image id="skill3" source="res/images/petskill/2.png" y="82" x="277"/>
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" requestedColumnCount="2" horizontalGap="196"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="gAct" x="15" y="330" visible.have="false">
+			<e:Image source="pet_json.pet_img_jihuo_png" x="0" y="2"/>
+			<ns1:BaseCustComponent id="icon" x="43" y="0" skinName="ItembaseSkin" className="ItemBase"/>
+			<e:Label id="lbNe" text="时装碎片" x="137" y="11" textColor="0xffd823" size="16"/>
+			<e:Label id="lbGo" text="前往获取" y="32" size="18" textColor="0x2aff00" x="272"/>
+			<e:Label id="lbHave" text="0/1" x="137" y="51" textColor="0xFFD823" size="16"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

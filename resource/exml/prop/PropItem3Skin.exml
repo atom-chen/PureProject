@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropItem3Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="23" width="224">
+	<e:Image id="arrow" source="public_json.public_arrow_1_png" x="142" top="-1"/>
+	<e:Label id="prop2" text="368546" scaleX="1" scaleY="1" size="16" textColor="0xFFFFFF" left="169" top="0"/>
+	<e:Label id="prop" text="属性属性: 36854" scaleX="1" scaleY="1" size="16" textColor="0xffffff" left="19" top="0"/>
+	<e:Image source="public_json.public_rect_3_png" top="2" x="0"/>
+</e:Skin>

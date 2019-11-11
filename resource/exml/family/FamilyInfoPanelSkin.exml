@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyInfoPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="572" width="510">
+	<e:Image source="win_json.win_bg_line_png" height="570" anchorOffsetY="0" horizontalCenter="0" anchorOffsetX="0" scale9Grid="11,13,19,18" y="0" width="510" locked="true"/>
+	<e:Image anchorOffsetY="0" horizontalCenter="0" anchorOffsetX="0" scale9Grid="11,13,19,18" y="10" source="res/images/bg/family_bg0.png"/>
+	<e:Image id="noteceBan" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="11,13,19,18" width="480" source="public_json.public_rect_13_png" x="15" y="280"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" y="370" source="public_json.public_rect_7_png" width="494" x="8" scale9Grid="23,16,140,97" height="197"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="11,13,19,18" source="family_json.family_title_ban_png" horizontalCenter="0" y="10"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="11,13,19,18" y="105" source="family_json.family_ban_leader_png" x="220"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="11,13,19,18" y="141" source="family_json.family_ban_mem_png" x="220"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="11,13,19,18" y="183" source="family_json.family_ban_fund_png" x="220"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="11,13,19,18" y="221" source="family_json.family_ban_score_png" x="220"/>
+	<e:Image id="icon" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="11,13,19,18" source="" horizontalCenter="-130" verticalCenter="-100"/>
+	<e:Label id="title" text="Label" y="54" textAlign="center" size="20" anchorOffsetY="0" height="-48" textColor="0xffc600" horizontalCenter="0.5"/>
+	<e:Label id="leaderName" text="Label" y="116" textAlign="left" size="18" x="270" verticalAlign="middle"/>
+	<e:Label id="memNum" text="Label" x="270" y="155" textAlign="left" size="18" verticalAlign="bottom"/>
+	<e:Label id="money" text="Label" x="270" y="193" textAlign="left" size="18" verticalAlign="bottom"/>
+	<e:Label id="score" text="Label" x="270" y="231" textAlign="left" size="18" verticalAlign="bottom"/>
+	<e:Label id="notice" text="Label" y="292" textAlign="left" size="16" anchorOffsetX="0" anchorOffsetY="0" height="61" textColor="0xffc600" verticalAlign="top" width="460" x="25" lineSpacing="10" touchEnabled="false"/>
+	<e:List id="optionList" anchorOffsetX="0" anchorOffsetY="0" height="175" y="380" horizontalCenter="0" itemRendererSkinName="FamilyOptionSkin">
+		<e:layout>
+			<e:TileLayout horizontalAlign="center" verticalAlign="top" orientation="rows" requestedRowCount="2" requestedColumnCount="4" verticalGap="0" horizontalGap="45"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

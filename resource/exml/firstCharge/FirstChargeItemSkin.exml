@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstChargeItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="246" height="61">
+	<e:Image source="firstCharge_json.firstCharge12_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="firstCharge_json.firstCharge11_png" left="0" top="0"/>
+	<e:Label id="lb1" text="198元=" textColor="0x612800" size="22" verticalCenter="0" right="119"/>
+	<e:Label id="lb2" text="7920" textColor="0x612800" size="22" x="152.31" verticalCenter="0.5"/>
+	<e:Image id="item" x="129.65" source="res/images/item/14.png" scaleX="0.3" scaleY="0.3" verticalCenter="0.5"/>
+	<e:Image id="imgEx" source="firstCharge_json.firstCharge10_png" x="205" y="-6.34"/>
+</e:Skin>

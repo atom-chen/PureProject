@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FamilyListPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="595" width="437">
+	<ns1:BaseWinBg id="bg" skinName="BaseWinBg2Skin" top="0" bottom="0" left="0" right="0"/>
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleY="1.13" source="win_json.win_slice_line2_png" horizontalCenter="0.5" scale9Grid="2,0,19,2" bottom="85" width="416"/>
+	<e:Scroller width="405" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" horizontalCenter="0" top="70" bottom="95">
+		<e:List id="list" x="13.33" y="64" itemRendererSkinName="FamilyListItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnCreate" label="" skinName="BtnIconSkin" icon="family_json.family_btn_create_png" x="50" y="513">
+	</e:Button>
+	<e:Button id="btnApply" label="" skinName="BtnIconSkin" icon="family_json.family_btn_apply_all_png" x="244" y="513">
+	</e:Button>
+</e:Skin>

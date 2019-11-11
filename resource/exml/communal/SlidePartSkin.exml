@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlidePartSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="sc" left="0" right="0" top="0" bottom="0" throwSpeed="0" bounces="false">
+		<e:List id="itemList">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="lBtn" label="Button" skinName="BtnIconSkin" icon="public_json.public_arrow_png" width="32" height="49" verticalCenter="0" left="-32" name="-1"/>
+	<e:Button id="rBtn" label="Button" skinName="BtnIconSkin" icon="public_json.public_arrow_png" width="32" height="49" verticalCenter="0" skewY="180" right="-32" name="1"/>
+</e:Skin>

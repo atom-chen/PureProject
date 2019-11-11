@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WingPageSkin" width="510" height="565" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="win_json.win_bg_line_png" width="506" height="482" scale9Grid="11,13,19,18" bottom="3" horizontalCenter="-1" anchorOffsetY="0"/>
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" x="3" y="-5"/>
+	<e:Image source="res/images/bg/wingBg.png" horizontalCenter="0" y="86"/>
+	<e:Group width="292" height="72" y="363" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="public_json.public_rect_5_png" scale9Grid="11,12,16,15" left="0" right="0" top="2" bottom="-2"/>
+		<e:Image width="292" x="0" verticalCenter="0" source="public_json.public_slice_line5_png"/>
+		<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" className="PropPart" skinName="PropPartSkin" top="13" left="0" right="0"/>
+	</e:Group>
+	<e:ProgressBar id="pro" y="331" skinName="progressBarSkin5" slideDuration="1" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="zdl" y="91" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetX="29" anchorOffsetY="0" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="instruction" x="18" y="99" skinName="InstructionPartSkin" name="1" className="InstructionPart" visible="false"/>
+	<e:CheckBox id="cBox" label="自动培养" x="13" y="534" skinName="CheckBox2Skin" visible="false"/>
+	<e:Image source="wing_json.wing_text_4_png" x="79" y="334" visible="false"/>
+	<e:Image source="wing_json.wing_text_1_png" y="536" horizontalCenter="0"/>
+	<e:Group height="195" top="138" horizontalCenter="0" touchChildren="true" touchEnabled="false" touchThrough="true">
+		<ns1:BaseCustComponent id="skill_0" skinName="WingSkillIconSkin" y="9" x="23" scaleX="1" scaleY="1" className="WingSkillItem"/>
+		<ns1:BaseCustComponent skinName="WingSkillIconSkin" y="19" x="33" scaleX="1" scaleY="1" id="skill_1" className="WingSkillItem"/>
+		<ns1:BaseCustComponent skinName="WingSkillIconSkin" y="29" x="43" scaleX="1" scaleY="1" id="skill_2" className="WingSkillItem"/>
+		<ns1:BaseCustComponent skinName="WingSkillIconSkin" y="39" x="53" scaleX="1" scaleY="1" id="skill_3" className="WingSkillItem"/>
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="2" horizontalGap="332"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btn_0" label="Button" skinName="BtnIconSkin" icon="res/btn/coinCulture.png" y="472" name="0" x="184"/>
+	<e:Button label="Button" skinName="BtnIconSkin" icon="res/btn/itemCulture.png" id="btn_1" x="341" y="472" name="1"/>
+	<e:Button label="Button" skinName="BtnIconSkin" icon="res/btn/risingBtn.png" id="btn_2" x="25" y="472" name="2"/>
+	<ns1:ItemExpend id="cost_0" y="442" currentState="single" label=" " x="188"/>
+	<ns1:ItemExpend id="cost_1" y="443" label=" " x="344"/>
+	<e:Label id="count" text="(10)" x="293" y="488" textColor="0x00ff0c" size="16" touchEnabled="false"/>
+	<ns1:BaseCustComponent id="starPro" y="312" skinName="StarProgressSkin" horizontalCenter="0" className="StarProgress"/>
+	<e:Label id="lvlT" text="Label" y="136" horizontalCenter="0"/>
+	<e:Component id="roleMdl" x="255" y="248" scaleX="1" scaleY="1"/>
+</e:Skin>

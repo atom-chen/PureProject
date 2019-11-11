@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropTipsSkin" width="311" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" source="win_json.win_tips_bg2_png" scale9Grid="224,70,110,25"/>
+	<e:Image top="75" width="301" horizontalCenter="0" source="win_json.win_slice_line_png"/>
+	<e:Image id="title" horizontalCenter="0" top="34" source=""/>
+	<ns1:BaseCustComponent id="propList" anchorOffsetX="0" anchorOffsetY="0" top="100" bottom="34" horizontalCenter="0" className="PropPart"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FailTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="488" height="741">
+	<e:Image source="res/images/bg/failBg.png" x="0" y="0" locked="true"/>
+	<e:Button id="btn" label="Button" y="560" skinName="BtnIconSkin" icon="res/btn/confirm.png" x="173"/>
+	<e:Button id="enterBtn" label="Button" y="510" skinName="BtnIconSkin" icon="res/btn/enterBtn5.png" x="349"/>
+	<e:Label id="countDown" text="5s后自动关闭" y="659" textColor="0x00FF00" size="16" horizontalCenter="0" visible="false"/>
+	<e:Scroller y="270" horizontalCenter="0">
+		<e:List id="itemList" itemRendererSkinName="FailItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="11"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="img" source="fail_json.fail_texture_0_png" x="79" y="503"/>
+	<e:Image source="fail_json.fail_texture_1_png" y="250" horizontalCenter="-5"/>
+</e:Skin>

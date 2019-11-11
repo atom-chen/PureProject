@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SignItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="sign_json.sign_7_png"/>
+	<ns1:BaseCustComponent id="item" skinName="ItembaseSkin" className="ItemBase" y="15" x="14"/>
+	<e:Image id="canSign" source="sign_json.sign_6_png" x="40" y="85"/>
+	<e:Image id="finish1" source="sign_json.sign_5_png" y="0"/>
+	<e:Image id="finish2" source="sign_json.sign_4_png" x="22" y="24"/>
+	<e:Label id="indexTx" text="1" y="2" size="16" horizontalCenter="-41"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+class StdShop { 
+    /** 商城类型 */
+    type: number;
+    /** 道具序列 */
+    id: number;
+    /** 价格 */
+    price: any;
+    /** 原价 */
+    originalprice: number;
+    /** 折扣 */
+    discount: number;
+    /** 商品 */
+    item: any;
+    /** 每日限购 */
+    restrictions: number;
+    /** 货币类型 */
+    currency: number;
+    /** 折扣图标 */
+    png: string;
+    /** 描述 */
+    des: string;
+}

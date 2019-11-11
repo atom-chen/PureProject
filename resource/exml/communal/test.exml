@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="test" xmlns:e="http://ns.egret.com/eui" width="350">
+	<e:List id="list" horizontalCenter="0" top="0" itemRendererSkinName="Itembase2Skin" touchThrough="true">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

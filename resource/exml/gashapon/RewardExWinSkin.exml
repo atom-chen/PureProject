@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RewardExWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="364">
+	<e:Image x="-1" y="0" source="res/images/bg/rewardExBg.png" touchEnabled="false"/>
+	<e:Label text="点击任意位置关闭" y="338" size="16" textColor="0x00ff0c" horizontalCenter="0" x="253" touchEnabled="false"/>
+	<e:Group id="gRw" y="188" horizontalCenter="0" x="69">
+	</e:Group>
+</e:Skin>

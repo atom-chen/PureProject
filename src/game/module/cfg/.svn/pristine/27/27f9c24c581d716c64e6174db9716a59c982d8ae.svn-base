@@ -1,0 +1,12 @@
+class StdEquippurgatory { 
+    /** 道具 */
+    id: number;
+    /** 名字 */
+    name: string;
+    /** 属性 */
+    attrs: any[] = [];
+    /** 升级消耗 */
+    cost: any[] = [];
+    /** 分解获得 */
+    recycle: any[] = [];
+}

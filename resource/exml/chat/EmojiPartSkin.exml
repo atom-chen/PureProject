@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmojiPartSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="640" height="1136">
+	<e:Image source="chat_json.chat_blank_2_png" scale9Grid="37,24,141,145" width="481" height="323" horizontalCenter="75" verticalCenter="182"/>
+	<e:Scroller height="298" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="75" verticalCenter="178">
+		<e:List id="itemList" itemRendererSkinName="EmojiItemSkin">
+			<e:layout>
+				<e:TileLayout horizontalGap="9" requestedColumnCount="8"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

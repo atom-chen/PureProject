@@ -1,0 +1,14 @@
+class StdTotems { 
+    /** 编号 */
+    id: string;
+    /** 图腾id */
+    totemsid: number;
+    /** 阶级 */
+    classLvl: number;
+    /** 星级 */
+    starlevel: number;
+    /** 培养消耗 */
+    consume: any[] = [];
+    /** 每级增加属性 */
+    levelAtt: any[] = [];
+}

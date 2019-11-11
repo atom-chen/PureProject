@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoviceGuideArrowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="l,r" >
+	<e:Image source="res/images/guide_txt.png" scaleX.r="-1" x.r="201"/>
+	<e:Label id="text" text="请点击升级" size="16" anchorOffsetX="0" width="97" anchorOffsetY="0" textColor="0x000000" lineSpacing="6" horizontalCenter="39.5" verticalCenter="27.5" horizontalCenter.r="-39" verticalCenter.r="27.5"/>
+</e:Skin>

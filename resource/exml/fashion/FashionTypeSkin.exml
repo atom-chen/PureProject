@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionTypeSkin" width="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="public_json.public_item_blank_png" scale9Grid="13,10,34,23" left="0" right="0" height="44" top="0"/>
+	<e:Image id="arrow" source="public_json.public_arrow_down_png" x="8" y="9"/>
+	<e:Image id="typeImg" source="fashion_json.fashion_part3_png" x="48" y="10"/>
+	<e:Button id="unBtn" label="Button" skinName="BtnIconSkin" icon="fashion_json.fashion_unload_png" width="64" height="30" x="425" y="8"/>
+	<e:Label id="fashionName" text="Label" size="16" textColor="0xffc600" right="81" y="14"/>
+</e:Skin>

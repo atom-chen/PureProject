@@ -1,0 +1,88 @@
+<map>
+  <door>
+    <d x="180" y="479">0</d>
+    <d x="300" y="479">0</d>
+    <d x="420" y="479">0</d>
+    <d x="1140" y="479">2</d>
+  </door>
+  <view>
+    <w>1056</w>
+    <h>600</h>
+    <p x="-1" y="-1" w="1056" h="600">scene/piece/xinshoucun/3_01.jpg</p>
+  </view>
+  <floor>
+    <w>1440</w>
+    <h>600</h>
+    <p x="-3" y="558" w="127" h="42">scene/piece/yuansecun/1_5.png</p>
+    <p x="-2" y="519" w="125" h="42">scene/piece/yuansecun/1_7.png</p>
+    <p x="-1" y="481" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="117" y="558" w="125" h="42">scene/piece/yuansecun/1_7.png</p>
+    <p x="116" y="519" w="127" h="42">scene/piece/yuansecun/1_5.png</p>
+    <p x="118" y="481" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="236" y="558" w="125" h="42">scene/piece/yuansecun/1_7.png</p>
+    <p x="238" y="519" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="237" y="481" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="355" y="558" w="125" h="42">scene/piece/yuansecun/1_7.png</p>
+    <p x="354" y="519" w="127" h="42">scene/piece/yuansecun/1_5.png</p>
+    <p x="357" y="480" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="475" y="558" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="474" y="519" w="125" h="42">scene/piece/yuansecun/1_7.png</p>
+    <p x="475" y="481" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="594" y="558" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="592" y="518" w="127" h="42">scene/piece/yuansecun/1_5.png</p>
+    <p x="595" y="480" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="712" y="558" w="125" h="42">scene/piece/yuansecun/1_7.png</p>
+    <p x="711" y="519" w="127" h="42">scene/piece/yuansecun/1_5.png</p>
+    <p x="714" y="481" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="832" y="558" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="833" y="518" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="831" y="480" w="125" h="42">scene/piece/yuansecun/1_7.png</p>
+    <p x="950" y="558" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="951" y="519" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="950" y="480" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="1069" y="558" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="1069" y="519" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="1070" y="480" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="1185" y="558" w="127" h="42">scene/piece/yuansecun/1_5.png</p>
+    <p x="1189" y="519" w="122" h="42">scene/piece/yuansecun/1_8.png</p>
+    <p x="1188" y="480" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="1305" y="558" w="125" h="42">scene/piece/yuansecun/1_7.png</p>
+    <p x="1305" y="519" w="127" h="42">scene/piece/yuansecun/1_5.png</p>
+    <p x="1307" y="481" w="124" h="42">scene/piece/yuansecun/1_6.png</p>
+    <p x="1428" y="481" w="60" h="40">scene/piece/yuansecun/1_37.png</p>
+    <p x="1428" y="520" w="60" h="40">scene/piece/yuansecun/1_38.png</p>
+    <p x="1427" y="560" w="60" h="39">scene/piece/yuansecun/1_40.png</p>
+    <p x="2" y="467" w="364" h="47">scene/piece/xinshoucun/3_06.png</p>
+    <p x="366" y="467" w="330" h="47">scene/piece/xinshoucun/3_07.png</p>
+    <p x="696" y="467" w="352" h="47">scene/piece/xinshoucun/3_08.png</p>
+    <p x="1048" y="467" w="394" h="47">scene/piece/xinshoucun/3_09.png</p>
+  </floor>
+  <tree>
+    <w>1440</w>
+    <h>600</h>
+    <p x="1" y="81" w="227" h="405">scene/piece/xinshoucun/2_01.png</p>
+    <p x="228" y="81" w="303" h="405">scene/piece/xinshoucun/2_02.png</p>
+    <p x="531" y="81" w="323" h="405">scene/piece/xinshoucun/3_03.png</p>
+    <p x="853" y="81" w="308" h="405">scene/piece/xinshoucun/2_04.png</p>
+    <p x="1160" y="81" w="279" h="405">scene/piece/xinshoucun/2_05.png</p>
+  </tree>
+  <front>
+    <w>1440</w>
+    <h>600</h>
+  </front>
+  <t>2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2</t>
+  <t>2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</t>
+  <t>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</t>
+  <t>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</t>
+</map>

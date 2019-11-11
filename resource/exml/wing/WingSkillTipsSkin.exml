@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WingSkillTipsSkin" width="378" height="185" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="273,70,61,25" source="win_json.win_tips_bg2_png"/>
+	<e:Image source="win_json.win_slice_line_png" width="369" horizontalCenter="0" y="102"/>
+	<e:Image id="skillIcon" left="32" top="17" source=""/>
+	<e:Label id="skillName" text="skillName" x="111" y="42" textColor="0xffd823" size="20"/>
+	<e:Label id="t0" text="激活条件 : " y="116" size="16" textColor="0xffd823" left="35"/>
+	<e:Label id="t1" text="技能效果 : " y="136" size="16" textColor="0xFFD823" left="35"/>
+	<e:Label id="desc" text="" y="136" size="16" left="113" right="34" textColor="0xffffff"/>
+	<e:Label id="condiTxt" text="" y="116" size="16" left="113" textColor="0xffffff"/>
+</e:Skin>

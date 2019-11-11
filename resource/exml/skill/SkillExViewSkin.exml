@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillExViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="510" height="565">
+	<ns1:BaseCustComponent id="roleSelect" skinName="RoleSelectSkin" className="RoleSelect" x="3" y="-5"/>
+	<e:Image source="win_json.win_bg_line_png" width="506" height="482" scale9Grid="11,13,19,18" bottom="3" horizontalCenter="-1"/>
+	<e:Image scale9Grid="11,13,19,18" source="res/images/bg/skillExBg.png" y="87" horizontalCenter="0.5"/>
+	<e:Scroller y="92" anchorOffsetY="0" height="363" x="3">
+			<e:List id="list" y="-48.650000000000006" horizontalCenter="0" x="90" scaleX="1" scaleY="1" itemRendererSkinName="SkillExItemSkin">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="-13" paddingTop="-4"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+	<e:Group x="112" y="360">
+		<e:Image y="0" scale9Grid="31,30,96,37" x="0" source="res/images/bg/skillExRect.png"/>
+		<e:Label id="skillName" text="技能名称" y="5" size="20" textColor="0xffd823" horizontalCenter="0"/>
+		<e:Label id="skillDsc" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" y="44" size="18" width="325" anchorOffsetX="0" horizontalCenter="0.5" textColor="0xffffff"/>
+	</e:Group>
+	<e:Group y="459.58" horizontalCenter="0.5">
+		<ns1:ItemExpend id="expend" x="12.97" skinName="ItemExpendSkin" verticalCenter="0"/>
+	</e:Group>
+	<e:Button id="btn" label="Button" y="497.72" skinName="MainBtnDownSkin" icon="res/btn/up.png" width="152" height="56" horizontalCenter="0"/>
+	<ns1:BaseCustComponent id="zdl" y="95" skinName="ZdlPrintSkin" className="ZdlPrint" anchorOffsetX="29" anchorOffsetY="0" x="213"/>
+	<ns1:BaseCustComponent id="role" y="318" className="UIAvatar" x="180"/>
+</e:Skin>

@@ -1,0 +1,14 @@
+class StdDaily { 
+    /** 字段名 */
+    id: number;
+    /** 描述 */
+    desc: string;
+    /** 解锁条件 */
+    cond: any[] = [];
+    /** 完成条件 */
+    target: any[] = [];
+    /** 奖励 */
+    award: any[] = [];
+    /** 跳转模块 */
+    mod: string;
+}

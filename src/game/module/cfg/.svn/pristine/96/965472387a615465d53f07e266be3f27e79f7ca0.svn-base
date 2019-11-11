@@ -1,0 +1,10 @@
+class StdArenarobot { 
+    /** 机器人ID */
+    id: number;
+    /** 角色属性 */
+    att: any[] = [];
+    /** 数量 */
+    num: number;
+    /** 名字 */
+    name: string;
+}

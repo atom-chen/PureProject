@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyMaterialsItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="bg" x="0" y="0" source="res/images/bg/copyMaterialsBg_1b.png"/>
+	<e:Group id="iG" height="67" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" bottom="35" left="65">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<ns1:ItemExpend id="cost" currentState="single" skinName="ItemExpend4Skin" top="20" anchorOffsetX="0" width="91" horizontalCenter="185" x="388" y="20"/>
+	<e:Label id="desc" text="label" size="16" x="362" y="108"/>
+	<e:Image id="title" source="copymaterials_json.copymaterials_title_1_png" y="15" left="25"/>
+	<e:Button id="btn" label="Button" skinName="BtnIconSkin" icon="res/btn/sweepBtn2.png" width="106" height="37" x="371" y="57"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PgtBossItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="pgtBoss_json.pgt_boss_board_item_png"/>
+	<e:Label id="labLv" text="label" y="10" size="16" textColor="0xffffff" horizontalCenter="0"/>
+	<e:Label id="labName" text="label" y="32" size="18" textColor="0xffde00" horizontalCenter="0"/>
+</e:Skin>
